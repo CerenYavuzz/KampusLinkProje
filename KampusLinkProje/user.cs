@@ -8,7 +8,7 @@ using KampusLinkProje;
 namespace KampusLinkProje
 {
     public class User
-    {
+   {
         public string AdSoyad { get; set; }
         public string Email { get; set; }
         public string Sifre { get; set; }

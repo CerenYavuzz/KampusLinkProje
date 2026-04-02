@@ -15,6 +15,8 @@ namespace KampusLinkProje
         public Form1()
         {
             InitializeComponent();
+            this.WindowState = FormWindowState.Normal;
+            this.StartPosition = FormStartPosition.CenterScreen;
         }
 
         private void guna2PictureBox1_Click(object sender, EventArgs e)
@@ -53,6 +55,11 @@ namespace KampusLinkProje
         }
 
         private void txtEmail_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
         {
 
         }
