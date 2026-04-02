@@ -52,7 +52,6 @@
             this.label23 = new System.Windows.Forms.Label();
             this.label22 = new System.Windows.Forms.Label();
             this.guna2Panel5 = new Guna.UI2.WinForms.Guna2Panel();
-            this.guna2Button1 = new Guna.UI2.WinForms.Guna2Button();
             this.label21 = new System.Windows.Forms.Label();
             this.label20 = new System.Windows.Forms.Label();
             this.label19 = new System.Windows.Forms.Label();
@@ -89,6 +88,7 @@
             this.guna2CheckBox6 = new Guna.UI2.WinForms.Guna2CheckBox();
             this.comboBox2 = new System.Windows.Forms.ComboBox();
             this.comboBox3 = new System.Windows.Forms.ComboBox();
+            this.guna2Button1 = new Guna.UI2.WinForms.Guna2Button();
             this.panelSidebar.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox1)).BeginInit();
@@ -319,6 +319,7 @@
             // 
             this.panelRight.BackColor = System.Drawing.Color.Transparent;
             this.panelRight.BorderRadius = 8;
+            this.panelRight.Controls.Add(this.guna2Button1);
             this.panelRight.Controls.Add(this.comboBox3);
             this.panelRight.Controls.Add(this.comboBox2);
             this.panelRight.Controls.Add(this.guna2CheckBox6);
@@ -335,7 +336,6 @@
             this.panelRight.Controls.Add(this.label23);
             this.panelRight.Controls.Add(this.label22);
             this.panelRight.Controls.Add(this.guna2Panel5);
-            this.panelRight.Controls.Add(this.guna2Button1);
             this.panelRight.Controls.Add(this.label21);
             this.panelRight.Controls.Add(this.label20);
             this.panelRight.Controls.Add(this.label19);
@@ -456,21 +456,6 @@
             this.guna2Panel5.Name = "guna2Panel5";
             this.guna2Panel5.Size = new System.Drawing.Size(342, 1);
             this.guna2Panel5.TabIndex = 5;
-            // 
-            // guna2Button1
-            // 
-            this.guna2Button1.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.guna2Button1.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.guna2Button1.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.guna2Button1.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.guna2Button1.FillColor = System.Drawing.Color.Red;
-            this.guna2Button1.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.guna2Button1.ForeColor = System.Drawing.Color.White;
-            this.guna2Button1.Location = new System.Drawing.Point(18, 537);
-            this.guna2Button1.Name = "guna2Button1";
-            this.guna2Button1.Size = new System.Drawing.Size(342, 29);
-            this.guna2Button1.TabIndex = 19;
-            this.guna2Button1.Text = "Hesabı Sil";
             // 
             // label21
             // 
@@ -901,6 +886,21 @@
             this.comboBox3.Size = new System.Drawing.Size(175, 28);
             this.comboBox3.TabIndex = 29;
             // 
+            // guna2Button1
+            // 
+            this.guna2Button1.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.guna2Button1.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.guna2Button1.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.guna2Button1.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.guna2Button1.FillColor = System.Drawing.Color.Red;
+            this.guna2Button1.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.guna2Button1.ForeColor = System.Drawing.Color.White;
+            this.guna2Button1.Location = new System.Drawing.Point(18, 537);
+            this.guna2Button1.Name = "guna2Button1";
+            this.guna2Button1.Size = new System.Drawing.Size(342, 29);
+            this.guna2Button1.TabIndex = 30;
+            this.guna2Button1.Text = "Hesabı Sil";
+            // 
             // Ayarlar
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -966,7 +966,6 @@
         private System.Windows.Forms.Label label11;
         private System.Windows.Forms.Label label15;
         private System.Windows.Forms.Label label14;
-        private Guna.UI2.WinForms.Guna2Button guna2Button1;
         private System.Windows.Forms.Label label21;
         private System.Windows.Forms.Label label20;
         private System.Windows.Forms.Label label19;
@@ -988,5 +987,6 @@
         private Guna.UI2.WinForms.Guna2CheckBox guna2CheckBox5;
         private Guna.UI2.WinForms.Guna2CheckBox guna2CheckBox4;
         private Guna.UI2.WinForms.Guna2CheckBox guna2CheckBox3;
+        private Guna.UI2.WinForms.Guna2Button guna2Button1;
     }
 }
