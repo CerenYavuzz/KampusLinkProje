@@ -52,6 +52,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AkıllıEşleşme.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AkıllıEşleşme.Designer.cs">
+      <DependentUpon>AkıllıEşleşme.cs</DependentUpon>
+    </Compile>
     <Compile Include="AnaSayfa.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -86,6 +92,9 @@
     <Compile Include="İlanEkle.Designer.cs">
       <DependentUpon>İlanEkle.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="AkıllıEşleşme.resx">
+      <DependentUpon>AkıllıEşleşme.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="AnaSayfa.resx">
       <DependentUpon>AnaSayfa.cs</DependentUpon>
     </EmbeddedResource>
