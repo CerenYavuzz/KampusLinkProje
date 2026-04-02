@@ -31,6 +31,24 @@
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(İlanEkle));
             this.panelSol = new System.Windows.Forms.Panel();
+            this.guna2Panel1 = new Guna.UI2.WinForms.Guna2Panel();
+            this.panelFormKart = new Guna.UI2.WinForms.Guna2Panel();
+            this.lblIstenenYardım = new System.Windows.Forms.Label();
+            this.lblVerilecekDers = new System.Windows.Forms.Label();
+            this.rdoıstenenYardim = new Guna.UI2.WinForms.Guna2RadioButton();
+            this.rdrVerilecekDers = new Guna.UI2.WinForms.Guna2RadioButton();
+            this.lblIlanTipi = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            this.txtPuanAraligi = new Guna.UI2.WinForms.Guna2TextBox();
+            this.lblPuanAralığı = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            this.cmbLinkPuan = new Guna.UI2.WinForms.Guna2ComboBox();
+            this.lnlLinkPuan = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            this.txtAciklama = new Guna.UI2.WinForms.Guna2TextBox();
+            this.guna2HtmlLabel1 = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            this.cmbKategori = new Guna.UI2.WinForms.Guna2ComboBox();
+            this.lblKategori = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            this.txtIlanBasligi = new Guna.UI2.WinForms.Guna2TextBox();
+            this.lblIlanBaslık = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            this.lblBaslık = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.guna2CirclePictureBox1 = new Guna.UI2.WinForms.Guna2CirclePictureBox();
             this.guna2PictureBox2 = new Guna.UI2.WinForms.Guna2PictureBox();
             this.label2 = new System.Windows.Forms.Label();
@@ -43,25 +61,38 @@
             this.AnasayfaButton = new Guna.UI2.WinForms.Guna2Button();
             this.guna2BorderlessForm1 = new Guna.UI2.WinForms.Guna2BorderlessForm(this.components);
             this.guna2AnimateWindow1 = new Guna.UI2.WinForms.Guna2AnimateWindow(this.components);
-            this.guna2Panel1 = new Guna.UI2.WinForms.Guna2Panel();
-            this.panelFormKart = new Guna.UI2.WinForms.Guna2Panel();
-            this.lblBaslık = new Guna.UI2.WinForms.Guna2HtmlLabel();
-            this.lblIlanBaslık = new Guna.UI2.WinForms.Guna2HtmlLabel();
-            this.txtIlanBasligi = new Guna.UI2.WinForms.Guna2TextBox();
-            this.lblKategori = new Guna.UI2.WinForms.Guna2HtmlLabel();
-            this.cmbKategori = new Guna.UI2.WinForms.Guna2ComboBox();
-            this.guna2HtmlLabel1 = new Guna.UI2.WinForms.Guna2HtmlLabel();
-            this.txtAciklama = new Guna.UI2.WinForms.Guna2TextBox();
-            this.lnlLinkPuan = new Guna.UI2.WinForms.Guna2HtmlLabel();
-            this.cmbLinkPuan = new Guna.UI2.WinForms.Guna2ComboBox();
-            this.lblPuanAralığı = new Guna.UI2.WinForms.Guna2HtmlLabel();
-            this.txtPuanAraligi = new Guna.UI2.WinForms.Guna2TextBox();
-            this.lblIlanTipi = new Guna.UI2.WinForms.Guna2HtmlLabel();
-            this.rdrVerilecekDers = new Guna.UI2.WinForms.Guna2RadioButton();
-            this.rdoıstenenYardim = new Guna.UI2.WinForms.Guna2RadioButton();
-            this.lblVerilecekDers = new System.Windows.Forms.Label();
-            this.lblIstenenYardım = new System.Windows.Forms.Label();
             this.guna2Panel2 = new Guna.UI2.WinForms.Guna2Panel();
+            this.panelSag = new Guna.UI2.WinForms.Guna2Panel();
+            this.guna2Panel6 = new Guna.UI2.WinForms.Guna2Panel();
+            this.label20 = new System.Windows.Forms.Label();
+            this.label21 = new System.Windows.Forms.Label();
+            this.label22 = new System.Windows.Forms.Label();
+            this.label23 = new System.Windows.Forms.Label();
+            this.guna2Panel5 = new Guna.UI2.WinForms.Guna2Panel();
+            this.label16 = new System.Windows.Forms.Label();
+            this.label17 = new System.Windows.Forms.Label();
+            this.label18 = new System.Windows.Forms.Label();
+            this.label19 = new System.Windows.Forms.Label();
+            this.guna2Panel4 = new Guna.UI2.WinForms.Guna2Panel();
+            this.label12 = new System.Windows.Forms.Label();
+            this.label13 = new System.Windows.Forms.Label();
+            this.label14 = new System.Windows.Forms.Label();
+            this.label15 = new System.Windows.Forms.Label();
+            this.guna2Panel3 = new Guna.UI2.WinForms.Guna2Panel();
+            this.label11 = new System.Windows.Forms.Label();
+            this.label10 = new System.Windows.Forms.Label();
+            this.label9 = new System.Windows.Forms.Label();
+            this.label8 = new System.Windows.Forms.Label();
+            this.label7 = new System.Windows.Forms.Label();
+            this.label6 = new System.Windows.Forms.Label();
+            this.guna2Button9 = new Guna.UI2.WinForms.Guna2Button();
+            this.guna2Button8 = new Guna.UI2.WinForms.Guna2Button();
+            this.guna2Button7 = new Guna.UI2.WinForms.Guna2Button();
+            this.guna2Button1 = new Guna.UI2.WinForms.Guna2Button();
+            this.label5 = new System.Windows.Forms.Label();
+            this.btnİlanOluştur = new Guna.UI2.WinForms.Guna2Button();
+            this.guna2HtmlLabel9 = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            this.btnGörselEkle = new Guna.UI2.WinForms.Guna2Button();
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.guna2RadioButton1 = new Guna.UI2.WinForms.Guna2RadioButton();
@@ -78,48 +109,26 @@
             this.guna2TextBox3 = new Guna.UI2.WinForms.Guna2TextBox();
             this.guna2HtmlLabel7 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.guna2HtmlLabel8 = new Guna.UI2.WinForms.Guna2HtmlLabel();
-            this.btnGörselEkle = new Guna.UI2.WinForms.Guna2Button();
-            this.guna2HtmlLabel9 = new Guna.UI2.WinForms.Guna2HtmlLabel();
-            this.btnİlanOluştur = new Guna.UI2.WinForms.Guna2Button();
-            this.panelSag = new Guna.UI2.WinForms.Guna2Panel();
-            this.label5 = new System.Windows.Forms.Label();
-            this.guna2Button1 = new Guna.UI2.WinForms.Guna2Button();
-            this.guna2Button7 = new Guna.UI2.WinForms.Guna2Button();
-            this.guna2Button8 = new Guna.UI2.WinForms.Guna2Button();
-            this.guna2Button9 = new Guna.UI2.WinForms.Guna2Button();
-            this.label6 = new System.Windows.Forms.Label();
-            this.label7 = new System.Windows.Forms.Label();
-            this.guna2Panel3 = new Guna.UI2.WinForms.Guna2Panel();
-            this.label8 = new System.Windows.Forms.Label();
-            this.label9 = new System.Windows.Forms.Label();
-            this.label10 = new System.Windows.Forms.Label();
-            this.label11 = new System.Windows.Forms.Label();
-            this.guna2Panel4 = new Guna.UI2.WinForms.Guna2Panel();
-            this.label12 = new System.Windows.Forms.Label();
-            this.label13 = new System.Windows.Forms.Label();
-            this.label14 = new System.Windows.Forms.Label();
-            this.label15 = new System.Windows.Forms.Label();
-            this.guna2Panel5 = new Guna.UI2.WinForms.Guna2Panel();
-            this.label16 = new System.Windows.Forms.Label();
-            this.label17 = new System.Windows.Forms.Label();
-            this.label18 = new System.Windows.Forms.Label();
-            this.label19 = new System.Windows.Forms.Label();
-            this.guna2Panel6 = new Guna.UI2.WinForms.Guna2Panel();
-            this.label20 = new System.Windows.Forms.Label();
-            this.label21 = new System.Windows.Forms.Label();
-            this.label22 = new System.Windows.Forms.Label();
-            this.label23 = new System.Windows.Forms.Label();
+            this.label24 = new System.Windows.Forms.Label();
+            this.guna2CirclePictureBox5 = new Guna.UI2.WinForms.Guna2CirclePictureBox();
+            this.guna2CirclePictureBox2 = new Guna.UI2.WinForms.Guna2CirclePictureBox();
+            this.guna2CirclePictureBox3 = new Guna.UI2.WinForms.Guna2CirclePictureBox();
+            this.guna2CirclePictureBox4 = new Guna.UI2.WinForms.Guna2CirclePictureBox();
             this.panelSol.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox2)).BeginInit();
             this.guna2Panel1.SuspendLayout();
             this.panelFormKart.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox2)).BeginInit();
             this.guna2Panel2.SuspendLayout();
             this.panelSag.SuspendLayout();
-            this.guna2Panel3.SuspendLayout();
-            this.guna2Panel4.SuspendLayout();
-            this.guna2Panel5.SuspendLayout();
             this.guna2Panel6.SuspendLayout();
+            this.guna2Panel5.SuspendLayout();
+            this.guna2Panel4.SuspendLayout();
+            this.guna2Panel3.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox5)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox4)).BeginInit();
             this.SuspendLayout();
             // 
             // panelSol
@@ -139,8 +148,257 @@
             this.panelSol.Dock = System.Windows.Forms.DockStyle.Left;
             this.panelSol.Location = new System.Drawing.Point(0, 0);
             this.panelSol.Name = "panelSol";
-            this.panelSol.Size = new System.Drawing.Size(260, 732);
+            this.panelSol.Size = new System.Drawing.Size(260, 763);
             this.panelSol.TabIndex = 1;
+            // 
+            // guna2Panel1
+            // 
+            this.guna2Panel1.Controls.Add(this.panelFormKart);
+            this.guna2Panel1.Location = new System.Drawing.Point(257, 21);
+            this.guna2Panel1.Name = "guna2Panel1";
+            this.guna2Panel1.Size = new System.Drawing.Size(450, 600);
+            this.guna2Panel1.TabIndex = 2;
+            // 
+            // panelFormKart
+            // 
+            this.panelFormKart.AutoSize = true;
+            this.panelFormKart.BorderRadius = 18;
+            this.panelFormKart.Controls.Add(this.lblIstenenYardım);
+            this.panelFormKart.Controls.Add(this.lblVerilecekDers);
+            this.panelFormKart.Controls.Add(this.rdoıstenenYardim);
+            this.panelFormKart.Controls.Add(this.rdrVerilecekDers);
+            this.panelFormKart.Controls.Add(this.lblIlanTipi);
+            this.panelFormKart.Controls.Add(this.txtPuanAraligi);
+            this.panelFormKart.Controls.Add(this.lblPuanAralığı);
+            this.panelFormKart.Controls.Add(this.cmbLinkPuan);
+            this.panelFormKart.Controls.Add(this.lnlLinkPuan);
+            this.panelFormKart.Controls.Add(this.txtAciklama);
+            this.panelFormKart.Controls.Add(this.guna2HtmlLabel1);
+            this.panelFormKart.Controls.Add(this.cmbKategori);
+            this.panelFormKart.Controls.Add(this.lblKategori);
+            this.panelFormKart.Controls.Add(this.txtIlanBasligi);
+            this.panelFormKart.Controls.Add(this.lblIlanBaslık);
+            this.panelFormKart.Controls.Add(this.lblBaslık);
+            this.panelFormKart.FillColor = System.Drawing.Color.WhiteSmoke;
+            this.panelFormKart.Location = new System.Drawing.Point(3, 18);
+            this.panelFormKart.Name = "panelFormKart";
+            this.panelFormKart.Size = new System.Drawing.Size(420, 594);
+            this.panelFormKart.TabIndex = 2;
+            // 
+            // lblIstenenYardım
+            // 
+            this.lblIstenenYardım.AutoSize = true;
+            this.lblIstenenYardım.Location = new System.Drawing.Point(163, 509);
+            this.lblIstenenYardım.Name = "lblIstenenYardım";
+            this.lblIstenenYardım.Size = new System.Drawing.Size(96, 16);
+            this.lblIstenenYardım.TabIndex = 15;
+            this.lblIstenenYardım.Text = "İstenen Yardım";
+            // 
+            // lblVerilecekDers
+            // 
+            this.lblVerilecekDers.AutoSize = true;
+            this.lblVerilecekDers.Location = new System.Drawing.Point(163, 479);
+            this.lblVerilecekDers.Name = "lblVerilecekDers";
+            this.lblVerilecekDers.Size = new System.Drawing.Size(96, 16);
+            this.lblVerilecekDers.TabIndex = 14;
+            this.lblVerilecekDers.Text = "Verilecek Ders";
+            // 
+            // rdoıstenenYardim
+            // 
+            this.rdoıstenenYardim.AutoSize = true;
+            this.rdoıstenenYardim.CheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.rdoıstenenYardim.CheckedState.BorderThickness = 0;
+            this.rdoıstenenYardim.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.rdoıstenenYardim.CheckedState.InnerColor = System.Drawing.Color.White;
+            this.rdoıstenenYardim.CheckedState.InnerOffset = -4;
+            this.rdoıstenenYardim.Location = new System.Drawing.Point(20, 505);
+            this.rdoıstenenYardim.Name = "rdoıstenenYardim";
+            this.rdoıstenenYardim.Size = new System.Drawing.Size(146, 20);
+            this.rdoıstenenYardim.TabIndex = 13;
+            this.rdoıstenenYardim.Text = "guna2RadioButton2";
+            this.rdoıstenenYardim.UncheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
+            this.rdoıstenenYardim.UncheckedState.BorderThickness = 2;
+            this.rdoıstenenYardim.UncheckedState.FillColor = System.Drawing.Color.Transparent;
+            this.rdoıstenenYardim.UncheckedState.InnerColor = System.Drawing.Color.Transparent;
+            // 
+            // rdrVerilecekDers
+            // 
+            this.rdrVerilecekDers.AutoSize = true;
+            this.rdrVerilecekDers.CheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.rdrVerilecekDers.CheckedState.BorderThickness = 0;
+            this.rdrVerilecekDers.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.rdrVerilecekDers.CheckedState.InnerColor = System.Drawing.Color.White;
+            this.rdrVerilecekDers.CheckedState.InnerOffset = -4;
+            this.rdrVerilecekDers.Location = new System.Drawing.Point(20, 475);
+            this.rdrVerilecekDers.Name = "rdrVerilecekDers";
+            this.rdrVerilecekDers.Size = new System.Drawing.Size(146, 20);
+            this.rdrVerilecekDers.TabIndex = 12;
+            this.rdrVerilecekDers.Text = "guna2RadioButton1";
+            this.rdrVerilecekDers.UncheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
+            this.rdrVerilecekDers.UncheckedState.BorderThickness = 2;
+            this.rdrVerilecekDers.UncheckedState.FillColor = System.Drawing.Color.Transparent;
+            this.rdrVerilecekDers.UncheckedState.InnerColor = System.Drawing.Color.Transparent;
+            // 
+            // lblIlanTipi
+            // 
+            this.lblIlanTipi.BackColor = System.Drawing.Color.Transparent;
+            this.lblIlanTipi.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.lblIlanTipi.Location = new System.Drawing.Point(20, 445);
+            this.lblIlanTipi.Name = "lblIlanTipi";
+            this.lblIlanTipi.Size = new System.Drawing.Size(68, 25);
+            this.lblIlanTipi.TabIndex = 11;
+            this.lblIlanTipi.Text = "İlan Tipi";
+            // 
+            // txtPuanAraligi
+            // 
+            this.txtPuanAraligi.BorderRadius = 8;
+            this.txtPuanAraligi.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.txtPuanAraligi.DefaultText = "";
+            this.txtPuanAraligi.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
+            this.txtPuanAraligi.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
+            this.txtPuanAraligi.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.txtPuanAraligi.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.txtPuanAraligi.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.txtPuanAraligi.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.txtPuanAraligi.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.txtPuanAraligi.Location = new System.Drawing.Point(230, 390);
+            this.txtPuanAraligi.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.txtPuanAraligi.Name = "txtPuanAraligi";
+            this.txtPuanAraligi.PlaceholderText = "";
+            this.txtPuanAraligi.SelectedText = "";
+            this.txtPuanAraligi.Size = new System.Drawing.Size(170, 40);
+            this.txtPuanAraligi.TabIndex = 10;
+            // 
+            // lblPuanAralığı
+            // 
+            this.lblPuanAralığı.BackColor = System.Drawing.Color.Transparent;
+            this.lblPuanAralığı.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.lblPuanAralığı.Location = new System.Drawing.Point(230, 365);
+            this.lblPuanAralığı.Name = "lblPuanAralığı";
+            this.lblPuanAralığı.Size = new System.Drawing.Size(101, 25);
+            this.lblPuanAralığı.TabIndex = 9;
+            this.lblPuanAralığı.Text = "Puan Aralığı";
+            // 
+            // cmbLinkPuan
+            // 
+            this.cmbLinkPuan.BackColor = System.Drawing.Color.Transparent;
+            this.cmbLinkPuan.BorderRadius = 8;
+            this.cmbLinkPuan.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
+            this.cmbLinkPuan.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cmbLinkPuan.FocusedColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.cmbLinkPuan.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.cmbLinkPuan.Font = new System.Drawing.Font("Segoe UI", 10F);
+            this.cmbLinkPuan.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(68)))), ((int)(((byte)(88)))), ((int)(((byte)(112)))));
+            this.cmbLinkPuan.ItemHeight = 30;
+            this.cmbLinkPuan.Location = new System.Drawing.Point(20, 390);
+            this.cmbLinkPuan.Name = "cmbLinkPuan";
+            this.cmbLinkPuan.Size = new System.Drawing.Size(170, 36);
+            this.cmbLinkPuan.TabIndex = 8;
+            // 
+            // lnlLinkPuan
+            // 
+            this.lnlLinkPuan.BackColor = System.Drawing.Color.Transparent;
+            this.lnlLinkPuan.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.lnlLinkPuan.Location = new System.Drawing.Point(20, 365);
+            this.lnlLinkPuan.Name = "lnlLinkPuan";
+            this.lnlLinkPuan.Size = new System.Drawing.Size(76, 25);
+            this.lnlLinkPuan.TabIndex = 7;
+            this.lnlLinkPuan.Text = "LinkPuan";
+            // 
+            // txtAciklama
+            // 
+            this.txtAciklama.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.txtAciklama.DefaultText = "";
+            this.txtAciklama.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
+            this.txtAciklama.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
+            this.txtAciklama.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.txtAciklama.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.txtAciklama.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.txtAciklama.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.txtAciklama.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.txtAciklama.Location = new System.Drawing.Point(20, 255);
+            this.txtAciklama.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.txtAciklama.Name = "txtAciklama";
+            this.txtAciklama.PlaceholderText = "İlan detaylarını yazınız";
+            this.txtAciklama.SelectedText = "";
+            this.txtAciklama.Size = new System.Drawing.Size(380, 95);
+            this.txtAciklama.TabIndex = 6;
+            // 
+            // guna2HtmlLabel1
+            // 
+            this.guna2HtmlLabel1.BackColor = System.Drawing.Color.Transparent;
+            this.guna2HtmlLabel1.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.guna2HtmlLabel1.Location = new System.Drawing.Point(20, 230);
+            this.guna2HtmlLabel1.Name = "guna2HtmlLabel1";
+            this.guna2HtmlLabel1.Size = new System.Drawing.Size(123, 25);
+            this.guna2HtmlLabel1.TabIndex = 5;
+            this.guna2HtmlLabel1.Text = "İlan Açıklaması";
+            // 
+            // cmbKategori
+            // 
+            this.cmbKategori.BackColor = System.Drawing.Color.Transparent;
+            this.cmbKategori.BorderRadius = 8;
+            this.cmbKategori.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
+            this.cmbKategori.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cmbKategori.FocusedColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.cmbKategori.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.cmbKategori.Font = new System.Drawing.Font("Segoe UI", 10F);
+            this.cmbKategori.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(68)))), ((int)(((byte)(88)))), ((int)(((byte)(112)))));
+            this.cmbKategori.ItemHeight = 30;
+            this.cmbKategori.Location = new System.Drawing.Point(20, 175);
+            this.cmbKategori.Name = "cmbKategori";
+            this.cmbKategori.Size = new System.Drawing.Size(300, 36);
+            this.cmbKategori.TabIndex = 4;
+            // 
+            // lblKategori
+            // 
+            this.lblKategori.BackColor = System.Drawing.Color.Transparent;
+            this.lblKategori.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.lblKategori.Location = new System.Drawing.Point(20, 150);
+            this.lblKategori.Name = "lblKategori";
+            this.lblKategori.Size = new System.Drawing.Size(118, 25);
+            this.lblKategori.TabIndex = 3;
+            this.lblKategori.Text = "İlan Kategorisi";
+            // 
+            // txtIlanBasligi
+            // 
+            this.txtIlanBasligi.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.txtIlanBasligi.DefaultText = "";
+            this.txtIlanBasligi.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
+            this.txtIlanBasligi.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
+            this.txtIlanBasligi.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.txtIlanBasligi.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.txtIlanBasligi.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.txtIlanBasligi.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.txtIlanBasligi.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.txtIlanBasligi.Location = new System.Drawing.Point(20, 95);
+            this.txtIlanBasligi.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.txtIlanBasligi.Name = "txtIlanBasligi";
+            this.txtIlanBasligi.PlaceholderText = "Phthon Dersi Verilir";
+            this.txtIlanBasligi.SelectedText = "";
+            this.txtIlanBasligi.Size = new System.Drawing.Size(300, 40);
+            this.txtIlanBasligi.TabIndex = 2;
+            // 
+            // lblIlanBaslık
+            // 
+            this.lblIlanBaslık.BackColor = System.Drawing.Color.Transparent;
+            this.lblIlanBaslık.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.lblIlanBaslık.Location = new System.Drawing.Point(20, 70);
+            this.lblIlanBaslık.Name = "lblIlanBaslık";
+            this.lblIlanBaslık.Size = new System.Drawing.Size(90, 25);
+            this.lblIlanBaslık.TabIndex = 1;
+            this.lblIlanBaslık.Text = "İlan Başlığı";
+            // 
+            // lblBaslık
+            // 
+            this.lblBaslık.AutoSize = false;
+            this.lblBaslık.BackColor = System.Drawing.Color.Transparent;
+            this.lblBaslık.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.lblBaslık.Location = new System.Drawing.Point(27, 22);
+            this.lblBaslık.Name = "lblBaslık";
+            this.lblBaslık.Size = new System.Drawing.Size(122, 43);
+            this.lblBaslık.TabIndex = 0;
+            this.lblBaslık.Text = "İlan Ekle";
             // 
             // guna2CirclePictureBox1
             // 
@@ -325,259 +583,12 @@
             this.guna2BorderlessForm1.DockIndicatorTransparencyValue = 0.6D;
             this.guna2BorderlessForm1.TransparentWhileDrag = true;
             // 
-            // guna2Panel1
-            // 
-            this.guna2Panel1.Controls.Add(this.panelFormKart);
-            this.guna2Panel1.Location = new System.Drawing.Point(257, 21);
-            this.guna2Panel1.Name = "guna2Panel1";
-            this.guna2Panel1.Size = new System.Drawing.Size(450, 600);
-            this.guna2Panel1.TabIndex = 2;
-            // 
-            // panelFormKart
-            // 
-            this.panelFormKart.AutoSize = true;
-            this.panelFormKart.BorderRadius = 18;
-            this.panelFormKart.Controls.Add(this.lblIstenenYardım);
-            this.panelFormKart.Controls.Add(this.lblVerilecekDers);
-            this.panelFormKart.Controls.Add(this.rdoıstenenYardim);
-            this.panelFormKart.Controls.Add(this.rdrVerilecekDers);
-            this.panelFormKart.Controls.Add(this.lblIlanTipi);
-            this.panelFormKart.Controls.Add(this.txtPuanAraligi);
-            this.panelFormKart.Controls.Add(this.lblPuanAralığı);
-            this.panelFormKart.Controls.Add(this.cmbLinkPuan);
-            this.panelFormKart.Controls.Add(this.lnlLinkPuan);
-            this.panelFormKart.Controls.Add(this.txtAciklama);
-            this.panelFormKart.Controls.Add(this.guna2HtmlLabel1);
-            this.panelFormKart.Controls.Add(this.cmbKategori);
-            this.panelFormKart.Controls.Add(this.lblKategori);
-            this.panelFormKart.Controls.Add(this.txtIlanBasligi);
-            this.panelFormKart.Controls.Add(this.lblIlanBaslık);
-            this.panelFormKart.Controls.Add(this.lblBaslık);
-            this.panelFormKart.FillColor = System.Drawing.Color.WhiteSmoke;
-            this.panelFormKart.Location = new System.Drawing.Point(3, 18);
-            this.panelFormKart.Name = "panelFormKart";
-            this.panelFormKart.Size = new System.Drawing.Size(420, 594);
-            this.panelFormKart.TabIndex = 2;
-            // 
-            // lblBaslık
-            // 
-            this.lblBaslık.AutoSize = false;
-            this.lblBaslık.BackColor = System.Drawing.Color.Transparent;
-            this.lblBaslık.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.lblBaslık.Location = new System.Drawing.Point(27, 22);
-            this.lblBaslık.Name = "lblBaslık";
-            this.lblBaslık.Size = new System.Drawing.Size(122, 43);
-            this.lblBaslık.TabIndex = 0;
-            this.lblBaslık.Text = "İlan Ekle";
-            // 
-            // lblIlanBaslık
-            // 
-            this.lblIlanBaslık.BackColor = System.Drawing.Color.Transparent;
-            this.lblIlanBaslık.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.lblIlanBaslık.Location = new System.Drawing.Point(20, 70);
-            this.lblIlanBaslık.Name = "lblIlanBaslık";
-            this.lblIlanBaslık.Size = new System.Drawing.Size(90, 25);
-            this.lblIlanBaslık.TabIndex = 1;
-            this.lblIlanBaslık.Text = "İlan Başlığı";
-            // 
-            // txtIlanBasligi
-            // 
-            this.txtIlanBasligi.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.txtIlanBasligi.DefaultText = "";
-            this.txtIlanBasligi.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
-            this.txtIlanBasligi.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
-            this.txtIlanBasligi.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.txtIlanBasligi.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.txtIlanBasligi.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txtIlanBasligi.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.txtIlanBasligi.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txtIlanBasligi.Location = new System.Drawing.Point(20, 95);
-            this.txtIlanBasligi.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.txtIlanBasligi.Name = "txtIlanBasligi";
-            this.txtIlanBasligi.PlaceholderText = "Phthon Dersi Verilir";
-            this.txtIlanBasligi.SelectedText = "";
-            this.txtIlanBasligi.Size = new System.Drawing.Size(300, 40);
-            this.txtIlanBasligi.TabIndex = 2;
-            // 
-            // lblKategori
-            // 
-            this.lblKategori.BackColor = System.Drawing.Color.Transparent;
-            this.lblKategori.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.lblKategori.Location = new System.Drawing.Point(20, 150);
-            this.lblKategori.Name = "lblKategori";
-            this.lblKategori.Size = new System.Drawing.Size(118, 25);
-            this.lblKategori.TabIndex = 3;
-            this.lblKategori.Text = "İlan Kategorisi";
-            // 
-            // cmbKategori
-            // 
-            this.cmbKategori.BackColor = System.Drawing.Color.Transparent;
-            this.cmbKategori.BorderRadius = 8;
-            this.cmbKategori.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
-            this.cmbKategori.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.cmbKategori.FocusedColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.cmbKategori.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.cmbKategori.Font = new System.Drawing.Font("Segoe UI", 10F);
-            this.cmbKategori.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(68)))), ((int)(((byte)(88)))), ((int)(((byte)(112)))));
-            this.cmbKategori.ItemHeight = 30;
-            this.cmbKategori.Location = new System.Drawing.Point(20, 175);
-            this.cmbKategori.Name = "cmbKategori";
-            this.cmbKategori.Size = new System.Drawing.Size(300, 36);
-            this.cmbKategori.TabIndex = 4;
-            // 
-            // guna2HtmlLabel1
-            // 
-            this.guna2HtmlLabel1.BackColor = System.Drawing.Color.Transparent;
-            this.guna2HtmlLabel1.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.guna2HtmlLabel1.Location = new System.Drawing.Point(20, 230);
-            this.guna2HtmlLabel1.Name = "guna2HtmlLabel1";
-            this.guna2HtmlLabel1.Size = new System.Drawing.Size(123, 25);
-            this.guna2HtmlLabel1.TabIndex = 5;
-            this.guna2HtmlLabel1.Text = "İlan Açıklaması";
-            // 
-            // txtAciklama
-            // 
-            this.txtAciklama.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.txtAciklama.DefaultText = "";
-            this.txtAciklama.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
-            this.txtAciklama.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
-            this.txtAciklama.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.txtAciklama.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.txtAciklama.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txtAciklama.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.txtAciklama.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txtAciklama.Location = new System.Drawing.Point(20, 255);
-            this.txtAciklama.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.txtAciklama.Name = "txtAciklama";
-            this.txtAciklama.PlaceholderText = "İlan detaylarını yazınız";
-            this.txtAciklama.SelectedText = "";
-            this.txtAciklama.Size = new System.Drawing.Size(380, 95);
-            this.txtAciklama.TabIndex = 6;
-            // 
-            // lnlLinkPuan
-            // 
-            this.lnlLinkPuan.BackColor = System.Drawing.Color.Transparent;
-            this.lnlLinkPuan.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.lnlLinkPuan.Location = new System.Drawing.Point(20, 365);
-            this.lnlLinkPuan.Name = "lnlLinkPuan";
-            this.lnlLinkPuan.Size = new System.Drawing.Size(76, 25);
-            this.lnlLinkPuan.TabIndex = 7;
-            this.lnlLinkPuan.Text = "LinkPuan";
-            // 
-            // cmbLinkPuan
-            // 
-            this.cmbLinkPuan.BackColor = System.Drawing.Color.Transparent;
-            this.cmbLinkPuan.BorderRadius = 8;
-            this.cmbLinkPuan.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
-            this.cmbLinkPuan.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.cmbLinkPuan.FocusedColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.cmbLinkPuan.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.cmbLinkPuan.Font = new System.Drawing.Font("Segoe UI", 10F);
-            this.cmbLinkPuan.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(68)))), ((int)(((byte)(88)))), ((int)(((byte)(112)))));
-            this.cmbLinkPuan.ItemHeight = 30;
-            this.cmbLinkPuan.Location = new System.Drawing.Point(20, 390);
-            this.cmbLinkPuan.Name = "cmbLinkPuan";
-            this.cmbLinkPuan.Size = new System.Drawing.Size(170, 36);
-            this.cmbLinkPuan.TabIndex = 8;
-            // 
-            // lblPuanAralığı
-            // 
-            this.lblPuanAralığı.BackColor = System.Drawing.Color.Transparent;
-            this.lblPuanAralığı.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.lblPuanAralığı.Location = new System.Drawing.Point(230, 365);
-            this.lblPuanAralığı.Name = "lblPuanAralığı";
-            this.lblPuanAralığı.Size = new System.Drawing.Size(101, 25);
-            this.lblPuanAralığı.TabIndex = 9;
-            this.lblPuanAralığı.Text = "Puan Aralığı";
-            // 
-            // txtPuanAraligi
-            // 
-            this.txtPuanAraligi.BorderRadius = 8;
-            this.txtPuanAraligi.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.txtPuanAraligi.DefaultText = "";
-            this.txtPuanAraligi.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
-            this.txtPuanAraligi.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
-            this.txtPuanAraligi.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.txtPuanAraligi.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.txtPuanAraligi.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txtPuanAraligi.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.txtPuanAraligi.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txtPuanAraligi.Location = new System.Drawing.Point(230, 390);
-            this.txtPuanAraligi.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.txtPuanAraligi.Name = "txtPuanAraligi";
-            this.txtPuanAraligi.PlaceholderText = "";
-            this.txtPuanAraligi.SelectedText = "";
-            this.txtPuanAraligi.Size = new System.Drawing.Size(170, 40);
-            this.txtPuanAraligi.TabIndex = 10;
-            // 
-            // lblIlanTipi
-            // 
-            this.lblIlanTipi.BackColor = System.Drawing.Color.Transparent;
-            this.lblIlanTipi.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.lblIlanTipi.Location = new System.Drawing.Point(20, 445);
-            this.lblIlanTipi.Name = "lblIlanTipi";
-            this.lblIlanTipi.Size = new System.Drawing.Size(68, 25);
-            this.lblIlanTipi.TabIndex = 11;
-            this.lblIlanTipi.Text = "İlan Tipi";
-            // 
-            // rdrVerilecekDers
-            // 
-            this.rdrVerilecekDers.AutoSize = true;
-            this.rdrVerilecekDers.CheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.rdrVerilecekDers.CheckedState.BorderThickness = 0;
-            this.rdrVerilecekDers.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.rdrVerilecekDers.CheckedState.InnerColor = System.Drawing.Color.White;
-            this.rdrVerilecekDers.CheckedState.InnerOffset = -4;
-            this.rdrVerilecekDers.Location = new System.Drawing.Point(20, 475);
-            this.rdrVerilecekDers.Name = "rdrVerilecekDers";
-            this.rdrVerilecekDers.Size = new System.Drawing.Size(146, 20);
-            this.rdrVerilecekDers.TabIndex = 12;
-            this.rdrVerilecekDers.Text = "guna2RadioButton1";
-            this.rdrVerilecekDers.UncheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
-            this.rdrVerilecekDers.UncheckedState.BorderThickness = 2;
-            this.rdrVerilecekDers.UncheckedState.FillColor = System.Drawing.Color.Transparent;
-            this.rdrVerilecekDers.UncheckedState.InnerColor = System.Drawing.Color.Transparent;
-            // 
-            // rdoıstenenYardim
-            // 
-            this.rdoıstenenYardim.AutoSize = true;
-            this.rdoıstenenYardim.CheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.rdoıstenenYardim.CheckedState.BorderThickness = 0;
-            this.rdoıstenenYardim.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.rdoıstenenYardim.CheckedState.InnerColor = System.Drawing.Color.White;
-            this.rdoıstenenYardim.CheckedState.InnerOffset = -4;
-            this.rdoıstenenYardim.Location = new System.Drawing.Point(20, 505);
-            this.rdoıstenenYardim.Name = "rdoıstenenYardim";
-            this.rdoıstenenYardim.Size = new System.Drawing.Size(146, 20);
-            this.rdoıstenenYardim.TabIndex = 13;
-            this.rdoıstenenYardim.Text = "guna2RadioButton2";
-            this.rdoıstenenYardim.UncheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
-            this.rdoıstenenYardim.UncheckedState.BorderThickness = 2;
-            this.rdoıstenenYardim.UncheckedState.FillColor = System.Drawing.Color.Transparent;
-            this.rdoıstenenYardim.UncheckedState.InnerColor = System.Drawing.Color.Transparent;
-            // 
-            // lblVerilecekDers
-            // 
-            this.lblVerilecekDers.AutoSize = true;
-            this.lblVerilecekDers.Location = new System.Drawing.Point(163, 479);
-            this.lblVerilecekDers.Name = "lblVerilecekDers";
-            this.lblVerilecekDers.Size = new System.Drawing.Size(96, 16);
-            this.lblVerilecekDers.TabIndex = 14;
-            this.lblVerilecekDers.Text = "Verilecek Ders";
-            // 
-            // lblIstenenYardım
-            // 
-            this.lblIstenenYardım.AutoSize = true;
-            this.lblIstenenYardım.Location = new System.Drawing.Point(163, 509);
-            this.lblIstenenYardım.Name = "lblIstenenYardım";
-            this.lblIstenenYardım.Size = new System.Drawing.Size(96, 16);
-            this.lblIstenenYardım.TabIndex = 15;
-            this.lblIstenenYardım.Text = "İstenen Yardım";
-            // 
             // guna2Panel2
             // 
             this.guna2Panel2.AutoSize = true;
+            this.guna2Panel2.BackColor = System.Drawing.Color.White;
             this.guna2Panel2.BorderRadius = 18;
+            this.guna2Panel2.Controls.Add(this.label24);
             this.guna2Panel2.Controls.Add(this.panelSag);
             this.guna2Panel2.Controls.Add(this.btnİlanOluştur);
             this.guna2Panel2.Controls.Add(this.guna2HtmlLabel9);
@@ -603,6 +614,358 @@
             this.guna2Panel2.Name = "guna2Panel2";
             this.guna2Panel2.Size = new System.Drawing.Size(894, 681);
             this.guna2Panel2.TabIndex = 2;
+            // 
+            // panelSag
+            // 
+            this.panelSag.AutoScroll = true;
+            this.panelSag.BorderRadius = 15;
+            this.panelSag.Controls.Add(this.guna2Panel6);
+            this.panelSag.Controls.Add(this.guna2Panel5);
+            this.panelSag.Controls.Add(this.guna2Panel4);
+            this.panelSag.Controls.Add(this.guna2Panel3);
+            this.panelSag.Controls.Add(this.label7);
+            this.panelSag.Controls.Add(this.label6);
+            this.panelSag.Controls.Add(this.guna2Button9);
+            this.panelSag.Controls.Add(this.guna2Button8);
+            this.panelSag.Controls.Add(this.guna2Button7);
+            this.panelSag.Controls.Add(this.guna2Button1);
+            this.panelSag.Controls.Add(this.label5);
+            this.panelSag.Location = new System.Drawing.Point(426, 95);
+            this.panelSag.Name = "panelSag";
+            this.panelSag.Size = new System.Drawing.Size(450, 565);
+            this.panelSag.TabIndex = 20;
+            // 
+            // guna2Panel6
+            // 
+            this.guna2Panel6.Controls.Add(this.guna2CirclePictureBox4);
+            this.guna2Panel6.Controls.Add(this.label20);
+            this.guna2Panel6.Controls.Add(this.label21);
+            this.guna2Panel6.Controls.Add(this.label22);
+            this.guna2Panel6.Controls.Add(this.label23);
+            this.guna2Panel6.Location = new System.Drawing.Point(20, 453);
+            this.guna2Panel6.Name = "guna2Panel6";
+            this.guna2Panel6.Size = new System.Drawing.Size(413, 76);
+            this.guna2Panel6.TabIndex = 24;
+            // 
+            // label20
+            // 
+            this.label20.AutoSize = true;
+            this.label20.Location = new System.Drawing.Point(329, 54);
+            this.label20.Name = "label20";
+            this.label20.Size = new System.Drawing.Size(76, 16);
+            this.label20.TabIndex = 3;
+            this.label20.Text = "2 saat önce";
+            // 
+            // label21
+            // 
+            this.label21.AutoSize = true;
+            this.label21.ForeColor = System.Drawing.Color.RoyalBlue;
+            this.label21.Location = new System.Drawing.Point(69, 54);
+            this.label21.Name = "label21";
+            this.label21.Size = new System.Drawing.Size(49, 16);
+            this.label21.TabIndex = 2;
+            this.label21.Text = " 40 LP  ";
+            // 
+            // label22
+            // 
+            this.label22.AutoSize = true;
+            this.label22.Location = new System.Drawing.Point(69, 30);
+            this.label22.Name = "label22";
+            this.label22.Size = new System.Drawing.Size(108, 16);
+            this.label22.TabIndex = 1;
+            this.label22.Text = "Bağlama Eğitimi ";
+            // 
+            // label23
+            // 
+            this.label23.AutoSize = true;
+            this.label23.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.label23.Location = new System.Drawing.Point(67, 9);
+            this.label23.Name = "label23";
+            this.label23.Size = new System.Drawing.Size(90, 18);
+            this.label23.TabIndex = 0;
+            this.label23.Text = "Burak Tan ";
+            // 
+            // guna2Panel5
+            // 
+            this.guna2Panel5.Controls.Add(this.guna2CirclePictureBox3);
+            this.guna2Panel5.Controls.Add(this.label16);
+            this.guna2Panel5.Controls.Add(this.label17);
+            this.guna2Panel5.Controls.Add(this.label18);
+            this.guna2Panel5.Controls.Add(this.label19);
+            this.guna2Panel5.Location = new System.Drawing.Point(20, 371);
+            this.guna2Panel5.Name = "guna2Panel5";
+            this.guna2Panel5.Size = new System.Drawing.Size(413, 76);
+            this.guna2Panel5.TabIndex = 24;
+            // 
+            // label16
+            // 
+            this.label16.AutoSize = true;
+            this.label16.Location = new System.Drawing.Point(329, 52);
+            this.label16.Name = "label16";
+            this.label16.Size = new System.Drawing.Size(76, 16);
+            this.label16.TabIndex = 3;
+            this.label16.Text = "2 saat önce";
+            // 
+            // label17
+            // 
+            this.label17.AutoSize = true;
+            this.label17.ForeColor = System.Drawing.Color.RoyalBlue;
+            this.label17.Location = new System.Drawing.Point(69, 52);
+            this.label17.Name = "label17";
+            this.label17.Size = new System.Drawing.Size(49, 16);
+            this.label17.TabIndex = 2;
+            this.label17.Text = " 60 LP  ";
+            // 
+            // label18
+            // 
+            this.label18.AutoSize = true;
+            this.label18.Location = new System.Drawing.Point(69, 30);
+            this.label18.Name = "label18";
+            this.label18.Size = new System.Drawing.Size(275, 16);
+            this.label18.TabIndex = 1;
+            this.label18.Text = "C# ve C++dersi veriyorum.Başlangıç seviyesi";
+            // 
+            // label19
+            // 
+            this.label19.AutoSize = true;
+            this.label19.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.label19.Location = new System.Drawing.Point(67, 7);
+            this.label19.Name = "label19";
+            this.label19.Size = new System.Drawing.Size(94, 18);
+            this.label19.TabIndex = 0;
+            this.label19.Text = "Ayşe Demir";
+            // 
+            // guna2Panel4
+            // 
+            this.guna2Panel4.Controls.Add(this.guna2CirclePictureBox2);
+            this.guna2Panel4.Controls.Add(this.label12);
+            this.guna2Panel4.Controls.Add(this.label13);
+            this.guna2Panel4.Controls.Add(this.label14);
+            this.guna2Panel4.Controls.Add(this.label15);
+            this.guna2Panel4.Location = new System.Drawing.Point(20, 289);
+            this.guna2Panel4.Name = "guna2Panel4";
+            this.guna2Panel4.Size = new System.Drawing.Size(413, 76);
+            this.guna2Panel4.TabIndex = 23;
+            // 
+            // label12
+            // 
+            this.label12.AutoSize = true;
+            this.label12.Location = new System.Drawing.Point(331, 53);
+            this.label12.Name = "label12";
+            this.label12.Size = new System.Drawing.Size(76, 16);
+            this.label12.TabIndex = 3;
+            this.label12.Text = "5 saat önce";
+            // 
+            // label13
+            // 
+            this.label13.AutoSize = true;
+            this.label13.ForeColor = System.Drawing.Color.RoyalBlue;
+            this.label13.Location = new System.Drawing.Point(69, 53);
+            this.label13.Name = "label13";
+            this.label13.Size = new System.Drawing.Size(49, 16);
+            this.label13.TabIndex = 2;
+            this.label13.Text = " 50 LP  ";
+            // 
+            // label14
+            // 
+            this.label14.AutoSize = true;
+            this.label14.Location = new System.Drawing.Point(69, 30);
+            this.label14.Name = "label14";
+            this.label14.Size = new System.Drawing.Size(130, 16);
+            this.label14.TabIndex = 1;
+            this.label14.Text = "Gitar dersi veriyorum";
+            // 
+            // label15
+            // 
+            this.label15.AutoSize = true;
+            this.label15.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.label15.Location = new System.Drawing.Point(69, 8);
+            this.label15.Name = "label15";
+            this.label15.Size = new System.Drawing.Size(85, 18);
+            this.label15.TabIndex = 0;
+            this.label15.Text = "Merve Kar";
+            // 
+            // guna2Panel3
+            // 
+            this.guna2Panel3.Controls.Add(this.guna2CirclePictureBox5);
+            this.guna2Panel3.Controls.Add(this.label11);
+            this.guna2Panel3.Controls.Add(this.label10);
+            this.guna2Panel3.Controls.Add(this.label9);
+            this.guna2Panel3.Controls.Add(this.label8);
+            this.guna2Panel3.Location = new System.Drawing.Point(20, 207);
+            this.guna2Panel3.Name = "guna2Panel3";
+            this.guna2Panel3.Size = new System.Drawing.Size(413, 76);
+            this.guna2Panel3.TabIndex = 22;
+            // 
+            // label11
+            // 
+            this.label11.AutoSize = true;
+            this.label11.Location = new System.Drawing.Point(329, 54);
+            this.label11.Name = "label11";
+            this.label11.Size = new System.Drawing.Size(76, 16);
+            this.label11.TabIndex = 3;
+            this.label11.Text = "2 saat önce";
+            // 
+            // label10
+            // 
+            this.label10.AutoSize = true;
+            this.label10.ForeColor = System.Drawing.Color.RoyalBlue;
+            this.label10.Location = new System.Drawing.Point(69, 54);
+            this.label10.Name = "label10";
+            this.label10.Size = new System.Drawing.Size(49, 16);
+            this.label10.TabIndex = 2;
+            this.label10.Text = " 20 LP  ";
+            // 
+            // label9
+            // 
+            this.label9.AutoSize = true;
+            this.label9.Location = new System.Drawing.Point(69, 30);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(345, 16);
+            this.label9.TabIndex = 1;
+            this.label9.Text = "Python ile OOP anlatılır. Başlangıç seviyesi için uygundur.";
+            // 
+            // label8
+            // 
+            this.label8.AutoSize = true;
+            this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.label8.Location = new System.Drawing.Point(67, 9);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(81, 18);
+            this.label8.TabIndex = 0;
+            this.label8.Text = "Ali Yılmaz";
+            // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.BackColor = System.Drawing.Color.White;
+            this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.label7.ForeColor = System.Drawing.Color.Blue;
+            this.label7.Location = new System.Drawing.Point(331, 183);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(102, 20);
+            this.label7.TabIndex = 21;
+            this.label7.Text = "Tümünü Gör";
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Font = new System.Drawing.Font("Segoe UI", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.label6.Location = new System.Drawing.Point(23, 179);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(103, 25);
+            this.label6.TabIndex = 5;
+            this.label6.Text = "Son İlanlar";
+            // 
+            // guna2Button9
+            // 
+            this.guna2Button9.BackColor = System.Drawing.Color.White;
+            this.guna2Button9.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.guna2Button9.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.guna2Button9.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.guna2Button9.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.guna2Button9.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.guna2Button9.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(64)))), ((int)(((byte)(175)))));
+            this.guna2Button9.Location = new System.Drawing.Point(233, 57);
+            this.guna2Button9.Name = "guna2Button9";
+            this.guna2Button9.Size = new System.Drawing.Size(179, 30);
+            this.guna2Button9.TabIndex = 4;
+            this.guna2Button9.Text = "Gitar Dersi Arıyorum";
+            // 
+            // guna2Button8
+            // 
+            this.guna2Button8.BackColor = System.Drawing.Color.White;
+            this.guna2Button8.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.guna2Button8.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.guna2Button8.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.guna2Button8.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.guna2Button8.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.guna2Button8.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(64)))), ((int)(((byte)(175)))));
+            this.guna2Button8.Location = new System.Drawing.Point(28, 109);
+            this.guna2Button8.Name = "guna2Button8";
+            this.guna2Button8.Size = new System.Drawing.Size(180, 30);
+            this.guna2Button8.TabIndex = 3;
+            this.guna2Button8.Text = "Yazılım Projesi Yardım";
+            // 
+            // guna2Button7
+            // 
+            this.guna2Button7.BackColor = System.Drawing.Color.White;
+            this.guna2Button7.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.guna2Button7.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.guna2Button7.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.guna2Button7.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.guna2Button7.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.guna2Button7.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(64)))), ((int)(((byte)(175)))));
+            this.guna2Button7.Location = new System.Drawing.Point(233, 109);
+            this.guna2Button7.Name = "guna2Button7";
+            this.guna2Button7.Size = new System.Drawing.Size(179, 30);
+            this.guna2Button7.TabIndex = 2;
+            this.guna2Button7.Text = "Matematik Özel Ders";
+            // 
+            // guna2Button1
+            // 
+            this.guna2Button1.BackColor = System.Drawing.Color.White;
+            this.guna2Button1.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.guna2Button1.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.guna2Button1.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.guna2Button1.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.guna2Button1.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.guna2Button1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(64)))), ((int)(((byte)(175)))));
+            this.guna2Button1.Location = new System.Drawing.Point(28, 57);
+            this.guna2Button1.Name = "guna2Button1";
+            this.guna2Button1.Size = new System.Drawing.Size(180, 30);
+            this.guna2Button1.TabIndex = 1;
+            this.guna2Button1.Text = "Python Dersi Verilir";
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Font = new System.Drawing.Font("Segoe UI", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.label5.Location = new System.Drawing.Point(15, 15);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(166, 25);
+            this.label5.TabIndex = 0;
+            this.label5.Text = "Hızlı İlan Önerileri";
+            // 
+            // btnİlanOluştur
+            // 
+            this.btnİlanOluştur.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.btnİlanOluştur.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.btnİlanOluştur.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btnİlanOluştur.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.btnİlanOluştur.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.btnİlanOluştur.ForeColor = System.Drawing.Color.White;
+            this.btnİlanOluştur.Location = new System.Drawing.Point(90, 615);
+            this.btnİlanOluştur.Name = "btnİlanOluştur";
+            this.btnİlanOluştur.Size = new System.Drawing.Size(180, 45);
+            this.btnİlanOluştur.TabIndex = 19;
+            this.btnİlanOluştur.Text = "İlan Oluştur";
+            // 
+            // guna2HtmlLabel9
+            // 
+            this.guna2HtmlLabel9.BackColor = System.Drawing.Color.Transparent;
+            this.guna2HtmlLabel9.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.guna2HtmlLabel9.Location = new System.Drawing.Point(20, 531);
+            this.guna2HtmlLabel9.Name = "guna2HtmlLabel9";
+            this.guna2HtmlLabel9.Size = new System.Drawing.Size(3, 2);
+            this.guna2HtmlLabel9.TabIndex = 18;
+            this.guna2HtmlLabel9.Text = null;
+            // 
+            // btnGörselEkle
+            // 
+            this.btnGörselEkle.BackColor = System.Drawing.Color.Gainsboro;
+            this.btnGörselEkle.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.btnGörselEkle.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.btnGörselEkle.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btnGörselEkle.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.btnGörselEkle.FillColor = System.Drawing.Color.Silver;
+            this.btnGörselEkle.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.btnGörselEkle.ForeColor = System.Drawing.Color.White;
+            this.btnGörselEkle.Location = new System.Drawing.Point(20, 546);
+            this.btnGörselEkle.Name = "btnGörselEkle";
+            this.btnGörselEkle.Size = new System.Drawing.Size(180, 45);
+            this.btnGörselEkle.TabIndex = 17;
+            this.btnGörselEkle.Text = "Görsel Ekle";
             // 
             // label3
             // 
@@ -811,361 +1174,72 @@
             this.guna2HtmlLabel8.AutoSize = false;
             this.guna2HtmlLabel8.BackColor = System.Drawing.Color.Transparent;
             this.guna2HtmlLabel8.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.guna2HtmlLabel8.Location = new System.Drawing.Point(27, 22);
+            this.guna2HtmlLabel8.Location = new System.Drawing.Point(21, 3);
             this.guna2HtmlLabel8.Name = "guna2HtmlLabel8";
             this.guna2HtmlLabel8.Size = new System.Drawing.Size(122, 43);
             this.guna2HtmlLabel8.TabIndex = 0;
             this.guna2HtmlLabel8.Text = "İlan Ekle";
             // 
-            // btnGörselEkle
+            // label24
             // 
-            this.btnGörselEkle.BackColor = System.Drawing.Color.Gainsboro;
-            this.btnGörselEkle.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.btnGörselEkle.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.btnGörselEkle.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.btnGörselEkle.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.btnGörselEkle.FillColor = System.Drawing.Color.Gray;
-            this.btnGörselEkle.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.btnGörselEkle.ForeColor = System.Drawing.Color.White;
-            this.btnGörselEkle.Location = new System.Drawing.Point(20, 546);
-            this.btnGörselEkle.Name = "btnGörselEkle";
-            this.btnGörselEkle.Size = new System.Drawing.Size(180, 45);
-            this.btnGörselEkle.TabIndex = 17;
-            this.btnGörselEkle.Text = "Görsel Ekle";
+            this.label24.AutoSize = true;
+            this.label24.ForeColor = System.Drawing.Color.Gray;
+            this.label24.Location = new System.Drawing.Point(20, 45);
+            this.label24.Name = "label24";
+            this.label24.Size = new System.Drawing.Size(283, 16);
+            this.label24.TabIndex = 21;
+            this.label24.Text = "İlan bilgilerinizi girin ve kampüsümüze paylaşın";
             // 
-            // guna2HtmlLabel9
+            // guna2CirclePictureBox5
             // 
-            this.guna2HtmlLabel9.BackColor = System.Drawing.Color.Transparent;
-            this.guna2HtmlLabel9.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.guna2HtmlLabel9.Location = new System.Drawing.Point(20, 531);
-            this.guna2HtmlLabel9.Name = "guna2HtmlLabel9";
-            this.guna2HtmlLabel9.Size = new System.Drawing.Size(3, 2);
-            this.guna2HtmlLabel9.TabIndex = 18;
+            this.guna2CirclePictureBox5.BackColor = System.Drawing.SystemColors.Control;
+            this.guna2CirclePictureBox5.ImageRotate = 0F;
+            this.guna2CirclePictureBox5.Location = new System.Drawing.Point(15, 15);
+            this.guna2CirclePictureBox5.Name = "guna2CirclePictureBox5";
+            this.guna2CirclePictureBox5.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
+            this.guna2CirclePictureBox5.Size = new System.Drawing.Size(50, 50);
+            this.guna2CirclePictureBox5.TabIndex = 22;
+            this.guna2CirclePictureBox5.TabStop = false;
             // 
-            // btnİlanOluştur
+            // guna2CirclePictureBox2
             // 
-            this.btnİlanOluştur.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.btnİlanOluştur.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.btnİlanOluştur.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.btnİlanOluştur.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.btnİlanOluştur.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.btnİlanOluştur.ForeColor = System.Drawing.Color.White;
-            this.btnİlanOluştur.Location = new System.Drawing.Point(90, 615);
-            this.btnİlanOluştur.Name = "btnİlanOluştur";
-            this.btnİlanOluştur.Size = new System.Drawing.Size(180, 45);
-            this.btnİlanOluştur.TabIndex = 19;
-            this.btnİlanOluştur.Text = "İlan Oluştur";
+            this.guna2CirclePictureBox2.BackColor = System.Drawing.SystemColors.Control;
+            this.guna2CirclePictureBox2.ImageRotate = 0F;
+            this.guna2CirclePictureBox2.Location = new System.Drawing.Point(15, 15);
+            this.guna2CirclePictureBox2.Name = "guna2CirclePictureBox2";
+            this.guna2CirclePictureBox2.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
+            this.guna2CirclePictureBox2.Size = new System.Drawing.Size(50, 50);
+            this.guna2CirclePictureBox2.TabIndex = 23;
+            this.guna2CirclePictureBox2.TabStop = false;
             // 
-            // panelSag
+            // guna2CirclePictureBox3
             // 
-            this.panelSag.AutoScroll = true;
-            this.panelSag.BorderRadius = 15;
-            this.panelSag.Controls.Add(this.guna2Panel6);
-            this.panelSag.Controls.Add(this.guna2Panel5);
-            this.panelSag.Controls.Add(this.guna2Panel4);
-            this.panelSag.Controls.Add(this.guna2Panel3);
-            this.panelSag.Controls.Add(this.label7);
-            this.panelSag.Controls.Add(this.label6);
-            this.panelSag.Controls.Add(this.guna2Button9);
-            this.panelSag.Controls.Add(this.guna2Button8);
-            this.panelSag.Controls.Add(this.guna2Button7);
-            this.panelSag.Controls.Add(this.guna2Button1);
-            this.panelSag.Controls.Add(this.label5);
-            this.panelSag.Location = new System.Drawing.Point(426, 95);
-            this.panelSag.Name = "panelSag";
-            this.panelSag.Size = new System.Drawing.Size(443, 565);
-            this.panelSag.TabIndex = 20;
+            this.guna2CirclePictureBox3.BackColor = System.Drawing.SystemColors.Control;
+            this.guna2CirclePictureBox3.ImageRotate = 0F;
+            this.guna2CirclePictureBox3.Location = new System.Drawing.Point(15, 15);
+            this.guna2CirclePictureBox3.Name = "guna2CirclePictureBox3";
+            this.guna2CirclePictureBox3.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
+            this.guna2CirclePictureBox3.Size = new System.Drawing.Size(50, 50);
+            this.guna2CirclePictureBox3.TabIndex = 23;
+            this.guna2CirclePictureBox3.TabStop = false;
             // 
-            // label5
+            // guna2CirclePictureBox4
             // 
-            this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Segoe UI", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label5.Location = new System.Drawing.Point(15, 15);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(166, 25);
-            this.label5.TabIndex = 0;
-            this.label5.Text = "Hızlı İlan Önerileri";
-            // 
-            // guna2Button1
-            // 
-            this.guna2Button1.BackColor = System.Drawing.Color.White;
-            this.guna2Button1.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.guna2Button1.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.guna2Button1.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.guna2Button1.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.guna2Button1.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.guna2Button1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(64)))), ((int)(((byte)(175)))));
-            this.guna2Button1.Location = new System.Drawing.Point(28, 57);
-            this.guna2Button1.Name = "guna2Button1";
-            this.guna2Button1.Size = new System.Drawing.Size(180, 30);
-            this.guna2Button1.TabIndex = 1;
-            this.guna2Button1.Text = "Python Dersi Verilir";
-            // 
-            // guna2Button7
-            // 
-            this.guna2Button7.BackColor = System.Drawing.Color.White;
-            this.guna2Button7.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.guna2Button7.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.guna2Button7.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.guna2Button7.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.guna2Button7.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.guna2Button7.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(64)))), ((int)(((byte)(175)))));
-            this.guna2Button7.Location = new System.Drawing.Point(233, 109);
-            this.guna2Button7.Name = "guna2Button7";
-            this.guna2Button7.Size = new System.Drawing.Size(179, 30);
-            this.guna2Button7.TabIndex = 2;
-            this.guna2Button7.Text = "Matematik Özel Ders";
-            // 
-            // guna2Button8
-            // 
-            this.guna2Button8.BackColor = System.Drawing.Color.White;
-            this.guna2Button8.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.guna2Button8.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.guna2Button8.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.guna2Button8.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.guna2Button8.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.guna2Button8.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(64)))), ((int)(((byte)(175)))));
-            this.guna2Button8.Location = new System.Drawing.Point(28, 109);
-            this.guna2Button8.Name = "guna2Button8";
-            this.guna2Button8.Size = new System.Drawing.Size(180, 30);
-            this.guna2Button8.TabIndex = 3;
-            this.guna2Button8.Text = "Yazılım Projesi Yardım";
-            // 
-            // guna2Button9
-            // 
-            this.guna2Button9.BackColor = System.Drawing.Color.White;
-            this.guna2Button9.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.guna2Button9.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.guna2Button9.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.guna2Button9.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.guna2Button9.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.guna2Button9.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(64)))), ((int)(((byte)(175)))));
-            this.guna2Button9.Location = new System.Drawing.Point(233, 57);
-            this.guna2Button9.Name = "guna2Button9";
-            this.guna2Button9.Size = new System.Drawing.Size(179, 30);
-            this.guna2Button9.TabIndex = 4;
-            this.guna2Button9.Text = "Gitar Dersi Arıyorum";
-            // 
-            // label6
-            // 
-            this.label6.AutoSize = true;
-            this.label6.Font = new System.Drawing.Font("Segoe UI", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label6.Location = new System.Drawing.Point(23, 179);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(166, 25);
-            this.label6.TabIndex = 5;
-            this.label6.Text = "Hızlı İlan Önerileri";
-            // 
-            // label7
-            // 
-            this.label7.AutoSize = true;
-            this.label7.BackColor = System.Drawing.SystemColors.Control;
-            this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label7.ForeColor = System.Drawing.Color.Blue;
-            this.label7.Location = new System.Drawing.Point(310, 183);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(102, 20);
-            this.label7.TabIndex = 21;
-            this.label7.Text = "Tümünü Gör";
-            // 
-            // guna2Panel3
-            // 
-            this.guna2Panel3.Controls.Add(this.label11);
-            this.guna2Panel3.Controls.Add(this.label10);
-            this.guna2Panel3.Controls.Add(this.label9);
-            this.guna2Panel3.Controls.Add(this.label8);
-            this.guna2Panel3.Location = new System.Drawing.Point(28, 207);
-            this.guna2Panel3.Name = "guna2Panel3";
-            this.guna2Panel3.Size = new System.Drawing.Size(384, 76);
-            this.guna2Panel3.TabIndex = 22;
-            // 
-            // label8
-            // 
-            this.label8.AutoSize = true;
-            this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label8.Location = new System.Drawing.Point(21, 9);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(81, 18);
-            this.label8.TabIndex = 0;
-            this.label8.Text = "Ali Yılmaz";
-            // 
-            // label9
-            // 
-            this.label9.AutoSize = true;
-            this.label9.Location = new System.Drawing.Point(19, 27);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(345, 16);
-            this.label9.TabIndex = 1;
-            this.label9.Text = "Python ile OOP anlatılır. Başlangıç seviyesi için uygundur.";
-            // 
-            // label10
-            // 
-            this.label10.AutoSize = true;
-            this.label10.Location = new System.Drawing.Point(21, 43);
-            this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(49, 16);
-            this.label10.TabIndex = 2;
-            this.label10.Text = " 20 LP  ";
-            // 
-            // label11
-            // 
-            this.label11.AutoSize = true;
-            this.label11.Location = new System.Drawing.Point(283, 54);
-            this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(76, 16);
-            this.label11.TabIndex = 3;
-            this.label11.Text = "2 saat önce";
-            // 
-            // guna2Panel4
-            // 
-            this.guna2Panel4.Controls.Add(this.label12);
-            this.guna2Panel4.Controls.Add(this.label13);
-            this.guna2Panel4.Controls.Add(this.label14);
-            this.guna2Panel4.Controls.Add(this.label15);
-            this.guna2Panel4.Location = new System.Drawing.Point(28, 289);
-            this.guna2Panel4.Name = "guna2Panel4";
-            this.guna2Panel4.Size = new System.Drawing.Size(384, 76);
-            this.guna2Panel4.TabIndex = 23;
-            // 
-            // label12
-            // 
-            this.label12.AutoSize = true;
-            this.label12.Location = new System.Drawing.Point(283, 54);
-            this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(76, 16);
-            this.label12.TabIndex = 3;
-            this.label12.Text = "5 saat önce";
-            // 
-            // label13
-            // 
-            this.label13.AutoSize = true;
-            this.label13.Location = new System.Drawing.Point(21, 43);
-            this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(49, 16);
-            this.label13.TabIndex = 2;
-            this.label13.Text = " 50 LP  ";
-            // 
-            // label14
-            // 
-            this.label14.AutoSize = true;
-            this.label14.Location = new System.Drawing.Point(19, 27);
-            this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(130, 16);
-            this.label14.TabIndex = 1;
-            this.label14.Text = "Gitar dersi veriyorum";
-            // 
-            // label15
-            // 
-            this.label15.AutoSize = true;
-            this.label15.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label15.Location = new System.Drawing.Point(21, 9);
-            this.label15.Name = "label15";
-            this.label15.Size = new System.Drawing.Size(85, 18);
-            this.label15.TabIndex = 0;
-            this.label15.Text = "Merve Kar";
-            // 
-            // guna2Panel5
-            // 
-            this.guna2Panel5.Controls.Add(this.label16);
-            this.guna2Panel5.Controls.Add(this.label17);
-            this.guna2Panel5.Controls.Add(this.label18);
-            this.guna2Panel5.Controls.Add(this.label19);
-            this.guna2Panel5.Location = new System.Drawing.Point(28, 371);
-            this.guna2Panel5.Name = "guna2Panel5";
-            this.guna2Panel5.Size = new System.Drawing.Size(384, 76);
-            this.guna2Panel5.TabIndex = 24;
-            // 
-            // label16
-            // 
-            this.label16.AutoSize = true;
-            this.label16.Location = new System.Drawing.Point(283, 54);
-            this.label16.Name = "label16";
-            this.label16.Size = new System.Drawing.Size(76, 16);
-            this.label16.TabIndex = 3;
-            this.label16.Text = "2 saat önce";
-            // 
-            // label17
-            // 
-            this.label17.AutoSize = true;
-            this.label17.Location = new System.Drawing.Point(21, 43);
-            this.label17.Name = "label17";
-            this.label17.Size = new System.Drawing.Size(49, 16);
-            this.label17.TabIndex = 2;
-            this.label17.Text = " 60 LP  ";
-            // 
-            // label18
-            // 
-            this.label18.AutoSize = true;
-            this.label18.Location = new System.Drawing.Point(19, 27);
-            this.label18.Name = "label18";
-            this.label18.Size = new System.Drawing.Size(275, 16);
-            this.label18.TabIndex = 1;
-            this.label18.Text = "C# ve C++dersi veriyorum.Başlangıç seviyesi";
-            // 
-            // label19
-            // 
-            this.label19.AutoSize = true;
-            this.label19.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label19.Location = new System.Drawing.Point(21, 9);
-            this.label19.Name = "label19";
-            this.label19.Size = new System.Drawing.Size(94, 18);
-            this.label19.TabIndex = 0;
-            this.label19.Text = "Ayşe Demir";
-            // 
-            // guna2Panel6
-            // 
-            this.guna2Panel6.Controls.Add(this.label20);
-            this.guna2Panel6.Controls.Add(this.label21);
-            this.guna2Panel6.Controls.Add(this.label22);
-            this.guna2Panel6.Controls.Add(this.label23);
-            this.guna2Panel6.Location = new System.Drawing.Point(28, 453);
-            this.guna2Panel6.Name = "guna2Panel6";
-            this.guna2Panel6.Size = new System.Drawing.Size(384, 76);
-            this.guna2Panel6.TabIndex = 24;
-            // 
-            // label20
-            // 
-            this.label20.AutoSize = true;
-            this.label20.Location = new System.Drawing.Point(283, 54);
-            this.label20.Name = "label20";
-            this.label20.Size = new System.Drawing.Size(76, 16);
-            this.label20.TabIndex = 3;
-            this.label20.Text = "2 saat önce";
-            // 
-            // label21
-            // 
-            this.label21.AutoSize = true;
-            this.label21.Location = new System.Drawing.Point(21, 43);
-            this.label21.Name = "label21";
-            this.label21.Size = new System.Drawing.Size(49, 16);
-            this.label21.TabIndex = 2;
-            this.label21.Text = " 40 LP  ";
-            // 
-            // label22
-            // 
-            this.label22.AutoSize = true;
-            this.label22.Location = new System.Drawing.Point(19, 27);
-            this.label22.Name = "label22";
-            this.label22.Size = new System.Drawing.Size(108, 16);
-            this.label22.TabIndex = 1;
-            this.label22.Text = "Bağlama Eğitimi ";
-            // 
-            // label23
-            // 
-            this.label23.AutoSize = true;
-            this.label23.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label23.Location = new System.Drawing.Point(21, 9);
-            this.label23.Name = "label23";
-            this.label23.Size = new System.Drawing.Size(90, 18);
-            this.label23.TabIndex = 0;
-            this.label23.Text = "Burak Tan ";
+            this.guna2CirclePictureBox4.BackColor = System.Drawing.SystemColors.Control;
+            this.guna2CirclePictureBox4.ImageRotate = 0F;
+            this.guna2CirclePictureBox4.Location = new System.Drawing.Point(15, 15);
+            this.guna2CirclePictureBox4.Name = "guna2CirclePictureBox4";
+            this.guna2CirclePictureBox4.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
+            this.guna2CirclePictureBox4.Size = new System.Drawing.Size(50, 50);
+            this.guna2CirclePictureBox4.TabIndex = 23;
+            this.guna2CirclePictureBox4.TabStop = false;
             // 
             // İlanEkle
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoScroll = true;
-            this.ClientSize = new System.Drawing.Size(1187, 732);
+            this.ClientSize = new System.Drawing.Size(1204, 763);
             this.Controls.Add(this.guna2Panel2);
             this.Controls.Add(this.panelSol);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
@@ -1173,24 +1247,28 @@
             this.Text = "İlanEkle";
             this.panelSol.ResumeLayout(false);
             this.panelSol.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox2)).EndInit();
             this.guna2Panel1.ResumeLayout(false);
             this.guna2Panel1.PerformLayout();
             this.panelFormKart.ResumeLayout(false);
             this.panelFormKart.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox2)).EndInit();
             this.guna2Panel2.ResumeLayout(false);
             this.guna2Panel2.PerformLayout();
             this.panelSag.ResumeLayout(false);
             this.panelSag.PerformLayout();
-            this.guna2Panel3.ResumeLayout(false);
-            this.guna2Panel3.PerformLayout();
-            this.guna2Panel4.ResumeLayout(false);
-            this.guna2Panel4.PerformLayout();
-            this.guna2Panel5.ResumeLayout(false);
-            this.guna2Panel5.PerformLayout();
             this.guna2Panel6.ResumeLayout(false);
             this.guna2Panel6.PerformLayout();
+            this.guna2Panel5.ResumeLayout(false);
+            this.guna2Panel5.PerformLayout();
+            this.guna2Panel4.ResumeLayout(false);
+            this.guna2Panel4.PerformLayout();
+            this.guna2Panel3.ResumeLayout(false);
+            this.guna2Panel3.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox5)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox4)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -1277,5 +1355,10 @@
         private System.Windows.Forms.Label label13;
         private System.Windows.Forms.Label label14;
         private System.Windows.Forms.Label label15;
+        private System.Windows.Forms.Label label24;
+        private Guna.UI2.WinForms.Guna2CirclePictureBox guna2CirclePictureBox5;
+        private Guna.UI2.WinForms.Guna2CirclePictureBox guna2CirclePictureBox4;
+        private Guna.UI2.WinForms.Guna2CirclePictureBox guna2CirclePictureBox3;
+        private Guna.UI2.WinForms.Guna2CirclePictureBox guna2CirclePictureBox2;
     }
 }

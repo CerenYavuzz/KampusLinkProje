@@ -30,6 +30,8 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Mesajlar));
             this.panelSol = new System.Windows.Forms.Panel();
+            this.guna2CirclePictureBox1 = new Guna.UI2.WinForms.Guna2CirclePictureBox();
+            this.guna2PictureBox2 = new Guna.UI2.WinForms.Guna2PictureBox();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.guna2Button6 = new Guna.UI2.WinForms.Guna2Button();
@@ -38,85 +40,85 @@
             this.guna2Button3 = new Guna.UI2.WinForms.Guna2Button();
             this.guna2Button2 = new Guna.UI2.WinForms.Guna2Button();
             this.AnasayfaButton = new Guna.UI2.WinForms.Guna2Button();
-            this.guna2CirclePictureBox1 = new Guna.UI2.WinForms.Guna2CirclePictureBox();
-            this.guna2PictureBox2 = new Guna.UI2.WinForms.Guna2PictureBox();
-            this.panelOrta = new System.Windows.Forms.Panel();
-            this.panelSag = new System.Windows.Forms.Panel();
-            this.label3 = new System.Windows.Forms.Label();
-            this.flowChats = new System.Windows.Forms.FlowLayoutPanel();
-            this.panel1 = new System.Windows.Forms.Panel();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.label4 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
-            this.panel2 = new System.Windows.Forms.Panel();
+            this.label4 = new System.Windows.Forms.Label();
+            this.lblMesajlar = new System.Windows.Forms.Label();
+            this.linkLabel1 = new System.Windows.Forms.LinkLabel();
+            this.label24 = new System.Windows.Forms.Label();
+            this.label21 = new System.Windows.Forms.Label();
+            this.label19 = new System.Windows.Forms.Label();
+            this.pickKisi1 = new Guna.UI2.WinForms.Guna2CirclePictureBox();
+            this.guna2CirclePictureBox9 = new Guna.UI2.WinForms.Guna2CirclePictureBox();
+            this.panelListe = new Guna.UI2.WinForms.Guna2Panel();
+            this.kartKisi1 = new Guna.UI2.WinForms.Guna2Panel();
+            this.label3 = new System.Windows.Forms.Label();
+            this.guna2Panel1 = new Guna.UI2.WinForms.Guna2Panel();
+            this.label26 = new System.Windows.Forms.Label();
+            this.label27 = new System.Windows.Forms.Label();
+            this.guna2CirclePictureBox2 = new Guna.UI2.WinForms.Guna2CirclePictureBox();
+            this.label28 = new System.Windows.Forms.Label();
+            this.guna2Panel2 = new Guna.UI2.WinForms.Guna2Panel();
+            this.label29 = new System.Windows.Forms.Label();
+            this.label30 = new System.Windows.Forms.Label();
+            this.guna2CirclePictureBox10 = new Guna.UI2.WinForms.Guna2CirclePictureBox();
+            this.label31 = new System.Windows.Forms.Label();
+            this.guna2Panel3 = new Guna.UI2.WinForms.Guna2Panel();
+            this.label32 = new System.Windows.Forms.Label();
+            this.label33 = new System.Windows.Forms.Label();
+            this.guna2CirclePictureBox11 = new Guna.UI2.WinForms.Guna2CirclePictureBox();
+            this.label34 = new System.Windows.Forms.Label();
+            this.guna2Panel4 = new Guna.UI2.WinForms.Guna2Panel();
+            this.label35 = new System.Windows.Forms.Label();
+            this.label36 = new System.Windows.Forms.Label();
+            this.guna2CirclePictureBox12 = new Guna.UI2.WinForms.Guna2CirclePictureBox();
+            this.label37 = new System.Windows.Forms.Label();
+            this.guna2Panel5 = new Guna.UI2.WinForms.Guna2Panel();
+            this.label38 = new System.Windows.Forms.Label();
+            this.label39 = new System.Windows.Forms.Label();
+            this.guna2CirclePictureBox13 = new Guna.UI2.WinForms.Guna2CirclePictureBox();
+            this.label40 = new System.Windows.Forms.Label();
+            this.panelChat = new Guna.UI2.WinForms.Guna2Panel();
+            this.panelUstBar = new Guna.UI2.WinForms.Guna2Panel();
             this.label6 = new System.Windows.Forms.Label();
+            this.msgGelen1 = new Guna.UI2.WinForms.Guna2Panel();
             this.label7 = new System.Windows.Forms.Label();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.panel3 = new System.Windows.Forms.Panel();
+            this.guna2CirclePictureBox3 = new Guna.UI2.WinForms.Guna2CirclePictureBox();
+            this.mngGiden1 = new Guna.UI2.WinForms.Guna2Panel();
             this.label8 = new System.Windows.Forms.Label();
             this.label9 = new System.Windows.Forms.Label();
-            this.pictureBox3 = new System.Windows.Forms.PictureBox();
-            this.panel4 = new System.Windows.Forms.Panel();
+            this.guna2Panel6 = new Guna.UI2.WinForms.Guna2Panel();
             this.label10 = new System.Windows.Forms.Label();
             this.label11 = new System.Windows.Forms.Label();
-            this.pictureBox4 = new System.Windows.Forms.PictureBox();
-            this.panel5 = new System.Windows.Forms.Panel();
-            this.label12 = new System.Windows.Forms.Label();
-            this.label13 = new System.Windows.Forms.Label();
-            this.pictureBox5 = new System.Windows.Forms.PictureBox();
-            this.panel6 = new System.Windows.Forms.Panel();
-            this.label14 = new System.Windows.Forms.Label();
-            this.label15 = new System.Windows.Forms.Label();
-            this.pictureBox6 = new System.Windows.Forms.PictureBox();
-            this.panel7 = new System.Windows.Forms.Panel();
-            this.label16 = new System.Windows.Forms.Label();
-            this.label17 = new System.Windows.Forms.Label();
-            this.pictureBox7 = new System.Windows.Forms.PictureBox();
-            this.panelUst = new System.Windows.Forms.Panel();
-            this.label18 = new System.Windows.Forms.Label();
-            this.label19 = new System.Windows.Forms.Label();
-            this.pictureBox8 = new System.Windows.Forms.PictureBox();
-            this.flowMesajlar = new System.Windows.Forms.FlowLayoutPanel();
-            this.panel8 = new System.Windows.Forms.Panel();
-            this.panel9 = new System.Windows.Forms.Panel();
-            this.label20 = new System.Windows.Forms.Label();
-            this.label21 = new System.Windows.Forms.Label();
-            this.label22 = new System.Windows.Forms.Label();
-            this.label23 = new System.Windows.Forms.Label();
-            this.panel10 = new System.Windows.Forms.Panel();
-            this.label24 = new System.Windows.Forms.Label();
-            this.button1 = new System.Windows.Forms.Button();
-            this.linkLabel1 = new System.Windows.Forms.LinkLabel();
-            this.panelAltMesaj = new System.Windows.Forms.Panel();
-            this.label25 = new System.Windows.Forms.Label();
-            this.richTextBox1 = new System.Windows.Forms.RichTextBox();
+            this.panelMesajYaz = new Guna.UI2.WinForms.Guna2Panel();
+            this.txtMesaj = new Guna.UI2.WinForms.Guna2TextBox();
+            this.btnGonder = new Guna.UI2.WinForms.Guna2Button();
+            this.PanelTransfer = new Guna.UI2.WinForms.Guna2Panel();
+            this.btnOnayla = new Guna.UI2.WinForms.Guna2Button();
             this.panelSol.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox2)).BeginInit();
-            this.panelOrta.SuspendLayout();
-            this.panelSag.SuspendLayout();
-            this.flowChats.SuspendLayout();
-            this.panel1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-            this.panel2.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
-            this.panel3.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
-            this.panel4.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
-            this.panel5.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
-            this.panel6.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
-            this.panel7.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).BeginInit();
-            this.panelUst.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).BeginInit();
-            this.flowMesajlar.SuspendLayout();
-            this.panel8.SuspendLayout();
-            this.panel9.SuspendLayout();
-            this.panel10.SuspendLayout();
-            this.panelAltMesaj.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pickKisi1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox9)).BeginInit();
+            this.panelListe.SuspendLayout();
+            this.kartKisi1.SuspendLayout();
+            this.guna2Panel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox2)).BeginInit();
+            this.guna2Panel2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox10)).BeginInit();
+            this.guna2Panel3.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox11)).BeginInit();
+            this.guna2Panel4.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox12)).BeginInit();
+            this.guna2Panel5.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox13)).BeginInit();
+            this.panelChat.SuspendLayout();
+            this.panelUstBar.SuspendLayout();
+            this.msgGelen1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox3)).BeginInit();
+            this.mngGiden1.SuspendLayout();
+            this.guna2Panel6.SuspendLayout();
+            this.panelMesajYaz.SuspendLayout();
+            this.PanelTransfer.SuspendLayout();
             this.SuspendLayout();
             // 
             // panelSol
@@ -135,8 +137,36 @@
             this.panelSol.Dock = System.Windows.Forms.DockStyle.Left;
             this.panelSol.Location = new System.Drawing.Point(0, 0);
             this.panelSol.Name = "panelSol";
-            this.panelSol.Size = new System.Drawing.Size(260, 620);
+            this.panelSol.Size = new System.Drawing.Size(260, 672);
             this.panelSol.TabIndex = 0;
+            // 
+            // guna2CirclePictureBox1
+            // 
+            this.guna2CirclePictureBox1.BackColor = System.Drawing.Color.Transparent;
+            this.guna2CirclePictureBox1.FillColor = System.Drawing.Color.Transparent;
+            this.guna2CirclePictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("guna2CirclePictureBox1.Image")));
+            this.guna2CirclePictureBox1.ImageRotate = 0F;
+            this.guna2CirclePictureBox1.Location = new System.Drawing.Point(63, 70);
+            this.guna2CirclePictureBox1.Name = "guna2CirclePictureBox1";
+            this.guna2CirclePictureBox1.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
+            this.guna2CirclePictureBox1.Size = new System.Drawing.Size(135, 109);
+            this.guna2CirclePictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.guna2CirclePictureBox1.TabIndex = 7;
+            this.guna2CirclePictureBox1.TabStop = false;
+            this.guna2CirclePictureBox1.UseTransparentBackground = true;
+            // 
+            // guna2PictureBox2
+            // 
+            this.guna2PictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("guna2PictureBox2.Image")));
+            this.guna2PictureBox2.ImageRotate = 0F;
+            this.guna2PictureBox2.InitialImage = ((System.Drawing.Image)(resources.GetObject("guna2PictureBox2.InitialImage")));
+            this.guna2PictureBox2.Location = new System.Drawing.Point(0, 0);
+            this.guna2PictureBox2.Name = "guna2PictureBox2";
+            this.guna2PictureBox2.Size = new System.Drawing.Size(260, 57);
+            this.guna2PictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.guna2PictureBox2.TabIndex = 16;
+            this.guna2PictureBox2.TabStop = false;
+            this.guna2PictureBox2.Click += new System.EventHandler(this.guna2PictureBox2_Click);
             // 
             // label2
             // 
@@ -288,559 +318,652 @@
             this.AnasayfaButton.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
             this.AnasayfaButton.UseTransparentBackground = true;
             // 
-            // guna2CirclePictureBox1
-            // 
-            this.guna2CirclePictureBox1.BackColor = System.Drawing.Color.Transparent;
-            this.guna2CirclePictureBox1.FillColor = System.Drawing.Color.Transparent;
-            this.guna2CirclePictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("guna2CirclePictureBox1.Image")));
-            this.guna2CirclePictureBox1.ImageRotate = 0F;
-            this.guna2CirclePictureBox1.Location = new System.Drawing.Point(63, 70);
-            this.guna2CirclePictureBox1.Name = "guna2CirclePictureBox1";
-            this.guna2CirclePictureBox1.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
-            this.guna2CirclePictureBox1.Size = new System.Drawing.Size(135, 109);
-            this.guna2CirclePictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.guna2CirclePictureBox1.TabIndex = 7;
-            this.guna2CirclePictureBox1.TabStop = false;
-            this.guna2CirclePictureBox1.UseTransparentBackground = true;
-            // 
-            // guna2PictureBox2
-            // 
-            this.guna2PictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("guna2PictureBox2.Image")));
-            this.guna2PictureBox2.ImageRotate = 0F;
-            this.guna2PictureBox2.InitialImage = ((System.Drawing.Image)(resources.GetObject("guna2PictureBox2.InitialImage")));
-            this.guna2PictureBox2.Location = new System.Drawing.Point(0, 0);
-            this.guna2PictureBox2.Name = "guna2PictureBox2";
-            this.guna2PictureBox2.Size = new System.Drawing.Size(260, 57);
-            this.guna2PictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.guna2PictureBox2.TabIndex = 16;
-            this.guna2PictureBox2.TabStop = false;
-            this.guna2PictureBox2.Click += new System.EventHandler(this.guna2PictureBox2_Click);
-            // 
-            // panelOrta
-            // 
-            this.panelOrta.Controls.Add(this.flowChats);
-            this.panelOrta.Controls.Add(this.label3);
-            this.panelOrta.Dock = System.Windows.Forms.DockStyle.Left;
-            this.panelOrta.Location = new System.Drawing.Point(260, 0);
-            this.panelOrta.Name = "panelOrta";
-            this.panelOrta.Size = new System.Drawing.Size(300, 620);
-            this.panelOrta.TabIndex = 1;
-            // 
-            // panelSag
-            // 
-            this.panelSag.Controls.Add(this.panelAltMesaj);
-            this.panelSag.Controls.Add(this.panel10);
-            this.panelSag.Controls.Add(this.flowMesajlar);
-            this.panelSag.Controls.Add(this.panelUst);
-            this.panelSag.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panelSag.Location = new System.Drawing.Point(560, 0);
-            this.panelSag.Name = "panelSag";
-            this.panelSag.Size = new System.Drawing.Size(469, 620);
-            this.panelSag.TabIndex = 2;
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Segoe UI", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label3.Location = new System.Drawing.Point(20, 20);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(105, 31);
-            this.label3.TabIndex = 0;
-            this.label3.Text = "Mesajlar";
-            // 
-            // flowChats
-            // 
-            this.flowChats.AutoScroll = true;
-            this.flowChats.Controls.Add(this.panel1);
-            this.flowChats.Controls.Add(this.panel5);
-            this.flowChats.Controls.Add(this.panel4);
-            this.flowChats.Controls.Add(this.panel3);
-            this.flowChats.Controls.Add(this.panel2);
-            this.flowChats.Controls.Add(this.panel7);
-            this.flowChats.Controls.Add(this.panel6);
-            this.flowChats.FlowDirection = System.Windows.Forms.FlowDirection.TopDown;
-            this.flowChats.Location = new System.Drawing.Point(0, 70);
-            this.flowChats.Name = "flowChats";
-            this.flowChats.Size = new System.Drawing.Size(300, 600);
-            this.flowChats.TabIndex = 1;
-            this.flowChats.WrapContents = false;
-            // 
-            // panel1
-            // 
-            this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.panel1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panel1.Controls.Add(this.label5);
-            this.panel1.Controls.Add(this.label4);
-            this.panel1.Controls.Add(this.pictureBox1);
-            this.panel1.Location = new System.Drawing.Point(3, 3);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(280, 70);
-            this.panel1.TabIndex = 0;
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Location = new System.Drawing.Point(10, 10);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(50, 50);
-            this.pictureBox1.TabIndex = 0;
-            this.pictureBox1.TabStop = false;
-            // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label4.Location = new System.Drawing.Point(70, 10);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(77, 16);
-            this.label4.TabIndex = 1;
-            this.label4.Text = "Merve Kar";
-            // 
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.ForeColor = System.Drawing.Color.Gray;
-            this.label5.Location = new System.Drawing.Point(70, 35);
+            this.label5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(225)))), ((int)(((byte)(235)))), ((int)(((byte)(255)))));
+            this.label5.ForeColor = System.Drawing.Color.Black;
+            this.label5.Location = new System.Drawing.Point(65, 35);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(146, 16);
             this.label5.TabIndex = 2;
             this.label5.Text = "Gitar dersi için yazdım...";
             // 
-            // panel2
-            // 
-            this.panel2.BackColor = System.Drawing.Color.White;
-            this.panel2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panel2.Controls.Add(this.label6);
-            this.panel2.Controls.Add(this.label7);
-            this.panel2.Controls.Add(this.pictureBox2);
-            this.panel2.Location = new System.Drawing.Point(3, 307);
-            this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(280, 70);
-            this.panel2.TabIndex = 3;
-            // 
-            // label6
-            // 
-            this.label6.AutoSize = true;
-            this.label6.ForeColor = System.Drawing.Color.Gray;
-            this.label6.Location = new System.Drawing.Point(70, 35);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(143, 16);
-            this.label6.TabIndex = 2;
-            this.label6.Text = "Gitar dersi için yazdım..";
-            // 
-            // label7
-            // 
-            this.label7.AutoSize = true;
-            this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label7.Location = new System.Drawing.Point(70, 10);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(102, 16);
-            this.label7.TabIndex = 1;
-            this.label7.Text = "Melek Karaca";
-            // 
-            // pictureBox2
-            // 
-            this.pictureBox2.Location = new System.Drawing.Point(10, 10);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(50, 50);
-            this.pictureBox2.TabIndex = 0;
-            this.pictureBox2.TabStop = false;
-            // 
-            // panel3
-            // 
-            this.panel3.BackColor = System.Drawing.Color.White;
-            this.panel3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panel3.Controls.Add(this.label8);
-            this.panel3.Controls.Add(this.label9);
-            this.panel3.Controls.Add(this.pictureBox3);
-            this.panel3.Location = new System.Drawing.Point(3, 231);
-            this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(280, 70);
-            this.panel3.TabIndex = 3;
-            // 
-            // label8
-            // 
-            this.label8.AutoSize = true;
-            this.label8.ForeColor = System.Drawing.Color.Gray;
-            this.label8.Location = new System.Drawing.Point(70, 35);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(143, 16);
-            this.label8.TabIndex = 2;
-            this.label8.Text = "Gitar dersi için yazdım..";
-            // 
-            // label9
-            // 
-            this.label9.AutoSize = true;
-            this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label9.Location = new System.Drawing.Point(70, 10);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(81, 16);
-            this.label9.TabIndex = 1;
-            this.label9.Text = "Ali Durmuş";
-            // 
-            // pictureBox3
-            // 
-            this.pictureBox3.Location = new System.Drawing.Point(10, 10);
-            this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(50, 50);
-            this.pictureBox3.TabIndex = 0;
-            this.pictureBox3.TabStop = false;
-            // 
-            // panel4
-            // 
-            this.panel4.BackColor = System.Drawing.Color.White;
-            this.panel4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panel4.Controls.Add(this.label10);
-            this.panel4.Controls.Add(this.label11);
-            this.panel4.Controls.Add(this.pictureBox4);
-            this.panel4.Location = new System.Drawing.Point(3, 155);
-            this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(280, 70);
-            this.panel4.TabIndex = 3;
-            // 
-            // label10
-            // 
-            this.label10.AutoSize = true;
-            this.label10.ForeColor = System.Drawing.Color.Gray;
-            this.label10.Location = new System.Drawing.Point(70, 35);
-            this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(143, 16);
-            this.label10.TabIndex = 2;
-            this.label10.Text = "Gitar dersi için yazdım..";
-            // 
-            // label11
-            // 
-            this.label11.AutoSize = true;
-            this.label11.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label11.Location = new System.Drawing.Point(70, 10);
-            this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(87, 16);
-            this.label11.TabIndex = 1;
-            this.label11.Text = "Ayşe Demir";
-            // 
-            // pictureBox4
-            // 
-            this.pictureBox4.Location = new System.Drawing.Point(10, 10);
-            this.pictureBox4.Name = "pictureBox4";
-            this.pictureBox4.Size = new System.Drawing.Size(50, 50);
-            this.pictureBox4.TabIndex = 0;
-            this.pictureBox4.TabStop = false;
-            // 
-            // panel5
-            // 
-            this.panel5.BackColor = System.Drawing.Color.White;
-            this.panel5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panel5.Controls.Add(this.label12);
-            this.panel5.Controls.Add(this.label13);
-            this.panel5.Controls.Add(this.pictureBox5);
-            this.panel5.Location = new System.Drawing.Point(3, 79);
-            this.panel5.Name = "panel5";
-            this.panel5.Size = new System.Drawing.Size(280, 70);
-            this.panel5.TabIndex = 3;
-            this.panel5.Paint += new System.Windows.Forms.PaintEventHandler(this.panel5_Paint);
-            // 
-            // label12
-            // 
-            this.label12.AutoSize = true;
-            this.label12.ForeColor = System.Drawing.Color.Gray;
-            this.label12.Location = new System.Drawing.Point(70, 35);
-            this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(143, 16);
-            this.label12.TabIndex = 2;
-            this.label12.Text = "Gitar dersi için yazdım..";
-            // 
-            // label13
-            // 
-            this.label13.AutoSize = true;
-            this.label13.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label13.Location = new System.Drawing.Point(70, 10);
-            this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(78, 16);
-            this.label13.TabIndex = 1;
-            this.label13.Text = "Burak Tan";
-            // 
-            // pictureBox5
-            // 
-            this.pictureBox5.Location = new System.Drawing.Point(10, 10);
-            this.pictureBox5.Name = "pictureBox5";
-            this.pictureBox5.Size = new System.Drawing.Size(50, 50);
-            this.pictureBox5.TabIndex = 0;
-            this.pictureBox5.TabStop = false;
-            // 
-            // panel6
-            // 
-            this.panel6.BackColor = System.Drawing.Color.White;
-            this.panel6.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panel6.Controls.Add(this.label14);
-            this.panel6.Controls.Add(this.label15);
-            this.panel6.Controls.Add(this.pictureBox6);
-            this.panel6.Location = new System.Drawing.Point(3, 459);
-            this.panel6.Name = "panel6";
-            this.panel6.Size = new System.Drawing.Size(280, 70);
-            this.panel6.TabIndex = 3;
-            // 
-            // label14
-            // 
-            this.label14.AutoSize = true;
-            this.label14.ForeColor = System.Drawing.Color.Gray;
-            this.label14.Location = new System.Drawing.Point(70, 35);
-            this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(143, 16);
-            this.label14.TabIndex = 2;
-            this.label14.Text = "Gitar dersi için yazdım..";
-            // 
-            // label15
-            // 
-            this.label15.AutoSize = true;
-            this.label15.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label15.Location = new System.Drawing.Point(70, 10);
-            this.label15.Name = "label15";
-            this.label15.Size = new System.Drawing.Size(104, 16);
-            this.label15.TabIndex = 1;
-            this.label15.Text = "Harun Yıldırım";
-            // 
-            // pictureBox6
-            // 
-            this.pictureBox6.Location = new System.Drawing.Point(10, 10);
-            this.pictureBox6.Name = "pictureBox6";
-            this.pictureBox6.Size = new System.Drawing.Size(50, 50);
-            this.pictureBox6.TabIndex = 0;
-            this.pictureBox6.TabStop = false;
-            // 
-            // panel7
-            // 
-            this.panel7.BackColor = System.Drawing.Color.White;
-            this.panel7.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panel7.Controls.Add(this.label16);
-            this.panel7.Controls.Add(this.label17);
-            this.panel7.Controls.Add(this.pictureBox7);
-            this.panel7.Location = new System.Drawing.Point(3, 383);
-            this.panel7.Name = "panel7";
-            this.panel7.Size = new System.Drawing.Size(280, 70);
-            this.panel7.TabIndex = 3;
-            // 
-            // label16
-            // 
-            this.label16.AutoSize = true;
-            this.label16.ForeColor = System.Drawing.Color.Gray;
-            this.label16.Location = new System.Drawing.Point(70, 35);
-            this.label16.Name = "label16";
-            this.label16.Size = new System.Drawing.Size(143, 16);
-            this.label16.TabIndex = 2;
-            this.label16.Text = "Gitar dersi için yazdım..";
-            // 
-            // label17
-            // 
-            this.label17.AutoSize = true;
-            this.label17.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label17.Location = new System.Drawing.Point(70, 10);
-            this.label17.Name = "label17";
-            this.label17.Size = new System.Drawing.Size(90, 16);
-            this.label17.TabIndex = 1;
-            this.label17.Text = "Sevgi Güçlü";
-            // 
-            // pictureBox7
-            // 
-            this.pictureBox7.Location = new System.Drawing.Point(10, 10);
-            this.pictureBox7.Name = "pictureBox7";
-            this.pictureBox7.Size = new System.Drawing.Size(50, 50);
-            this.pictureBox7.TabIndex = 0;
-            this.pictureBox7.TabStop = false;
-            // 
-            // panelUst
-            // 
-            this.panelUst.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(34)))), ((int)(((byte)(56)))));
-            this.panelUst.Controls.Add(this.label25);
-            this.panelUst.Controls.Add(this.label18);
-            this.panelUst.Controls.Add(this.label19);
-            this.panelUst.Controls.Add(this.pictureBox8);
-            this.panelUst.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panelUst.Location = new System.Drawing.Point(0, 0);
-            this.panelUst.Name = "panelUst";
-            this.panelUst.Size = new System.Drawing.Size(469, 80);
-            this.panelUst.TabIndex = 0;
-            // 
-            // label18
-            // 
-            this.label18.AutoSize = true;
-            this.label18.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label18.ForeColor = System.Drawing.Color.White;
-            this.label18.Location = new System.Drawing.Point(67, 49);
-            this.label18.Name = "label18";
-            this.label18.Size = new System.Drawing.Size(92, 23);
-            this.label18.TabIndex = 5;
-            this.label18.Text = "Yetenekler:";
-            // 
-            // label19
-            // 
-            this.label19.AutoSize = true;
-            this.label19.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label19.ForeColor = System.Drawing.Color.White;
-            this.label19.Location = new System.Drawing.Point(66, 20);
-            this.label19.Name = "label19";
-            this.label19.Size = new System.Drawing.Size(132, 29);
-            this.label19.TabIndex = 4;
-            this.label19.Text = "Merve Kar";
-            // 
-            // pictureBox8
-            // 
-            this.pictureBox8.Location = new System.Drawing.Point(6, 20);
-            this.pictureBox8.Name = "pictureBox8";
-            this.pictureBox8.Size = new System.Drawing.Size(50, 50);
-            this.pictureBox8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox8.TabIndex = 3;
-            this.pictureBox8.TabStop = false;
-            // 
-            // flowMesajlar
-            // 
-            this.flowMesajlar.Controls.Add(this.panel8);
-            this.flowMesajlar.Controls.Add(this.panel9);
-            this.flowMesajlar.Dock = System.Windows.Forms.DockStyle.Top;
-            this.flowMesajlar.FlowDirection = System.Windows.Forms.FlowDirection.TopDown;
-            this.flowMesajlar.Location = new System.Drawing.Point(0, 80);
-            this.flowMesajlar.Name = "flowMesajlar";
-            this.flowMesajlar.Size = new System.Drawing.Size(469, 250);
-            this.flowMesajlar.TabIndex = 1;
-            this.flowMesajlar.WrapContents = false;
-            // 
-            // panel8
-            // 
-            this.panel8.BackColor = System.Drawing.Color.Gainsboro;
-            this.panel8.Controls.Add(this.label21);
-            this.panel8.Controls.Add(this.label20);
-            this.panel8.Location = new System.Drawing.Point(50, 3);
-            this.panel8.Margin = new System.Windows.Forms.Padding(50, 3, 3, 3);
-            this.panel8.Name = "panel8";
-            this.panel8.Size = new System.Drawing.Size(250, 50);
-            this.panel8.TabIndex = 0;
-            // 
-            // panel9
-            // 
-            this.panel9.BackColor = System.Drawing.Color.LimeGreen;
-            this.panel9.Controls.Add(this.label23);
-            this.panel9.Controls.Add(this.label22);
-            this.panel9.Location = new System.Drawing.Point(150, 66);
-            this.panel9.Margin = new System.Windows.Forms.Padding(150, 10, 10, 10);
-            this.panel9.Name = "panel9";
-            this.panel9.Size = new System.Drawing.Size(264, 54);
-            this.panel9.TabIndex = 1;
-            // 
-            // label20
-            // 
-            this.label20.AutoSize = true;
-            this.label20.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label20.Location = new System.Drawing.Point(4, 4);
-            this.label20.Name = "label20";
-            this.label20.Size = new System.Drawing.Size(59, 18);
-            this.label20.TabIndex = 0;
-            this.label20.Text = "Merve ";
-            // 
-            // label21
-            // 
-            this.label21.AutoSize = true;
-            this.label21.Location = new System.Drawing.Point(7, 24);
-            this.label21.Name = "label21";
-            this.label21.Size = new System.Drawing.Size(343, 16);
-            this.label21.TabIndex = 1;
-            this.label21.Text = "Gitar dersi için istek gönderdim.Ne zaman başlayabiliriz?";
-            // 
-            // label22
-            // 
-            this.label22.AutoSize = true;
-            this.label22.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label22.Location = new System.Drawing.Point(4, 3);
-            this.label22.Name = "label22";
-            this.label22.Size = new System.Drawing.Size(26, 18);
-            this.label22.TabIndex = 0;
-            this.label22.Text = "Ali";
-            // 
-            // label23
-            // 
-            this.label23.AutoSize = true;
-            this.label23.Location = new System.Drawing.Point(7, 23);
-            this.label23.Name = "label23";
-            this.label23.Size = new System.Drawing.Size(434, 16);
-            this.label23.TabIndex = 1;
-            this.label23.Text = "Selam Merve yarın akşam uygunum.20 LP karşılığında anlaştık değil mi?";
-            // 
-            // panel10
-            // 
-            this.panel10.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(34)))), ((int)(((byte)(56)))));
-            this.panel10.Controls.Add(this.linkLabel1);
-            this.panel10.Controls.Add(this.button1);
-            this.panel10.Controls.Add(this.label24);
-            this.panel10.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel10.Location = new System.Drawing.Point(0, 330);
-            this.panel10.Name = "panel10";
-            this.panel10.Size = new System.Drawing.Size(469, 160);
-            this.panel10.TabIndex = 2;
-            // 
-            // label24
-            // 
-            this.label24.AutoSize = true;
-            this.label24.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label24.ForeColor = System.Drawing.Color.White;
-            this.label24.Location = new System.Drawing.Point(25, 21);
-            this.label24.Name = "label24";
-            this.label24.Size = new System.Drawing.Size(201, 20);
-            this.label24.TabIndex = 0;
-            this.label24.Text = "Ders Onay ve Transfer";
-            // 
-            // button1
-            // 
-            this.button1.BackColor = System.Drawing.Color.LimeGreen;
-            this.button1.Location = new System.Drawing.Point(50, 56);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(377, 42);
-            this.button1.TabIndex = 1;
-            this.button1.Text = "Dersi Onayla 20 LP Transfer Et";
-            this.button1.UseVisualStyleBackColor = false;
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(225)))), ((int)(((byte)(235)))), ((int)(((byte)(255)))));
+            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.label4.Location = new System.Drawing.Point(65, 10);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(101, 22);
+            this.label4.TabIndex = 1;
+            this.label4.Text = "Merve Kar";
+            // 
+            // lblMesajlar
+            // 
+            this.lblMesajlar.AutoSize = true;
+            this.lblMesajlar.Font = new System.Drawing.Font("Segoe UI", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.lblMesajlar.Location = new System.Drawing.Point(20, 20);
+            this.lblMesajlar.Name = "lblMesajlar";
+            this.lblMesajlar.Size = new System.Drawing.Size(105, 31);
+            this.lblMesajlar.TabIndex = 0;
+            this.lblMesajlar.Text = "Mesajlar";
             // 
             // linkLabel1
             // 
             this.linkLabel1.AutoSize = true;
-            this.linkLabel1.LinkColor = System.Drawing.Color.Lime;
-            this.linkLabel1.Location = new System.Drawing.Point(189, 113);
+            this.linkLabel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(34)))), ((int)(((byte)(56)))));
+            this.linkLabel1.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.linkLabel1.LinkColor = System.Drawing.Color.LightGreen;
+            this.linkLabel1.Location = new System.Drawing.Point(200, 71);
             this.linkLabel1.Name = "linkLabel1";
-            this.linkLabel1.Size = new System.Drawing.Size(87, 16);
+            this.linkLabel1.Size = new System.Drawing.Size(114, 23);
             this.linkLabel1.TabIndex = 2;
             this.linkLabel1.TabStop = true;
             this.linkLabel1.Text = "Dersi Reddet";
+            this.linkLabel1.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabel1_LinkClicked);
             // 
-            // panelAltMesaj
+            // label24
             // 
-            this.panelAltMesaj.Controls.Add(this.richTextBox1);
-            this.panelAltMesaj.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.panelAltMesaj.Location = new System.Drawing.Point(0, 490);
-            this.panelAltMesaj.Name = "panelAltMesaj";
-            this.panelAltMesaj.Size = new System.Drawing.Size(469, 130);
-            this.panelAltMesaj.TabIndex = 3;
+            this.label24.AutoSize = true;
+            this.label24.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(20)))), ((int)(((byte)(30)))), ((int)(((byte)(60)))));
+            this.label24.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.label24.ForeColor = System.Drawing.Color.White;
+            this.label24.Location = new System.Drawing.Point(154, 5);
+            this.label24.Name = "label24";
+            this.label24.Size = new System.Drawing.Size(221, 28);
+            this.label24.TabIndex = 0;
+            this.label24.Text = "Ders Onay ve Transfer";
             // 
-            // label25
+            // label21
             // 
-            this.label25.BackColor = System.Drawing.Color.Silver;
-            this.label25.Location = new System.Drawing.Point(157, 51);
-            this.label25.Name = "label25";
-            this.label25.Size = new System.Drawing.Size(87, 22);
-            this.label25.TabIndex = 6;
-            this.label25.Text = "Python,SQL";
-            this.label25.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.label21.AutoSize = true;
+            this.label21.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(230)))), ((int)(((byte)(238)))), ((int)(((byte)(255)))));
+            this.label21.Font = new System.Drawing.Font("Segoe UI", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.label21.Location = new System.Drawing.Point(20, 15);
+            this.label21.Name = "label21";
+            this.label21.Size = new System.Drawing.Size(364, 25);
+            this.label21.TabIndex = 1;
+            this.label21.Text = "Gitar dersi için yazdım.Ne zaman çalışabiliriz?";
             // 
-            // richTextBox1
+            // label19
             // 
-            this.richTextBox1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.richTextBox1.Location = new System.Drawing.Point(16, 30);
-            this.richTextBox1.Name = "richTextBox1";
-            this.richTextBox1.Size = new System.Drawing.Size(441, 70);
-            this.richTextBox1.TabIndex = 0;
-            this.richTextBox1.Text = "";
+            this.label19.AutoSize = true;
+            this.label19.BackColor = System.Drawing.Color.White;
+            this.label19.Font = new System.Drawing.Font("Segoe UI", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.label19.ForeColor = System.Drawing.Color.Black;
+            this.label19.Location = new System.Drawing.Point(75, 15);
+            this.label19.Name = "label19";
+            this.label19.Size = new System.Drawing.Size(124, 31);
+            this.label19.TabIndex = 4;
+            this.label19.Text = "Merve Kar";
+            // 
+            // pickKisi1
+            // 
+            this.pickKisi1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(225)))), ((int)(((byte)(235)))), ((int)(((byte)(255)))));
+            this.pickKisi1.ImageRotate = 0F;
+            this.pickKisi1.Location = new System.Drawing.Point(10, 15);
+            this.pickKisi1.Name = "pickKisi1";
+            this.pickKisi1.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
+            this.pickKisi1.Size = new System.Drawing.Size(45, 45);
+            this.pickKisi1.TabIndex = 2;
+            this.pickKisi1.TabStop = false;
+            // 
+            // guna2CirclePictureBox9
+            // 
+            this.guna2CirclePictureBox9.ImageRotate = 0F;
+            this.guna2CirclePictureBox9.Location = new System.Drawing.Point(15, 20);
+            this.guna2CirclePictureBox9.Name = "guna2CirclePictureBox9";
+            this.guna2CirclePictureBox9.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
+            this.guna2CirclePictureBox9.Size = new System.Drawing.Size(45, 45);
+            this.guna2CirclePictureBox9.TabIndex = 3;
+            this.guna2CirclePictureBox9.TabStop = false;
+            // 
+            // panelListe
+            // 
+            this.panelListe.BorderRadius = 10;
+            this.panelListe.Controls.Add(this.guna2Panel5);
+            this.panelListe.Controls.Add(this.guna2Panel1);
+            this.panelListe.Controls.Add(this.guna2Panel2);
+            this.panelListe.Controls.Add(this.guna2Panel3);
+            this.panelListe.Controls.Add(this.guna2Panel4);
+            this.panelListe.Controls.Add(this.kartKisi1);
+            this.panelListe.Controls.Add(this.lblMesajlar);
+            this.panelListe.Location = new System.Drawing.Point(266, 52);
+            this.panelListe.Name = "panelListe";
+            this.panelListe.Size = new System.Drawing.Size(300, 620);
+            this.panelListe.TabIndex = 3;
+            // 
+            // kartKisi1
+            // 
+            this.kartKisi1.BorderRadius = 10;
+            this.kartKisi1.Controls.Add(this.label3);
+            this.kartKisi1.Controls.Add(this.label5);
+            this.kartKisi1.Controls.Add(this.pickKisi1);
+            this.kartKisi1.Controls.Add(this.label4);
+            this.kartKisi1.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(225)))), ((int)(((byte)(235)))), ((int)(((byte)(255)))));
+            this.kartKisi1.Location = new System.Drawing.Point(10, 60);
+            this.kartKisi1.Name = "kartKisi1";
+            this.kartKisi1.Size = new System.Drawing.Size(280, 75);
+            this.kartKisi1.TabIndex = 1;
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(225)))), ((int)(((byte)(235)))), ((int)(((byte)(255)))));
+            this.label3.Font = new System.Drawing.Font("Segoe UI", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.label3.ForeColor = System.Drawing.Color.DimGray;
+            this.label3.Location = new System.Drawing.Point(200, 10);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(75, 17);
+            this.label3.TabIndex = 3;
+            this.label3.Text = "1 saat önce";
+            // 
+            // guna2Panel1
+            // 
+            this.guna2Panel1.BorderRadius = 10;
+            this.guna2Panel1.Controls.Add(this.label26);
+            this.guna2Panel1.Controls.Add(this.label27);
+            this.guna2Panel1.Controls.Add(this.guna2CirclePictureBox2);
+            this.guna2Panel1.Controls.Add(this.label28);
+            this.guna2Panel1.FillColor = System.Drawing.Color.White;
+            this.guna2Panel1.Location = new System.Drawing.Point(10, 410);
+            this.guna2Panel1.Name = "guna2Panel1";
+            this.guna2Panel1.Size = new System.Drawing.Size(280, 75);
+            this.guna2Panel1.TabIndex = 4;
+            // 
+            // label26
+            // 
+            this.label26.AutoSize = true;
+            this.label26.BackColor = System.Drawing.Color.White;
+            this.label26.Font = new System.Drawing.Font("Segoe UI", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.label26.ForeColor = System.Drawing.Color.DimGray;
+            this.label26.Location = new System.Drawing.Point(200, 10);
+            this.label26.Name = "label26";
+            this.label26.Size = new System.Drawing.Size(73, 17);
+            this.label26.TabIndex = 3;
+            this.label26.Text = "5 gün önce";
+            // 
+            // label27
+            // 
+            this.label27.AutoSize = true;
+            this.label27.BackColor = System.Drawing.Color.White;
+            this.label27.ForeColor = System.Drawing.Color.Black;
+            this.label27.Location = new System.Drawing.Point(65, 35);
+            this.label27.Name = "label27";
+            this.label27.Size = new System.Drawing.Size(72, 16);
+            this.label27.TabIndex = 2;
+            this.label27.Text = "Tamamdır ";
+            // 
+            // guna2CirclePictureBox2
+            // 
+            this.guna2CirclePictureBox2.ImageRotate = 0F;
+            this.guna2CirclePictureBox2.Location = new System.Drawing.Point(10, 15);
+            this.guna2CirclePictureBox2.Name = "guna2CirclePictureBox2";
+            this.guna2CirclePictureBox2.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
+            this.guna2CirclePictureBox2.Size = new System.Drawing.Size(45, 45);
+            this.guna2CirclePictureBox2.TabIndex = 2;
+            this.guna2CirclePictureBox2.TabStop = false;
+            // 
+            // label28
+            // 
+            this.label28.AutoSize = true;
+            this.label28.BackColor = System.Drawing.Color.White;
+            this.label28.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.label28.Location = new System.Drawing.Point(65, 10);
+            this.label28.Name = "label28";
+            this.label28.Size = new System.Drawing.Size(107, 22);
+            this.label28.TabIndex = 1;
+            this.label28.Text = "Ali Duman ";
+            // 
+            // guna2Panel2
+            // 
+            this.guna2Panel2.BorderRadius = 10;
+            this.guna2Panel2.Controls.Add(this.label29);
+            this.guna2Panel2.Controls.Add(this.label30);
+            this.guna2Panel2.Controls.Add(this.guna2CirclePictureBox10);
+            this.guna2Panel2.Controls.Add(this.label31);
+            this.guna2Panel2.FillColor = System.Drawing.Color.White;
+            this.guna2Panel2.Location = new System.Drawing.Point(10, 325);
+            this.guna2Panel2.Name = "guna2Panel2";
+            this.guna2Panel2.Size = new System.Drawing.Size(280, 75);
+            this.guna2Panel2.TabIndex = 4;
+            // 
+            // label29
+            // 
+            this.label29.AutoSize = true;
+            this.label29.BackColor = System.Drawing.Color.White;
+            this.label29.Font = new System.Drawing.Font("Segoe UI", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.label29.ForeColor = System.Drawing.Color.DimGray;
+            this.label29.Location = new System.Drawing.Point(200, 10);
+            this.label29.Name = "label29";
+            this.label29.Size = new System.Drawing.Size(73, 17);
+            this.label29.TabIndex = 3;
+            this.label29.Text = "1 gün önce";
+            // 
+            // label30
+            // 
+            this.label30.AutoSize = true;
+            this.label30.BackColor = System.Drawing.Color.White;
+            this.label30.ForeColor = System.Drawing.Color.Black;
+            this.label30.Location = new System.Drawing.Point(65, 35);
+            this.label30.Name = "label30";
+            this.label30.Size = new System.Drawing.Size(169, 16);
+            this.label30.TabIndex = 2;
+            this.label30.Text = "Hafta sonu dersiniz var mı ?";
+            // 
+            // guna2CirclePictureBox10
+            // 
+            this.guna2CirclePictureBox10.ImageRotate = 0F;
+            this.guna2CirclePictureBox10.Location = new System.Drawing.Point(10, 15);
+            this.guna2CirclePictureBox10.Name = "guna2CirclePictureBox10";
+            this.guna2CirclePictureBox10.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
+            this.guna2CirclePictureBox10.Size = new System.Drawing.Size(45, 45);
+            this.guna2CirclePictureBox10.TabIndex = 2;
+            this.guna2CirclePictureBox10.TabStop = false;
+            // 
+            // label31
+            // 
+            this.label31.AutoSize = true;
+            this.label31.BackColor = System.Drawing.Color.White;
+            this.label31.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.label31.Location = new System.Drawing.Point(65, 10);
+            this.label31.Name = "label31";
+            this.label31.Size = new System.Drawing.Size(136, 22);
+            this.label31.TabIndex = 1;
+            this.label31.Text = "Melike Karaca";
+            // 
+            // guna2Panel3
+            // 
+            this.guna2Panel3.BorderRadius = 10;
+            this.guna2Panel3.Controls.Add(this.label32);
+            this.guna2Panel3.Controls.Add(this.label33);
+            this.guna2Panel3.Controls.Add(this.guna2CirclePictureBox11);
+            this.guna2Panel3.Controls.Add(this.label34);
+            this.guna2Panel3.FillColor = System.Drawing.Color.White;
+            this.guna2Panel3.Location = new System.Drawing.Point(10, 240);
+            this.guna2Panel3.Name = "guna2Panel3";
+            this.guna2Panel3.Size = new System.Drawing.Size(280, 75);
+            this.guna2Panel3.TabIndex = 4;
+            // 
+            // label32
+            // 
+            this.label32.AutoSize = true;
+            this.label32.BackColor = System.Drawing.Color.White;
+            this.label32.Font = new System.Drawing.Font("Segoe UI", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.label32.ForeColor = System.Drawing.Color.DimGray;
+            this.label32.Location = new System.Drawing.Point(200, 10);
+            this.label32.Name = "label32";
+            this.label32.Size = new System.Drawing.Size(75, 17);
+            this.label32.TabIndex = 3;
+            this.label32.Text = "3 saat önce";
+            // 
+            // label33
+            // 
+            this.label33.AutoSize = true;
+            this.label33.BackColor = System.Drawing.Color.White;
+            this.label33.ForeColor = System.Drawing.Color.Black;
+            this.label33.Location = new System.Drawing.Point(65, 35);
+            this.label33.Name = "label33";
+            this.label33.Size = new System.Drawing.Size(110, 16);
+            this.label33.TabIndex = 2;
+            this.label33.Text = "C# dersi kaç LP ?";
+            // 
+            // guna2CirclePictureBox11
+            // 
+            this.guna2CirclePictureBox11.ImageRotate = 0F;
+            this.guna2CirclePictureBox11.Location = new System.Drawing.Point(10, 15);
+            this.guna2CirclePictureBox11.Name = "guna2CirclePictureBox11";
+            this.guna2CirclePictureBox11.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
+            this.guna2CirclePictureBox11.Size = new System.Drawing.Size(45, 45);
+            this.guna2CirclePictureBox11.TabIndex = 2;
+            this.guna2CirclePictureBox11.TabStop = false;
+            // 
+            // label34
+            // 
+            this.label34.AutoSize = true;
+            this.label34.BackColor = System.Drawing.Color.White;
+            this.label34.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.label34.Location = new System.Drawing.Point(65, 10);
+            this.label34.Name = "label34";
+            this.label34.Size = new System.Drawing.Size(112, 22);
+            this.label34.TabIndex = 1;
+            this.label34.Text = "Ayşe Demir";
+            // 
+            // guna2Panel4
+            // 
+            this.guna2Panel4.BorderRadius = 10;
+            this.guna2Panel4.Controls.Add(this.label35);
+            this.guna2Panel4.Controls.Add(this.label36);
+            this.guna2Panel4.Controls.Add(this.guna2CirclePictureBox12);
+            this.guna2Panel4.Controls.Add(this.label37);
+            this.guna2Panel4.FillColor = System.Drawing.Color.White;
+            this.guna2Panel4.Location = new System.Drawing.Point(10, 155);
+            this.guna2Panel4.Name = "guna2Panel4";
+            this.guna2Panel4.Size = new System.Drawing.Size(280, 75);
+            this.guna2Panel4.TabIndex = 4;
+            // 
+            // label35
+            // 
+            this.label35.AutoSize = true;
+            this.label35.BackColor = System.Drawing.Color.White;
+            this.label35.Font = new System.Drawing.Font("Segoe UI", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.label35.ForeColor = System.Drawing.Color.DimGray;
+            this.label35.Location = new System.Drawing.Point(200, 10);
+            this.label35.Name = "label35";
+            this.label35.Size = new System.Drawing.Size(75, 17);
+            this.label35.TabIndex = 3;
+            this.label35.Text = "2 saat önce";
+            // 
+            // label36
+            // 
+            this.label36.AutoSize = true;
+            this.label36.BackColor = System.Drawing.Color.White;
+            this.label36.ForeColor = System.Drawing.Color.Black;
+            this.label36.Location = new System.Drawing.Point(65, 35);
+            this.label36.Name = "label36";
+            this.label36.Size = new System.Drawing.Size(79, 16);
+            this.label36.TabIndex = 2;
+            this.label36.Text = "Teşekkürler";
+            // 
+            // guna2CirclePictureBox12
+            // 
+            this.guna2CirclePictureBox12.ImageRotate = 0F;
+            this.guna2CirclePictureBox12.Location = new System.Drawing.Point(10, 15);
+            this.guna2CirclePictureBox12.Name = "guna2CirclePictureBox12";
+            this.guna2CirclePictureBox12.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
+            this.guna2CirclePictureBox12.Size = new System.Drawing.Size(45, 45);
+            this.guna2CirclePictureBox12.TabIndex = 2;
+            this.guna2CirclePictureBox12.TabStop = false;
+            // 
+            // label37
+            // 
+            this.label37.AutoSize = true;
+            this.label37.BackColor = System.Drawing.Color.White;
+            this.label37.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.label37.Location = new System.Drawing.Point(65, 10);
+            this.label37.Name = "label37";
+            this.label37.Size = new System.Drawing.Size(103, 22);
+            this.label37.TabIndex = 1;
+            this.label37.Text = "Burak Tan";
+            // 
+            // guna2Panel5
+            // 
+            this.guna2Panel5.BorderRadius = 10;
+            this.guna2Panel5.Controls.Add(this.label38);
+            this.guna2Panel5.Controls.Add(this.label39);
+            this.guna2Panel5.Controls.Add(this.guna2CirclePictureBox13);
+            this.guna2Panel5.Controls.Add(this.label40);
+            this.guna2Panel5.FillColor = System.Drawing.Color.White;
+            this.guna2Panel5.Location = new System.Drawing.Point(10, 495);
+            this.guna2Panel5.Name = "guna2Panel5";
+            this.guna2Panel5.Size = new System.Drawing.Size(280, 75);
+            this.guna2Panel5.TabIndex = 5;
+            // 
+            // label38
+            // 
+            this.label38.AutoSize = true;
+            this.label38.BackColor = System.Drawing.Color.White;
+            this.label38.Font = new System.Drawing.Font("Segoe UI", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.label38.ForeColor = System.Drawing.Color.DimGray;
+            this.label38.Location = new System.Drawing.Point(200, 10);
+            this.label38.Name = "label38";
+            this.label38.Size = new System.Drawing.Size(80, 17);
+            this.label38.TabIndex = 3;
+            this.label38.Text = "1 hafta önce";
+            // 
+            // label39
+            // 
+            this.label39.AutoSize = true;
+            this.label39.BackColor = System.Drawing.Color.White;
+            this.label39.ForeColor = System.Drawing.Color.Black;
+            this.label39.Location = new System.Drawing.Point(65, 35);
+            this.label39.Name = "label39";
+            this.label39.Size = new System.Drawing.Size(157, 16);
+            this.label39.TabIndex = 2;
+            this.label39.Text = "Matematik eğitimi var mı?";
+            // 
+            // guna2CirclePictureBox13
+            // 
+            this.guna2CirclePictureBox13.ImageRotate = 0F;
+            this.guna2CirclePictureBox13.Location = new System.Drawing.Point(10, 15);
+            this.guna2CirclePictureBox13.Name = "guna2CirclePictureBox13";
+            this.guna2CirclePictureBox13.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
+            this.guna2CirclePictureBox13.Size = new System.Drawing.Size(45, 45);
+            this.guna2CirclePictureBox13.TabIndex = 2;
+            this.guna2CirclePictureBox13.TabStop = false;
+            // 
+            // label40
+            // 
+            this.label40.AutoSize = true;
+            this.label40.BackColor = System.Drawing.Color.White;
+            this.label40.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.label40.Location = new System.Drawing.Point(65, 10);
+            this.label40.Name = "label40";
+            this.label40.Size = new System.Drawing.Size(136, 22);
+            this.label40.TabIndex = 1;
+            this.label40.Text = "Harun Yıldırım";
+            // 
+            // panelChat
+            // 
+            this.panelChat.BorderRadius = 10;
+            this.panelChat.Controls.Add(this.PanelTransfer);
+            this.panelChat.Controls.Add(this.panelMesajYaz);
+            this.panelChat.Controls.Add(this.guna2Panel6);
+            this.panelChat.Controls.Add(this.mngGiden1);
+            this.panelChat.Controls.Add(this.guna2CirclePictureBox3);
+            this.panelChat.Controls.Add(this.msgGelen1);
+            this.panelChat.Controls.Add(this.panelUstBar);
+            this.panelChat.FillColor = System.Drawing.Color.WhiteSmoke;
+            this.panelChat.Location = new System.Drawing.Point(572, 52);
+            this.panelChat.Name = "panelChat";
+            this.panelChat.Size = new System.Drawing.Size(600, 620);
+            this.panelChat.TabIndex = 4;
+            // 
+            // panelUstBar
+            // 
+            this.panelUstBar.BorderRadius = 10;
+            this.panelUstBar.Controls.Add(this.label6);
+            this.panelUstBar.Controls.Add(this.guna2CirclePictureBox9);
+            this.panelUstBar.Controls.Add(this.label19);
+            this.panelUstBar.FillColor = System.Drawing.Color.White;
+            this.panelUstBar.Location = new System.Drawing.Point(0, 0);
+            this.panelUstBar.Name = "panelUstBar";
+            this.panelUstBar.Size = new System.Drawing.Size(600, 80);
+            this.panelUstBar.TabIndex = 0;
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.BackColor = System.Drawing.Color.White;
+            this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.label6.Location = new System.Drawing.Point(78, 44);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(96, 18);
+            this.label6.TabIndex = 5;
+            this.label6.Text = "Python , SQL";
+            // 
+            // msgGelen1
+            // 
+            this.msgGelen1.BorderRadius = 12;
+            this.msgGelen1.Controls.Add(this.label7);
+            this.msgGelen1.Controls.Add(this.label21);
+            this.msgGelen1.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(230)))), ((int)(((byte)(238)))), ((int)(((byte)(255)))));
+            this.msgGelen1.Location = new System.Drawing.Point(230, 121);
+            this.msgGelen1.Name = "msgGelen1";
+            this.msgGelen1.Size = new System.Drawing.Size(330, 85);
+            this.msgGelen1.TabIndex = 1;
+            // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(225)))), ((int)(((byte)(235)))), ((int)(((byte)(255)))));
+            this.label7.Font = new System.Drawing.Font("Segoe UI", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.label7.ForeColor = System.Drawing.Color.DimGray;
+            this.label7.Location = new System.Drawing.Point(240, 55);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(75, 17);
+            this.label7.TabIndex = 4;
+            this.label7.Text = "1 saat önce";
+            // 
+            // guna2CirclePictureBox3
+            // 
+            this.guna2CirclePictureBox3.ImageRotate = 0F;
+            this.guna2CirclePictureBox3.Location = new System.Drawing.Point(30, 203);
+            this.guna2CirclePictureBox3.Name = "guna2CirclePictureBox3";
+            this.guna2CirclePictureBox3.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
+            this.guna2CirclePictureBox3.Size = new System.Drawing.Size(45, 45);
+            this.guna2CirclePictureBox3.TabIndex = 6;
+            this.guna2CirclePictureBox3.TabStop = false;
+            // 
+            // mngGiden1
+            // 
+            this.mngGiden1.BackColor = System.Drawing.Color.White;
+            this.mngGiden1.Controls.Add(this.label9);
+            this.mngGiden1.Controls.Add(this.label8);
+            this.mngGiden1.Location = new System.Drawing.Point(81, 220);
+            this.mngGiden1.Name = "mngGiden1";
+            this.mngGiden1.Size = new System.Drawing.Size(330, 80);
+            this.mngGiden1.TabIndex = 7;
+            // 
+            // label8
+            // 
+            this.label8.AutoSize = true;
+            this.label8.Font = new System.Drawing.Font("Segoe UI", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.label8.Location = new System.Drawing.Point(20, 15);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(300, 25);
+            this.label8.TabIndex = 5;
+            this.label8.Text = "Yarın akşam 19.00 sonrası uygunum.";
+            // 
+            // label9
+            // 
+            this.label9.AutoSize = true;
+            this.label9.BackColor = System.Drawing.Color.White;
+            this.label9.Font = new System.Drawing.Font("Segoe UI", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.label9.ForeColor = System.Drawing.Color.DimGray;
+            this.label9.Location = new System.Drawing.Point(31, 56);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(72, 17);
+            this.label9.TabIndex = 4;
+            this.label9.Text = "45 dk önce";
+            // 
+            // guna2Panel6
+            // 
+            this.guna2Panel6.BorderRadius = 12;
+            this.guna2Panel6.Controls.Add(this.label10);
+            this.guna2Panel6.Controls.Add(this.label11);
+            this.guna2Panel6.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(230)))), ((int)(((byte)(238)))), ((int)(((byte)(255)))));
+            this.guna2Panel6.Location = new System.Drawing.Point(230, 310);
+            this.guna2Panel6.Name = "guna2Panel6";
+            this.guna2Panel6.Size = new System.Drawing.Size(330, 85);
+            this.guna2Panel6.TabIndex = 5;
+            // 
+            // label10
+            // 
+            this.label10.AutoSize = true;
+            this.label10.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(225)))), ((int)(((byte)(235)))), ((int)(((byte)(255)))));
+            this.label10.Font = new System.Drawing.Font("Segoe UI", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.label10.ForeColor = System.Drawing.Color.DimGray;
+            this.label10.Location = new System.Drawing.Point(240, 55);
+            this.label10.Name = "label10";
+            this.label10.Size = new System.Drawing.Size(72, 17);
+            this.label10.TabIndex = 4;
+            this.label10.Text = "20 dk önce";
+            // 
+            // label11
+            // 
+            this.label11.AutoSize = true;
+            this.label11.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(230)))), ((int)(((byte)(238)))), ((int)(((byte)(255)))));
+            this.label11.Font = new System.Drawing.Font("Segoe UI", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.label11.Location = new System.Drawing.Point(20, 15);
+            this.label11.Name = "label11";
+            this.label11.Size = new System.Drawing.Size(426, 25);
+            this.label11.TabIndex = 1;
+            this.label11.Text = "Tamam yarın19.00\'da görüşürüz. 20 LP için anlaştık :)";
+            // 
+            // panelMesajYaz
+            // 
+            this.panelMesajYaz.Controls.Add(this.btnGonder);
+            this.panelMesajYaz.Controls.Add(this.txtMesaj);
+            this.panelMesajYaz.FillColor = System.Drawing.Color.WhiteSmoke;
+            this.panelMesajYaz.Location = new System.Drawing.Point(15, 425);
+            this.panelMesajYaz.Name = "panelMesajYaz";
+            this.panelMesajYaz.Size = new System.Drawing.Size(580, 60);
+            this.panelMesajYaz.TabIndex = 8;
+            // 
+            // txtMesaj
+            // 
+            this.txtMesaj.BorderRadius = 10;
+            this.txtMesaj.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.txtMesaj.DefaultText = "";
+            this.txtMesaj.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
+            this.txtMesaj.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
+            this.txtMesaj.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.txtMesaj.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.txtMesaj.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.txtMesaj.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.txtMesaj.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.txtMesaj.Location = new System.Drawing.Point(10, 10);
+            this.txtMesaj.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.txtMesaj.Name = "txtMesaj";
+            this.txtMesaj.PlaceholderText = "Mesaj yaz...";
+            this.txtMesaj.SelectedText = "";
+            this.txtMesaj.Size = new System.Drawing.Size(430, 40);
+            this.txtMesaj.TabIndex = 0;
+            // 
+            // btnGonder
+            // 
+            this.btnGonder.BorderRadius = 10;
+            this.btnGonder.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.btnGonder.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.btnGonder.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btnGonder.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.btnGonder.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(99)))), ((int)(((byte)(235)))));
+            this.btnGonder.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.btnGonder.ForeColor = System.Drawing.Color.White;
+            this.btnGonder.Location = new System.Drawing.Point(455, 10);
+            this.btnGonder.Name = "btnGonder";
+            this.btnGonder.Size = new System.Drawing.Size(100, 40);
+            this.btnGonder.TabIndex = 1;
+            this.btnGonder.Text = "Gönder";
+            // 
+            // PanelTransfer
+            // 
+            this.PanelTransfer.BorderRadius = 10;
+            this.PanelTransfer.Controls.Add(this.linkLabel1);
+            this.PanelTransfer.Controls.Add(this.btnOnayla);
+            this.PanelTransfer.Controls.Add(this.label24);
+            this.PanelTransfer.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(20)))), ((int)(((byte)(30)))), ((int)(((byte)(60)))));
+            this.PanelTransfer.Location = new System.Drawing.Point(10, 505);
+            this.PanelTransfer.Name = "PanelTransfer";
+            this.PanelTransfer.Size = new System.Drawing.Size(580, 105);
+            this.PanelTransfer.TabIndex = 9;
+            // 
+            // btnOnayla
+            // 
+            this.btnOnayla.BorderRadius = 8;
+            this.btnOnayla.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.btnOnayla.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.btnOnayla.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btnOnayla.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.btnOnayla.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(99)))), ((int)(((byte)(235)))));
+            this.btnOnayla.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.btnOnayla.ForeColor = System.Drawing.Color.White;
+            this.btnOnayla.Location = new System.Drawing.Point(141, 36);
+            this.btnOnayla.Name = "btnOnayla";
+            this.btnOnayla.Size = new System.Drawing.Size(250, 32);
+            this.btnOnayla.TabIndex = 1;
+            this.btnOnayla.Text = "Dersi Onayla 20 LP Transfer Et";
             // 
             // Mesajlar
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1029, 620);
-            this.Controls.Add(this.panelSag);
-            this.Controls.Add(this.panelOrta);
+            this.ClientSize = new System.Drawing.Size(1195, 672);
+            this.Controls.Add(this.panelChat);
+            this.Controls.Add(this.panelListe);
             this.Controls.Add(this.panelSol);
             this.Name = "Mesajlar";
             this.Text = "Mesajlar";
@@ -848,42 +971,40 @@
             this.panelSol.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox2)).EndInit();
-            this.panelOrta.ResumeLayout(false);
-            this.panelOrta.PerformLayout();
-            this.panelSag.ResumeLayout(false);
-            this.flowChats.ResumeLayout(false);
-            this.panel1.ResumeLayout(false);
-            this.panel1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            this.panel2.ResumeLayout(false);
-            this.panel2.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
-            this.panel3.ResumeLayout(false);
-            this.panel3.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
-            this.panel4.ResumeLayout(false);
-            this.panel4.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
-            this.panel5.ResumeLayout(false);
-            this.panel5.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
-            this.panel6.ResumeLayout(false);
-            this.panel6.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
-            this.panel7.ResumeLayout(false);
-            this.panel7.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).EndInit();
-            this.panelUst.ResumeLayout(false);
-            this.panelUst.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).EndInit();
-            this.flowMesajlar.ResumeLayout(false);
-            this.panel8.ResumeLayout(false);
-            this.panel8.PerformLayout();
-            this.panel9.ResumeLayout(false);
-            this.panel9.PerformLayout();
-            this.panel10.ResumeLayout(false);
-            this.panel10.PerformLayout();
-            this.panelAltMesaj.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pickKisi1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox9)).EndInit();
+            this.panelListe.ResumeLayout(false);
+            this.panelListe.PerformLayout();
+            this.kartKisi1.ResumeLayout(false);
+            this.kartKisi1.PerformLayout();
+            this.guna2Panel1.ResumeLayout(false);
+            this.guna2Panel1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox2)).EndInit();
+            this.guna2Panel2.ResumeLayout(false);
+            this.guna2Panel2.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox10)).EndInit();
+            this.guna2Panel3.ResumeLayout(false);
+            this.guna2Panel3.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox11)).EndInit();
+            this.guna2Panel4.ResumeLayout(false);
+            this.guna2Panel4.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox12)).EndInit();
+            this.guna2Panel5.ResumeLayout(false);
+            this.guna2Panel5.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox13)).EndInit();
+            this.panelChat.ResumeLayout(false);
+            this.panelUstBar.ResumeLayout(false);
+            this.panelUstBar.PerformLayout();
+            this.msgGelen1.ResumeLayout(false);
+            this.msgGelen1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox3)).EndInit();
+            this.mngGiden1.ResumeLayout(false);
+            this.mngGiden1.PerformLayout();
+            this.guna2Panel6.ResumeLayout(false);
+            this.guna2Panel6.PerformLayout();
+            this.panelMesajYaz.ResumeLayout(false);
+            this.PanelTransfer.ResumeLayout(false);
+            this.PanelTransfer.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -901,55 +1022,59 @@
         private Guna.UI2.WinForms.Guna2Button AnasayfaButton;
         private Guna.UI2.WinForms.Guna2CirclePictureBox guna2CirclePictureBox1;
         private Guna.UI2.WinForms.Guna2PictureBox guna2PictureBox2;
-        private System.Windows.Forms.Panel panelOrta;
-        private System.Windows.Forms.Panel panelSag;
-        private System.Windows.Forms.FlowLayoutPanel flowChats;
-        private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.Label lblMesajlar;
         private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.Panel panel2;
-        private System.Windows.Forms.Panel panel3;
-        private System.Windows.Forms.Panel panel4;
-        private System.Windows.Forms.Label label10;
-        private System.Windows.Forms.Label label11;
-        private System.Windows.Forms.PictureBox pictureBox4;
-        private System.Windows.Forms.Label label8;
-        private System.Windows.Forms.Label label9;
-        private System.Windows.Forms.PictureBox pictureBox3;
-        private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.PictureBox pictureBox2;
         private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.Panel panel5;
-        private System.Windows.Forms.Label label12;
-        private System.Windows.Forms.Label label13;
-        private System.Windows.Forms.PictureBox pictureBox5;
-        private System.Windows.Forms.Panel panel7;
-        private System.Windows.Forms.Label label16;
-        private System.Windows.Forms.Label label17;
-        private System.Windows.Forms.PictureBox pictureBox7;
-        private System.Windows.Forms.Panel panel6;
-        private System.Windows.Forms.Label label14;
-        private System.Windows.Forms.Label label15;
-        private System.Windows.Forms.PictureBox pictureBox6;
-        private System.Windows.Forms.Panel panelUst;
-        private System.Windows.Forms.Label label18;
         private System.Windows.Forms.Label label19;
-        private System.Windows.Forms.PictureBox pictureBox8;
-        private System.Windows.Forms.FlowLayoutPanel flowMesajlar;
-        private System.Windows.Forms.Panel panel8;
-        private System.Windows.Forms.Panel panel9;
         private System.Windows.Forms.Label label21;
-        private System.Windows.Forms.Label label20;
-        private System.Windows.Forms.Label label23;
-        private System.Windows.Forms.Label label22;
-        private System.Windows.Forms.Panel panel10;
-        private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Label label24;
         private System.Windows.Forms.LinkLabel linkLabel1;
-        private System.Windows.Forms.Panel panelAltMesaj;
-        private System.Windows.Forms.Label label25;
-        private System.Windows.Forms.RichTextBox richTextBox1;
+        private Guna.UI2.WinForms.Guna2CirclePictureBox pickKisi1;
+        private Guna.UI2.WinForms.Guna2CirclePictureBox guna2CirclePictureBox9;
+        private Guna.UI2.WinForms.Guna2Panel panelListe;
+        private Guna.UI2.WinForms.Guna2Panel kartKisi1;
+        private Guna.UI2.WinForms.Guna2Panel guna2Panel4;
+        private System.Windows.Forms.Label label35;
+        private System.Windows.Forms.Label label36;
+        private Guna.UI2.WinForms.Guna2CirclePictureBox guna2CirclePictureBox12;
+        private System.Windows.Forms.Label label37;
+        private Guna.UI2.WinForms.Guna2Panel guna2Panel1;
+        private Guna.UI2.WinForms.Guna2Panel guna2Panel2;
+        private Guna.UI2.WinForms.Guna2Panel guna2Panel3;
+        private System.Windows.Forms.Label label32;
+        private System.Windows.Forms.Label label33;
+        private Guna.UI2.WinForms.Guna2CirclePictureBox guna2CirclePictureBox11;
+        private System.Windows.Forms.Label label34;
+        private System.Windows.Forms.Label label29;
+        private System.Windows.Forms.Label label30;
+        private Guna.UI2.WinForms.Guna2CirclePictureBox guna2CirclePictureBox10;
+        private System.Windows.Forms.Label label31;
+        private System.Windows.Forms.Label label26;
+        private System.Windows.Forms.Label label27;
+        private Guna.UI2.WinForms.Guna2CirclePictureBox guna2CirclePictureBox2;
+        private System.Windows.Forms.Label label28;
+        private System.Windows.Forms.Label label3;
+        private Guna.UI2.WinForms.Guna2Panel guna2Panel5;
+        private System.Windows.Forms.Label label38;
+        private System.Windows.Forms.Label label39;
+        private Guna.UI2.WinForms.Guna2CirclePictureBox guna2CirclePictureBox13;
+        private System.Windows.Forms.Label label40;
+        private Guna.UI2.WinForms.Guna2Panel panelChat;
+        private Guna.UI2.WinForms.Guna2Panel panelUstBar;
+        private Guna.UI2.WinForms.Guna2Panel msgGelen1;
+        private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.Label label7;
+        private Guna.UI2.WinForms.Guna2Panel mngGiden1;
+        private System.Windows.Forms.Label label8;
+        private Guna.UI2.WinForms.Guna2CirclePictureBox guna2CirclePictureBox3;
+        private Guna.UI2.WinForms.Guna2Panel guna2Panel6;
+        private System.Windows.Forms.Label label10;
+        private System.Windows.Forms.Label label11;
+        private System.Windows.Forms.Label label9;
+        private Guna.UI2.WinForms.Guna2Panel panelMesajYaz;
+        private Guna.UI2.WinForms.Guna2Button btnGonder;
+        private Guna.UI2.WinForms.Guna2TextBox txtMesaj;
+        private Guna.UI2.WinForms.Guna2Panel PanelTransfer;
+        private Guna.UI2.WinForms.Guna2Button btnOnayla;
     }
 }
