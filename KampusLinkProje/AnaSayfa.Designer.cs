@@ -491,7 +491,7 @@
             // 
             // guna2Panel2
             // 
-            this.guna2Panel2.BackColor = System.Drawing.Color.White;
+            this.guna2Panel2.BackColor = System.Drawing.Color.Transparent;
             this.guna2Panel2.BorderRadius = 6;
             this.guna2Panel2.Controls.Add(this.guna2Button8);
             this.guna2Panel2.Controls.Add(this.label7);
