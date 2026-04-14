@@ -31,5 +31,15 @@ namespace KampusLinkProje
         {
 
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnGonder_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
