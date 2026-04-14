@@ -16,5 +16,15 @@ namespace KampusLinkProje
         {
             InitializeComponent();
         }
+
+        private void guna2Panel15_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void label3_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

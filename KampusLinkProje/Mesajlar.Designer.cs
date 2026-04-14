@@ -43,15 +43,16 @@
             this.label5 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.lblMesajlar = new System.Windows.Forms.Label();
-            this.linkLabel1 = new System.Windows.Forms.LinkLabel();
-            this.label24 = new System.Windows.Forms.Label();
             this.label21 = new System.Windows.Forms.Label();
             this.label19 = new System.Windows.Forms.Label();
             this.pickKisi1 = new Guna.UI2.WinForms.Guna2CirclePictureBox();
             this.guna2CirclePictureBox9 = new Guna.UI2.WinForms.Guna2CirclePictureBox();
             this.panelListe = new Guna.UI2.WinForms.Guna2Panel();
-            this.kartKisi1 = new Guna.UI2.WinForms.Guna2Panel();
-            this.label3 = new System.Windows.Forms.Label();
+            this.guna2Panel5 = new Guna.UI2.WinForms.Guna2Panel();
+            this.label38 = new System.Windows.Forms.Label();
+            this.label39 = new System.Windows.Forms.Label();
+            this.guna2CirclePictureBox13 = new Guna.UI2.WinForms.Guna2CirclePictureBox();
+            this.label40 = new System.Windows.Forms.Label();
             this.guna2Panel1 = new Guna.UI2.WinForms.Guna2Panel();
             this.label26 = new System.Windows.Forms.Label();
             this.label27 = new System.Windows.Forms.Label();
@@ -72,35 +73,35 @@
             this.label36 = new System.Windows.Forms.Label();
             this.guna2CirclePictureBox12 = new Guna.UI2.WinForms.Guna2CirclePictureBox();
             this.label37 = new System.Windows.Forms.Label();
-            this.guna2Panel5 = new Guna.UI2.WinForms.Guna2Panel();
-            this.label38 = new System.Windows.Forms.Label();
-            this.label39 = new System.Windows.Forms.Label();
-            this.guna2CirclePictureBox13 = new Guna.UI2.WinForms.Guna2CirclePictureBox();
-            this.label40 = new System.Windows.Forms.Label();
+            this.kartKisi1 = new Guna.UI2.WinForms.Guna2Panel();
+            this.label3 = new System.Windows.Forms.Label();
             this.panelChat = new Guna.UI2.WinForms.Guna2Panel();
-            this.panelUstBar = new Guna.UI2.WinForms.Guna2Panel();
-            this.label6 = new System.Windows.Forms.Label();
-            this.msgGelen1 = new Guna.UI2.WinForms.Guna2Panel();
-            this.label7 = new System.Windows.Forms.Label();
-            this.guna2CirclePictureBox3 = new Guna.UI2.WinForms.Guna2CirclePictureBox();
-            this.mngGiden1 = new Guna.UI2.WinForms.Guna2Panel();
-            this.label8 = new System.Windows.Forms.Label();
-            this.label9 = new System.Windows.Forms.Label();
+            this.PanelTransfer = new Guna.UI2.WinForms.Guna2Panel();
+            this.btnOnayla = new Guna.UI2.WinForms.Guna2Button();
+            this.panelMesajYaz = new Guna.UI2.WinForms.Guna2Panel();
+            this.btnGonder = new Guna.UI2.WinForms.Guna2Button();
+            this.txtMesaj = new Guna.UI2.WinForms.Guna2TextBox();
             this.guna2Panel6 = new Guna.UI2.WinForms.Guna2Panel();
             this.label10 = new System.Windows.Forms.Label();
             this.label11 = new System.Windows.Forms.Label();
-            this.panelMesajYaz = new Guna.UI2.WinForms.Guna2Panel();
-            this.txtMesaj = new Guna.UI2.WinForms.Guna2TextBox();
-            this.btnGonder = new Guna.UI2.WinForms.Guna2Button();
-            this.PanelTransfer = new Guna.UI2.WinForms.Guna2Panel();
-            this.btnOnayla = new Guna.UI2.WinForms.Guna2Button();
+            this.mngGiden1 = new Guna.UI2.WinForms.Guna2Panel();
+            this.label9 = new System.Windows.Forms.Label();
+            this.label8 = new System.Windows.Forms.Label();
+            this.guna2CirclePictureBox3 = new Guna.UI2.WinForms.Guna2CirclePictureBox();
+            this.msgGelen1 = new Guna.UI2.WinForms.Guna2Panel();
+            this.label7 = new System.Windows.Forms.Label();
+            this.panelUstBar = new Guna.UI2.WinForms.Guna2Panel();
+            this.label6 = new System.Windows.Forms.Label();
+            this.button1 = new System.Windows.Forms.Button();
+            this.guna2Button1 = new Guna.UI2.WinForms.Guna2Button();
             this.panelSol.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pickKisi1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox9)).BeginInit();
             this.panelListe.SuspendLayout();
-            this.kartKisi1.SuspendLayout();
+            this.guna2Panel5.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox13)).BeginInit();
             this.guna2Panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox2)).BeginInit();
             this.guna2Panel2.SuspendLayout();
@@ -109,16 +110,15 @@
             ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox11)).BeginInit();
             this.guna2Panel4.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox12)).BeginInit();
-            this.guna2Panel5.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox13)).BeginInit();
+            this.kartKisi1.SuspendLayout();
             this.panelChat.SuspendLayout();
-            this.panelUstBar.SuspendLayout();
-            this.msgGelen1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox3)).BeginInit();
-            this.mngGiden1.SuspendLayout();
-            this.guna2Panel6.SuspendLayout();
-            this.panelMesajYaz.SuspendLayout();
             this.PanelTransfer.SuspendLayout();
+            this.panelMesajYaz.SuspendLayout();
+            this.guna2Panel6.SuspendLayout();
+            this.mngGiden1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox3)).BeginInit();
+            this.msgGelen1.SuspendLayout();
+            this.panelUstBar.SuspendLayout();
             this.SuspendLayout();
             // 
             // panelSol
@@ -350,32 +350,6 @@
             this.lblMesajlar.TabIndex = 0;
             this.lblMesajlar.Text = "Mesajlar";
             // 
-            // linkLabel1
-            // 
-            this.linkLabel1.AutoSize = true;
-            this.linkLabel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(34)))), ((int)(((byte)(56)))));
-            this.linkLabel1.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.linkLabel1.LinkColor = System.Drawing.Color.LightGreen;
-            this.linkLabel1.Location = new System.Drawing.Point(200, 71);
-            this.linkLabel1.Name = "linkLabel1";
-            this.linkLabel1.Size = new System.Drawing.Size(114, 23);
-            this.linkLabel1.TabIndex = 2;
-            this.linkLabel1.TabStop = true;
-            this.linkLabel1.Text = "Dersi Reddet";
-            this.linkLabel1.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabel1_LinkClicked);
-            // 
-            // label24
-            // 
-            this.label24.AutoSize = true;
-            this.label24.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(20)))), ((int)(((byte)(30)))), ((int)(((byte)(60)))));
-            this.label24.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label24.ForeColor = System.Drawing.Color.White;
-            this.label24.Location = new System.Drawing.Point(154, 5);
-            this.label24.Name = "label24";
-            this.label24.Size = new System.Drawing.Size(221, 28);
-            this.label24.TabIndex = 0;
-            this.label24.Text = "Ders Onay ve Transfer";
-            // 
             // label21
             // 
             this.label21.AutoSize = true;
@@ -435,30 +409,62 @@
             this.panelListe.Size = new System.Drawing.Size(300, 620);
             this.panelListe.TabIndex = 3;
             // 
-            // kartKisi1
+            // guna2Panel5
             // 
-            this.kartKisi1.BorderRadius = 10;
-            this.kartKisi1.Controls.Add(this.label3);
-            this.kartKisi1.Controls.Add(this.label5);
-            this.kartKisi1.Controls.Add(this.pickKisi1);
-            this.kartKisi1.Controls.Add(this.label4);
-            this.kartKisi1.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(225)))), ((int)(((byte)(235)))), ((int)(((byte)(255)))));
-            this.kartKisi1.Location = new System.Drawing.Point(10, 60);
-            this.kartKisi1.Name = "kartKisi1";
-            this.kartKisi1.Size = new System.Drawing.Size(280, 75);
-            this.kartKisi1.TabIndex = 1;
+            this.guna2Panel5.BorderRadius = 10;
+            this.guna2Panel5.Controls.Add(this.label38);
+            this.guna2Panel5.Controls.Add(this.label39);
+            this.guna2Panel5.Controls.Add(this.guna2CirclePictureBox13);
+            this.guna2Panel5.Controls.Add(this.label40);
+            this.guna2Panel5.FillColor = System.Drawing.Color.White;
+            this.guna2Panel5.Location = new System.Drawing.Point(10, 495);
+            this.guna2Panel5.Name = "guna2Panel5";
+            this.guna2Panel5.Size = new System.Drawing.Size(280, 75);
+            this.guna2Panel5.TabIndex = 5;
             // 
-            // label3
+            // label38
             // 
-            this.label3.AutoSize = true;
-            this.label3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(225)))), ((int)(((byte)(235)))), ((int)(((byte)(255)))));
-            this.label3.Font = new System.Drawing.Font("Segoe UI", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label3.ForeColor = System.Drawing.Color.DimGray;
-            this.label3.Location = new System.Drawing.Point(200, 10);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(75, 17);
-            this.label3.TabIndex = 3;
-            this.label3.Text = "1 saat önce";
+            this.label38.AutoSize = true;
+            this.label38.BackColor = System.Drawing.Color.White;
+            this.label38.Font = new System.Drawing.Font("Segoe UI", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.label38.ForeColor = System.Drawing.Color.DimGray;
+            this.label38.Location = new System.Drawing.Point(200, 10);
+            this.label38.Name = "label38";
+            this.label38.Size = new System.Drawing.Size(80, 17);
+            this.label38.TabIndex = 3;
+            this.label38.Text = "1 hafta önce";
+            // 
+            // label39
+            // 
+            this.label39.AutoSize = true;
+            this.label39.BackColor = System.Drawing.Color.White;
+            this.label39.ForeColor = System.Drawing.Color.Black;
+            this.label39.Location = new System.Drawing.Point(65, 35);
+            this.label39.Name = "label39";
+            this.label39.Size = new System.Drawing.Size(157, 16);
+            this.label39.TabIndex = 2;
+            this.label39.Text = "Matematik eğitimi var mı?";
+            // 
+            // guna2CirclePictureBox13
+            // 
+            this.guna2CirclePictureBox13.ImageRotate = 0F;
+            this.guna2CirclePictureBox13.Location = new System.Drawing.Point(10, 15);
+            this.guna2CirclePictureBox13.Name = "guna2CirclePictureBox13";
+            this.guna2CirclePictureBox13.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
+            this.guna2CirclePictureBox13.Size = new System.Drawing.Size(45, 45);
+            this.guna2CirclePictureBox13.TabIndex = 2;
+            this.guna2CirclePictureBox13.TabStop = false;
+            // 
+            // label40
+            // 
+            this.label40.AutoSize = true;
+            this.label40.BackColor = System.Drawing.Color.White;
+            this.label40.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.label40.Location = new System.Drawing.Point(65, 10);
+            this.label40.Name = "label40";
+            this.label40.Size = new System.Drawing.Size(136, 22);
+            this.label40.TabIndex = 1;
+            this.label40.Text = "Harun Yıldırım";
             // 
             // guna2Panel1
             // 
@@ -688,62 +694,30 @@
             this.label37.TabIndex = 1;
             this.label37.Text = "Burak Tan";
             // 
-            // guna2Panel5
+            // kartKisi1
             // 
-            this.guna2Panel5.BorderRadius = 10;
-            this.guna2Panel5.Controls.Add(this.label38);
-            this.guna2Panel5.Controls.Add(this.label39);
-            this.guna2Panel5.Controls.Add(this.guna2CirclePictureBox13);
-            this.guna2Panel5.Controls.Add(this.label40);
-            this.guna2Panel5.FillColor = System.Drawing.Color.White;
-            this.guna2Panel5.Location = new System.Drawing.Point(10, 495);
-            this.guna2Panel5.Name = "guna2Panel5";
-            this.guna2Panel5.Size = new System.Drawing.Size(280, 75);
-            this.guna2Panel5.TabIndex = 5;
+            this.kartKisi1.BorderRadius = 10;
+            this.kartKisi1.Controls.Add(this.label3);
+            this.kartKisi1.Controls.Add(this.label5);
+            this.kartKisi1.Controls.Add(this.pickKisi1);
+            this.kartKisi1.Controls.Add(this.label4);
+            this.kartKisi1.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(225)))), ((int)(((byte)(235)))), ((int)(((byte)(255)))));
+            this.kartKisi1.Location = new System.Drawing.Point(10, 60);
+            this.kartKisi1.Name = "kartKisi1";
+            this.kartKisi1.Size = new System.Drawing.Size(280, 75);
+            this.kartKisi1.TabIndex = 1;
             // 
-            // label38
+            // label3
             // 
-            this.label38.AutoSize = true;
-            this.label38.BackColor = System.Drawing.Color.White;
-            this.label38.Font = new System.Drawing.Font("Segoe UI", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label38.ForeColor = System.Drawing.Color.DimGray;
-            this.label38.Location = new System.Drawing.Point(200, 10);
-            this.label38.Name = "label38";
-            this.label38.Size = new System.Drawing.Size(80, 17);
-            this.label38.TabIndex = 3;
-            this.label38.Text = "1 hafta önce";
-            // 
-            // label39
-            // 
-            this.label39.AutoSize = true;
-            this.label39.BackColor = System.Drawing.Color.White;
-            this.label39.ForeColor = System.Drawing.Color.Black;
-            this.label39.Location = new System.Drawing.Point(65, 35);
-            this.label39.Name = "label39";
-            this.label39.Size = new System.Drawing.Size(157, 16);
-            this.label39.TabIndex = 2;
-            this.label39.Text = "Matematik eğitimi var mı?";
-            // 
-            // guna2CirclePictureBox13
-            // 
-            this.guna2CirclePictureBox13.ImageRotate = 0F;
-            this.guna2CirclePictureBox13.Location = new System.Drawing.Point(10, 15);
-            this.guna2CirclePictureBox13.Name = "guna2CirclePictureBox13";
-            this.guna2CirclePictureBox13.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
-            this.guna2CirclePictureBox13.Size = new System.Drawing.Size(45, 45);
-            this.guna2CirclePictureBox13.TabIndex = 2;
-            this.guna2CirclePictureBox13.TabStop = false;
-            // 
-            // label40
-            // 
-            this.label40.AutoSize = true;
-            this.label40.BackColor = System.Drawing.Color.White;
-            this.label40.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label40.Location = new System.Drawing.Point(65, 10);
-            this.label40.Name = "label40";
-            this.label40.Size = new System.Drawing.Size(136, 22);
-            this.label40.TabIndex = 1;
-            this.label40.Text = "Harun Yıldırım";
+            this.label3.AutoSize = true;
+            this.label3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(225)))), ((int)(((byte)(235)))), ((int)(((byte)(255)))));
+            this.label3.Font = new System.Drawing.Font("Segoe UI", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.label3.ForeColor = System.Drawing.Color.DimGray;
+            this.label3.Location = new System.Drawing.Point(200, 10);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(75, 17);
+            this.label3.TabIndex = 3;
+            this.label3.Text = "1 saat önce";
             // 
             // panelChat
             // 
@@ -761,127 +735,31 @@
             this.panelChat.Size = new System.Drawing.Size(600, 620);
             this.panelChat.TabIndex = 4;
             // 
-            // panelUstBar
+            // PanelTransfer
             // 
-            this.panelUstBar.BorderRadius = 10;
-            this.panelUstBar.Controls.Add(this.label6);
-            this.panelUstBar.Controls.Add(this.guna2CirclePictureBox9);
-            this.panelUstBar.Controls.Add(this.label19);
-            this.panelUstBar.FillColor = System.Drawing.Color.White;
-            this.panelUstBar.Location = new System.Drawing.Point(0, 0);
-            this.panelUstBar.Name = "panelUstBar";
-            this.panelUstBar.Size = new System.Drawing.Size(600, 80);
-            this.panelUstBar.TabIndex = 0;
+            this.PanelTransfer.BorderRadius = 10;
+            this.PanelTransfer.Controls.Add(this.guna2Button1);
+            this.PanelTransfer.Controls.Add(this.btnOnayla);
+            this.PanelTransfer.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(20)))), ((int)(((byte)(30)))), ((int)(((byte)(60)))));
+            this.PanelTransfer.Location = new System.Drawing.Point(10, 505);
+            this.PanelTransfer.Name = "PanelTransfer";
+            this.PanelTransfer.Size = new System.Drawing.Size(580, 105);
+            this.PanelTransfer.TabIndex = 9;
             // 
-            // label6
+            // btnOnayla
             // 
-            this.label6.AutoSize = true;
-            this.label6.BackColor = System.Drawing.Color.White;
-            this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label6.Location = new System.Drawing.Point(78, 44);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(96, 18);
-            this.label6.TabIndex = 5;
-            this.label6.Text = "Python , SQL";
-            // 
-            // msgGelen1
-            // 
-            this.msgGelen1.BorderRadius = 12;
-            this.msgGelen1.Controls.Add(this.label7);
-            this.msgGelen1.Controls.Add(this.label21);
-            this.msgGelen1.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(230)))), ((int)(((byte)(238)))), ((int)(((byte)(255)))));
-            this.msgGelen1.Location = new System.Drawing.Point(230, 121);
-            this.msgGelen1.Name = "msgGelen1";
-            this.msgGelen1.Size = new System.Drawing.Size(330, 85);
-            this.msgGelen1.TabIndex = 1;
-            // 
-            // label7
-            // 
-            this.label7.AutoSize = true;
-            this.label7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(225)))), ((int)(((byte)(235)))), ((int)(((byte)(255)))));
-            this.label7.Font = new System.Drawing.Font("Segoe UI", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label7.ForeColor = System.Drawing.Color.DimGray;
-            this.label7.Location = new System.Drawing.Point(240, 55);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(75, 17);
-            this.label7.TabIndex = 4;
-            this.label7.Text = "1 saat önce";
-            // 
-            // guna2CirclePictureBox3
-            // 
-            this.guna2CirclePictureBox3.ImageRotate = 0F;
-            this.guna2CirclePictureBox3.Location = new System.Drawing.Point(30, 203);
-            this.guna2CirclePictureBox3.Name = "guna2CirclePictureBox3";
-            this.guna2CirclePictureBox3.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
-            this.guna2CirclePictureBox3.Size = new System.Drawing.Size(45, 45);
-            this.guna2CirclePictureBox3.TabIndex = 6;
-            this.guna2CirclePictureBox3.TabStop = false;
-            // 
-            // mngGiden1
-            // 
-            this.mngGiden1.BackColor = System.Drawing.Color.White;
-            this.mngGiden1.Controls.Add(this.label9);
-            this.mngGiden1.Controls.Add(this.label8);
-            this.mngGiden1.Location = new System.Drawing.Point(81, 220);
-            this.mngGiden1.Name = "mngGiden1";
-            this.mngGiden1.Size = new System.Drawing.Size(330, 80);
-            this.mngGiden1.TabIndex = 7;
-            // 
-            // label8
-            // 
-            this.label8.AutoSize = true;
-            this.label8.Font = new System.Drawing.Font("Segoe UI", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label8.Location = new System.Drawing.Point(20, 15);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(300, 25);
-            this.label8.TabIndex = 5;
-            this.label8.Text = "Yarın akşam 19.00 sonrası uygunum.";
-            // 
-            // label9
-            // 
-            this.label9.AutoSize = true;
-            this.label9.BackColor = System.Drawing.Color.White;
-            this.label9.Font = new System.Drawing.Font("Segoe UI", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label9.ForeColor = System.Drawing.Color.DimGray;
-            this.label9.Location = new System.Drawing.Point(31, 56);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(72, 17);
-            this.label9.TabIndex = 4;
-            this.label9.Text = "45 dk önce";
-            // 
-            // guna2Panel6
-            // 
-            this.guna2Panel6.BorderRadius = 12;
-            this.guna2Panel6.Controls.Add(this.label10);
-            this.guna2Panel6.Controls.Add(this.label11);
-            this.guna2Panel6.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(230)))), ((int)(((byte)(238)))), ((int)(((byte)(255)))));
-            this.guna2Panel6.Location = new System.Drawing.Point(230, 310);
-            this.guna2Panel6.Name = "guna2Panel6";
-            this.guna2Panel6.Size = new System.Drawing.Size(330, 85);
-            this.guna2Panel6.TabIndex = 5;
-            // 
-            // label10
-            // 
-            this.label10.AutoSize = true;
-            this.label10.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(225)))), ((int)(((byte)(235)))), ((int)(((byte)(255)))));
-            this.label10.Font = new System.Drawing.Font("Segoe UI", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label10.ForeColor = System.Drawing.Color.DimGray;
-            this.label10.Location = new System.Drawing.Point(240, 55);
-            this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(72, 17);
-            this.label10.TabIndex = 4;
-            this.label10.Text = "20 dk önce";
-            // 
-            // label11
-            // 
-            this.label11.AutoSize = true;
-            this.label11.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(230)))), ((int)(((byte)(238)))), ((int)(((byte)(255)))));
-            this.label11.Font = new System.Drawing.Font("Segoe UI", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label11.Location = new System.Drawing.Point(20, 15);
-            this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(426, 25);
-            this.label11.TabIndex = 1;
-            this.label11.Text = "Tamam yarın19.00\'da görüşürüz. 20 LP için anlaştık :)";
+            this.btnOnayla.BorderRadius = 8;
+            this.btnOnayla.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.btnOnayla.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.btnOnayla.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btnOnayla.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.btnOnayla.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.btnOnayla.ForeColor = System.Drawing.Color.White;
+            this.btnOnayla.Location = new System.Drawing.Point(20, 36);
+            this.btnOnayla.Name = "btnOnayla";
+            this.btnOnayla.Size = new System.Drawing.Size(250, 32);
+            this.btnOnayla.TabIndex = 1;
+            this.btnOnayla.Text = "Dersi Onayla  LP Transfer Et";
             // 
             // panelMesajYaz
             // 
@@ -892,6 +770,22 @@
             this.panelMesajYaz.Name = "panelMesajYaz";
             this.panelMesajYaz.Size = new System.Drawing.Size(580, 60);
             this.panelMesajYaz.TabIndex = 8;
+            // 
+            // btnGonder
+            // 
+            this.btnGonder.BorderRadius = 10;
+            this.btnGonder.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.btnGonder.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.btnGonder.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btnGonder.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.btnGonder.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.btnGonder.ForeColor = System.Drawing.Color.White;
+            this.btnGonder.Location = new System.Drawing.Point(455, 10);
+            this.btnGonder.Name = "btnGonder";
+            this.btnGonder.Size = new System.Drawing.Size(100, 40);
+            this.btnGonder.TabIndex = 1;
+            this.btnGonder.Text = "Gönder";
+            this.btnGonder.Click += new System.EventHandler(this.btnGonder_Click);
             // 
             // txtMesaj
             // 
@@ -913,49 +807,155 @@
             this.txtMesaj.Size = new System.Drawing.Size(430, 40);
             this.txtMesaj.TabIndex = 0;
             // 
-            // btnGonder
+            // guna2Panel6
             // 
-            this.btnGonder.BorderRadius = 10;
-            this.btnGonder.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.btnGonder.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.btnGonder.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.btnGonder.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.btnGonder.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(99)))), ((int)(((byte)(235)))));
-            this.btnGonder.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.btnGonder.ForeColor = System.Drawing.Color.White;
-            this.btnGonder.Location = new System.Drawing.Point(455, 10);
-            this.btnGonder.Name = "btnGonder";
-            this.btnGonder.Size = new System.Drawing.Size(100, 40);
-            this.btnGonder.TabIndex = 1;
-            this.btnGonder.Text = "Gönder";
+            this.guna2Panel6.BorderRadius = 12;
+            this.guna2Panel6.Controls.Add(this.label10);
+            this.guna2Panel6.Controls.Add(this.label11);
+            this.guna2Panel6.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(230)))), ((int)(((byte)(238)))), ((int)(((byte)(255)))));
+            this.guna2Panel6.Location = new System.Drawing.Point(134, 310);
+            this.guna2Panel6.Name = "guna2Panel6";
+            this.guna2Panel6.Size = new System.Drawing.Size(447, 85);
+            this.guna2Panel6.TabIndex = 5;
             // 
-            // PanelTransfer
+            // label10
             // 
-            this.PanelTransfer.BorderRadius = 10;
-            this.PanelTransfer.Controls.Add(this.linkLabel1);
-            this.PanelTransfer.Controls.Add(this.btnOnayla);
-            this.PanelTransfer.Controls.Add(this.label24);
-            this.PanelTransfer.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(20)))), ((int)(((byte)(30)))), ((int)(((byte)(60)))));
-            this.PanelTransfer.Location = new System.Drawing.Point(10, 505);
-            this.PanelTransfer.Name = "PanelTransfer";
-            this.PanelTransfer.Size = new System.Drawing.Size(580, 105);
-            this.PanelTransfer.TabIndex = 9;
+            this.label10.AutoSize = true;
+            this.label10.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(225)))), ((int)(((byte)(235)))), ((int)(((byte)(255)))));
+            this.label10.Font = new System.Drawing.Font("Segoe UI", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.label10.ForeColor = System.Drawing.Color.DimGray;
+            this.label10.Location = new System.Drawing.Point(364, 58);
+            this.label10.Name = "label10";
+            this.label10.Size = new System.Drawing.Size(72, 17);
+            this.label10.TabIndex = 4;
+            this.label10.Text = "20 dk önce";
             // 
-            // btnOnayla
+            // label11
             // 
-            this.btnOnayla.BorderRadius = 8;
-            this.btnOnayla.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.btnOnayla.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.btnOnayla.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.btnOnayla.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.btnOnayla.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(99)))), ((int)(((byte)(235)))));
-            this.btnOnayla.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.btnOnayla.ForeColor = System.Drawing.Color.White;
-            this.btnOnayla.Location = new System.Drawing.Point(141, 36);
-            this.btnOnayla.Name = "btnOnayla";
-            this.btnOnayla.Size = new System.Drawing.Size(250, 32);
-            this.btnOnayla.TabIndex = 1;
-            this.btnOnayla.Text = "Dersi Onayla 20 LP Transfer Et";
+            this.label11.AutoSize = true;
+            this.label11.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(230)))), ((int)(((byte)(238)))), ((int)(((byte)(255)))));
+            this.label11.Font = new System.Drawing.Font("Segoe UI", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.label11.Location = new System.Drawing.Point(20, 15);
+            this.label11.Name = "label11";
+            this.label11.Size = new System.Drawing.Size(426, 25);
+            this.label11.TabIndex = 1;
+            this.label11.Text = "Tamam yarın19.00\'da görüşürüz. 20 LP için anlaştık :)";
+            // 
+            // mngGiden1
+            // 
+            this.mngGiden1.BackColor = System.Drawing.Color.White;
+            this.mngGiden1.Controls.Add(this.label9);
+            this.mngGiden1.Controls.Add(this.label8);
+            this.mngGiden1.Location = new System.Drawing.Point(81, 220);
+            this.mngGiden1.Name = "mngGiden1";
+            this.mngGiden1.Size = new System.Drawing.Size(330, 80);
+            this.mngGiden1.TabIndex = 7;
+            // 
+            // label9
+            // 
+            this.label9.AutoSize = true;
+            this.label9.BackColor = System.Drawing.Color.White;
+            this.label9.Font = new System.Drawing.Font("Segoe UI", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.label9.ForeColor = System.Drawing.Color.DimGray;
+            this.label9.Location = new System.Drawing.Point(12, 54);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(72, 17);
+            this.label9.TabIndex = 4;
+            this.label9.Text = "45 dk önce";
+            // 
+            // label8
+            // 
+            this.label8.AutoSize = true;
+            this.label8.Font = new System.Drawing.Font("Segoe UI", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.label8.Location = new System.Drawing.Point(20, 15);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(300, 25);
+            this.label8.TabIndex = 5;
+            this.label8.Text = "Yarın akşam 19.00 sonrası uygunum.";
+            // 
+            // guna2CirclePictureBox3
+            // 
+            this.guna2CirclePictureBox3.ImageRotate = 0F;
+            this.guna2CirclePictureBox3.Location = new System.Drawing.Point(30, 203);
+            this.guna2CirclePictureBox3.Name = "guna2CirclePictureBox3";
+            this.guna2CirclePictureBox3.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
+            this.guna2CirclePictureBox3.Size = new System.Drawing.Size(45, 45);
+            this.guna2CirclePictureBox3.TabIndex = 6;
+            this.guna2CirclePictureBox3.TabStop = false;
+            // 
+            // msgGelen1
+            // 
+            this.msgGelen1.BorderRadius = 12;
+            this.msgGelen1.Controls.Add(this.label7);
+            this.msgGelen1.Controls.Add(this.label21);
+            this.msgGelen1.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(230)))), ((int)(((byte)(238)))), ((int)(((byte)(255)))));
+            this.msgGelen1.Location = new System.Drawing.Point(197, 121);
+            this.msgGelen1.Name = "msgGelen1";
+            this.msgGelen1.Size = new System.Drawing.Size(393, 85);
+            this.msgGelen1.TabIndex = 1;
+            // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(225)))), ((int)(((byte)(235)))), ((int)(((byte)(255)))));
+            this.label7.Font = new System.Drawing.Font("Segoe UI", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.label7.ForeColor = System.Drawing.Color.DimGray;
+            this.label7.Location = new System.Drawing.Point(308, 58);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(75, 17);
+            this.label7.TabIndex = 4;
+            this.label7.Text = "1 saat önce";
+            // 
+            // panelUstBar
+            // 
+            this.panelUstBar.BorderRadius = 10;
+            this.panelUstBar.Controls.Add(this.button1);
+            this.panelUstBar.Controls.Add(this.label6);
+            this.panelUstBar.Controls.Add(this.guna2CirclePictureBox9);
+            this.panelUstBar.Controls.Add(this.label19);
+            this.panelUstBar.FillColor = System.Drawing.Color.White;
+            this.panelUstBar.Location = new System.Drawing.Point(0, 0);
+            this.panelUstBar.Name = "panelUstBar";
+            this.panelUstBar.Size = new System.Drawing.Size(600, 80);
+            this.panelUstBar.TabIndex = 0;
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.BackColor = System.Drawing.Color.White;
+            this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.label6.Location = new System.Drawing.Point(78, 44);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(96, 18);
+            this.label6.TabIndex = 5;
+            this.label6.Text = "Python , SQL";
+            // 
+            // button1
+            // 
+            this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.button1.ForeColor = System.Drawing.Color.White;
+            this.button1.Location = new System.Drawing.Point(448, 15);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(126, 48);
+            this.button1.TabIndex = 6;
+            this.button1.Text = "Şikayet Et!";
+            this.button1.UseVisualStyleBackColor = false;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
+            // guna2Button1
+            // 
+            this.guna2Button1.BorderRadius = 8;
+            this.guna2Button1.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.guna2Button1.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.guna2Button1.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.guna2Button1.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.guna2Button1.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.guna2Button1.ForeColor = System.Drawing.Color.White;
+            this.guna2Button1.Location = new System.Drawing.Point(300, 36);
+            this.guna2Button1.Name = "guna2Button1";
+            this.guna2Button1.Size = new System.Drawing.Size(250, 32);
+            this.guna2Button1.TabIndex = 2;
+            this.guna2Button1.Text = "Dersi İptal Et";
             // 
             // Mesajlar
             // 
@@ -975,8 +975,9 @@
             ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox9)).EndInit();
             this.panelListe.ResumeLayout(false);
             this.panelListe.PerformLayout();
-            this.kartKisi1.ResumeLayout(false);
-            this.kartKisi1.PerformLayout();
+            this.guna2Panel5.ResumeLayout(false);
+            this.guna2Panel5.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox13)).EndInit();
             this.guna2Panel1.ResumeLayout(false);
             this.guna2Panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox2)).EndInit();
@@ -989,22 +990,20 @@
             this.guna2Panel4.ResumeLayout(false);
             this.guna2Panel4.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox12)).EndInit();
-            this.guna2Panel5.ResumeLayout(false);
-            this.guna2Panel5.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox13)).EndInit();
+            this.kartKisi1.ResumeLayout(false);
+            this.kartKisi1.PerformLayout();
             this.panelChat.ResumeLayout(false);
-            this.panelUstBar.ResumeLayout(false);
-            this.panelUstBar.PerformLayout();
-            this.msgGelen1.ResumeLayout(false);
-            this.msgGelen1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox3)).EndInit();
-            this.mngGiden1.ResumeLayout(false);
-            this.mngGiden1.PerformLayout();
+            this.PanelTransfer.ResumeLayout(false);
+            this.panelMesajYaz.ResumeLayout(false);
             this.guna2Panel6.ResumeLayout(false);
             this.guna2Panel6.PerformLayout();
-            this.panelMesajYaz.ResumeLayout(false);
-            this.PanelTransfer.ResumeLayout(false);
-            this.PanelTransfer.PerformLayout();
+            this.mngGiden1.ResumeLayout(false);
+            this.mngGiden1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox3)).EndInit();
+            this.msgGelen1.ResumeLayout(false);
+            this.msgGelen1.PerformLayout();
+            this.panelUstBar.ResumeLayout(false);
+            this.panelUstBar.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -1027,8 +1026,6 @@
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label19;
         private System.Windows.Forms.Label label21;
-        private System.Windows.Forms.Label label24;
-        private System.Windows.Forms.LinkLabel linkLabel1;
         private Guna.UI2.WinForms.Guna2CirclePictureBox pickKisi1;
         private Guna.UI2.WinForms.Guna2CirclePictureBox guna2CirclePictureBox9;
         private Guna.UI2.WinForms.Guna2Panel panelListe;
@@ -1076,5 +1073,7 @@
         private Guna.UI2.WinForms.Guna2TextBox txtMesaj;
         private Guna.UI2.WinForms.Guna2Panel PanelTransfer;
         private Guna.UI2.WinForms.Guna2Button btnOnayla;
+        private Guna.UI2.WinForms.Guna2Button guna2Button1;
+        private System.Windows.Forms.Button button1;
     }
 }
