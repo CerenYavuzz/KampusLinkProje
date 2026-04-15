@@ -189,7 +189,7 @@
             this.panelSol.Dock = System.Windows.Forms.DockStyle.Left;
             this.panelSol.Location = new System.Drawing.Point(0, 0);
             this.panelSol.Name = "panelSol";
-            this.panelSol.Size = new System.Drawing.Size(260, 710);
+            this.panelSol.Size = new System.Drawing.Size(260, 697);
             this.panelSol.TabIndex = 1;
             // 
             // guna2CirclePictureBox1
@@ -379,7 +379,7 @@
             this.guna2Panel3.Dock = System.Windows.Forms.DockStyle.Top;
             this.guna2Panel3.Location = new System.Drawing.Point(260, 0);
             this.guna2Panel3.Name = "guna2Panel3";
-            this.guna2Panel3.Size = new System.Drawing.Size(1122, 143);
+            this.guna2Panel3.Size = new System.Drawing.Size(1129, 143);
             this.guna2Panel3.TabIndex = 9;
             // 
             // label6
@@ -398,7 +398,7 @@
             this.flowLayoutPanel2.Controls.Add(this.guna2Button1);
             this.flowLayoutPanel2.Controls.Add(this.guna2Button7);
             this.flowLayoutPanel2.FlowDirection = System.Windows.Forms.FlowDirection.RightToLeft;
-            this.flowLayoutPanel2.Location = new System.Drawing.Point(975, 12);
+            this.flowLayoutPanel2.Location = new System.Drawing.Point(982, 12);
             this.flowLayoutPanel2.Name = "flowLayoutPanel2";
             this.flowLayoutPanel2.Size = new System.Drawing.Size(137, 65);
             this.flowLayoutPanel2.TabIndex = 4;
@@ -1629,8 +1629,6 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1382, 710);
-            this.Controls.Add(this.guna2ComboBox1);
-            this.Controls.Add(this.label16);
             this.Controls.Add(this.label44);
             this.Controls.Add(this.label43);
             this.Controls.Add(this.flowLayoutPanel1);
