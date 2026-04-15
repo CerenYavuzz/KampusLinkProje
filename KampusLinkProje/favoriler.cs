@@ -16,5 +16,10 @@ namespace KampusLinkProje
         {
             InitializeComponent();
         }
+
+        private void pnlIstatistik_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
     }
 }
