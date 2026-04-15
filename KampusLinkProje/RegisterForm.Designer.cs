@@ -30,22 +30,22 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(RegisterForm));
             this.guna2ShadowPanel1 = new Guna.UI2.WinForms.Guna2ShadowPanel();
+            this.label1 = new System.Windows.Forms.Label();
+            this.btnKayitOl = new Guna.UI2.WinForms.Guna2Button();
+            this.guna2CheckBox1 = new Guna.UI2.WinForms.Guna2CheckBox();
             this.guna2HtmlLabel4 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.guna2Panel1 = new Guna.UI2.WinForms.Guna2Panel();
             this.guna2HtmlLabel3 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.flowLayoutPanel2 = new System.Windows.Forms.FlowLayoutPanel();
             this.guna2HtmlLabel2 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.flowDersler = new System.Windows.Forms.FlowLayoutPanel();
+            this.txtDers = new Guna.UI2.WinForms.Guna2TextBox();
+            this.btnEkle = new System.Windows.Forms.Button();
             this.comboFakulte = new Guna.UI2.WinForms.Guna2ComboBox();
             this.txtSifre = new Guna.UI2.WinForms.Guna2TextBox();
             this.txtEmail = new Guna.UI2.WinForms.Guna2TextBox();
             this.txtAdSoyad = new Guna.UI2.WinForms.Guna2TextBox();
             this.guna2HtmlLabel1 = new Guna.UI2.WinForms.Guna2HtmlLabel();
-            this.guna2CheckBox1 = new Guna.UI2.WinForms.Guna2CheckBox();
-            this.btnKayitOl = new Guna.UI2.WinForms.Guna2Button();
-            this.label1 = new System.Windows.Forms.Label();
-            this.txtDers = new Guna.UI2.WinForms.Guna2TextBox();
-            this.btnEkle = new System.Windows.Forms.Button();
             this.guna2ShadowPanel1.SuspendLayout();
             this.guna2Panel1.SuspendLayout();
             this.flowDersler.SuspendLayout();
@@ -73,6 +73,51 @@
             this.guna2ShadowPanel1.Size = new System.Drawing.Size(800, 653);
             this.guna2ShadowPanel1.TabIndex = 0;
             this.guna2ShadowPanel1.Paint += new System.Windows.Forms.PaintEventHandler(this.guna2ShadowPanel1_Paint);
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.ForeColor = System.Drawing.Color.RoyalBlue;
+            this.label1.Location = new System.Drawing.Point(256, 603);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(62, 16);
+            this.label1.TabIndex = 9;
+            this.label1.Text = "Giriş Yap";
+            this.label1.Click += new System.EventHandler(this.label1_Click);
+            // 
+            // btnKayitOl
+            // 
+            this.btnKayitOl.BorderRadius = 12;
+            this.btnKayitOl.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.btnKayitOl.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.btnKayitOl.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btnKayitOl.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.btnKayitOl.FillColor = System.Drawing.Color.RoyalBlue;
+            this.btnKayitOl.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.btnKayitOl.ForeColor = System.Drawing.Color.White;
+            this.btnKayitOl.Location = new System.Drawing.Point(29, 552);
+            this.btnKayitOl.Name = "btnKayitOl";
+            this.btnKayitOl.Size = new System.Drawing.Size(380, 45);
+            this.btnKayitOl.TabIndex = 8;
+            this.btnKayitOl.Text = "Kayıt Ol";
+            // 
+            // guna2CheckBox1
+            // 
+            this.guna2CheckBox1.AutoSize = true;
+            this.guna2CheckBox1.CheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.guna2CheckBox1.CheckedState.BorderRadius = 0;
+            this.guna2CheckBox1.CheckedState.BorderThickness = 0;
+            this.guna2CheckBox1.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.guna2CheckBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F);
+            this.guna2CheckBox1.Location = new System.Drawing.Point(101, 526);
+            this.guna2CheckBox1.Name = "guna2CheckBox1";
+            this.guna2CheckBox1.Size = new System.Drawing.Size(227, 20);
+            this.guna2CheckBox1.TabIndex = 7;
+            this.guna2CheckBox1.Text = "Kullanım şartlarını kabul ediyorum";
+            this.guna2CheckBox1.UncheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
+            this.guna2CheckBox1.UncheckedState.BorderRadius = 0;
+            this.guna2CheckBox1.UncheckedState.BorderThickness = 0;
+            this.guna2CheckBox1.UncheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
             // 
             // guna2HtmlLabel4
             // 
@@ -138,6 +183,36 @@
             this.flowDersler.Name = "flowDersler";
             this.flowDersler.Size = new System.Drawing.Size(323, 74);
             this.flowDersler.TabIndex = 0;
+            // 
+            // txtDers
+            // 
+            this.txtDers.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.txtDers.DefaultText = "";
+            this.txtDers.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
+            this.txtDers.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
+            this.txtDers.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.txtDers.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.txtDers.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.txtDers.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.txtDers.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.txtDers.Location = new System.Drawing.Point(3, 4);
+            this.txtDers.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.txtDers.Name = "txtDers";
+            this.txtDers.PlaceholderText = "Ders";
+            this.txtDers.SelectedText = "";
+            this.txtDers.Size = new System.Drawing.Size(56, 22);
+            this.txtDers.TabIndex = 0;
+            this.txtDers.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txtDers_KeyDown);
+            // 
+            // btnEkle
+            // 
+            this.btnEkle.Location = new System.Drawing.Point(65, 3);
+            this.btnEkle.Name = "btnEkle";
+            this.btnEkle.Size = new System.Drawing.Size(61, 23);
+            this.btnEkle.TabIndex = 11;
+            this.btnEkle.Text = "Ekle";
+            this.btnEkle.UseVisualStyleBackColor = true;
+            this.btnEkle.Click += new System.EventHandler(this.btnEkle_Click);
             // 
             // comboFakulte
             // 
@@ -229,81 +304,6 @@
             this.guna2HtmlLabel1.Size = new System.Drawing.Size(106, 33);
             this.guna2HtmlLabel1.TabIndex = 0;
             this.guna2HtmlLabel1.Text = "Kayıt Ol";
-            // 
-            // guna2CheckBox1
-            // 
-            this.guna2CheckBox1.AutoSize = true;
-            this.guna2CheckBox1.CheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.guna2CheckBox1.CheckedState.BorderRadius = 0;
-            this.guna2CheckBox1.CheckedState.BorderThickness = 0;
-            this.guna2CheckBox1.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.guna2CheckBox1.Location = new System.Drawing.Point(101, 526);
-            this.guna2CheckBox1.Name = "guna2CheckBox1";
-            this.guna2CheckBox1.Size = new System.Drawing.Size(227, 20);
-            this.guna2CheckBox1.TabIndex = 7;
-            this.guna2CheckBox1.Text = "Kullanım şartlarını kabul ediyorum";
-            this.guna2CheckBox1.UncheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
-            this.guna2CheckBox1.UncheckedState.BorderRadius = 0;
-            this.guna2CheckBox1.UncheckedState.BorderThickness = 0;
-            this.guna2CheckBox1.UncheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
-            // 
-            // btnKayitOl
-            // 
-            this.btnKayitOl.BorderRadius = 12;
-            this.btnKayitOl.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.btnKayitOl.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.btnKayitOl.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.btnKayitOl.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.btnKayitOl.FillColor = System.Drawing.Color.RoyalBlue;
-            this.btnKayitOl.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.btnKayitOl.ForeColor = System.Drawing.Color.White;
-            this.btnKayitOl.Location = new System.Drawing.Point(29, 552);
-            this.btnKayitOl.Name = "btnKayitOl";
-            this.btnKayitOl.Size = new System.Drawing.Size(380, 45);
-            this.btnKayitOl.TabIndex = 8;
-            this.btnKayitOl.Text = "Kayıt Ol";
-     //       this.btnKayitOl.Click += new System.EventHandler(this.guna2Button3_Click);
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.ForeColor = System.Drawing.Color.RoyalBlue;
-            this.label1.Location = new System.Drawing.Point(256, 603);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(62, 16);
-            this.label1.TabIndex = 9;
-            this.label1.Text = "Giriş Yap";
-            this.label1.Click += new System.EventHandler(this.label1_Click);
-            // 
-            // txtDers
-            // 
-            this.txtDers.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.txtDers.DefaultText = "";
-            this.txtDers.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
-            this.txtDers.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
-            this.txtDers.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.txtDers.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.txtDers.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txtDers.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.txtDers.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txtDers.Location = new System.Drawing.Point(3, 4);
-            this.txtDers.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.txtDers.Name = "txtDers";
-            this.txtDers.PlaceholderText = "Ders";
-            this.txtDers.SelectedText = "";
-            this.txtDers.Size = new System.Drawing.Size(56, 22);
-            this.txtDers.TabIndex = 0;
-            this.txtDers.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txtDers_KeyDown);
-            // 
-            // btnEkle
-            // 
-            this.btnEkle.Location = new System.Drawing.Point(65, 3);
-            this.btnEkle.Name = "btnEkle";
-            this.btnEkle.Size = new System.Drawing.Size(61, 23);
-            this.btnEkle.TabIndex = 11;
-            this.btnEkle.Text = "Ekle";
-            this.btnEkle.UseVisualStyleBackColor = true;
-            this.btnEkle.Click += new System.EventHandler(this.btnEkle_Click);
             // 
             // RegisterForm
             // 
