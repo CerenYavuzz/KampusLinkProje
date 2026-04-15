@@ -10,24 +10,29 @@ using System.Windows.Forms;
 
 namespace KampusLinkProje
 {
-    public partial class Mesajlar : Form
+    public partial class Profilim : Form
     {
-        public Mesajlar()
+        public Profilim()
         {
             InitializeComponent();
         }
 
-        private void guna2PictureBox2_Click(object sender, EventArgs e)
+        private void textBox3_TextChanged(object sender, EventArgs e)
         {
 
         }
 
-        private void panel5_Paint(object sender, PaintEventArgs e)
+        private void panel2_Paint(object sender, PaintEventArgs e)
         {
 
         }
 
-        private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        private void panel1_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void guna2Panel1_Paint(object sender, PaintEventArgs e)
         {
 
         }
@@ -37,7 +42,7 @@ namespace KampusLinkProje
 
         }
 
-        private void btnGonder_Click(object sender, EventArgs e)
+        private void button11_Click(object sender, EventArgs e)
         {
 
         }

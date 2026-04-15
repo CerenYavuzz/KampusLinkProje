@@ -83,6 +83,7 @@
             this.label20 = new System.Windows.Forms.Label();
             this.guna2CirclePictureBox3 = new Guna.UI2.WinForms.Guna2CirclePictureBox();
             this.kart1 = new Guna.UI2.WinForms.Guna2Panel();
+            this.guna2Button14 = new Guna.UI2.WinForms.Guna2Button();
             this.label10 = new System.Windows.Forms.Label();
             this.label9 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
@@ -102,7 +103,6 @@
             this.txtAra = new Guna.UI2.WinForms.Guna2TextBox();
             this.lblAciklama = new System.Windows.Forms.Label();
             this.lblBaslık = new System.Windows.Forms.Label();
-            this.guna2Button14 = new Guna.UI2.WinForms.Guna2Button();
             this.panelSol.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox2)).BeginInit();
@@ -137,7 +137,7 @@
             this.panelSol.Dock = System.Windows.Forms.DockStyle.Left;
             this.panelSol.Location = new System.Drawing.Point(0, 0);
             this.panelSol.Name = "panelSol";
-            this.panelSol.Size = new System.Drawing.Size(260, 710);
+            this.panelSol.Size = new System.Drawing.Size(260, 720);
             this.panelSol.TabIndex = 2;
             // 
             // guna2CirclePictureBox1
@@ -878,6 +878,22 @@
             this.kart1.Size = new System.Drawing.Size(830, 100);
             this.kart1.TabIndex = 12;
             // 
+            // guna2Button14
+            // 
+            this.guna2Button14.BorderRadius = 8;
+            this.guna2Button14.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.guna2Button14.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.guna2Button14.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.guna2Button14.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.guna2Button14.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(99)))), ((int)(((byte)(235)))));
+            this.guna2Button14.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.guna2Button14.ForeColor = System.Drawing.Color.White;
+            this.guna2Button14.Location = new System.Drawing.Point(701, 50);
+            this.guna2Button14.Name = "guna2Button14";
+            this.guna2Button14.Size = new System.Drawing.Size(90, 35);
+            this.guna2Button14.TabIndex = 8;
+            this.guna2Button14.Text = "Eşleş";
+            // 
             // label10
             // 
             this.label10.AutoSize = true;
@@ -1117,28 +1133,12 @@
             this.lblBaslık.TabIndex = 0;
             this.lblBaslık.Text = "Akıllı Eşleşme";
             // 
-            // guna2Button14
-            // 
-            this.guna2Button14.BorderRadius = 8;
-            this.guna2Button14.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.guna2Button14.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.guna2Button14.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.guna2Button14.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.guna2Button14.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(99)))), ((int)(((byte)(235)))));
-            this.guna2Button14.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.guna2Button14.ForeColor = System.Drawing.Color.White;
-            this.guna2Button14.Location = new System.Drawing.Point(701, 50);
-            this.guna2Button14.Name = "guna2Button14";
-            this.guna2Button14.Size = new System.Drawing.Size(90, 35);
-            this.guna2Button14.TabIndex = 8;
-            this.guna2Button14.Text = "Eşleş";
-            // 
             // AkıllıEşleşme
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.Control;
-            this.ClientSize = new System.Drawing.Size(1146, 710);
+            this.ClientSize = new System.Drawing.Size(1146, 720);
             this.Controls.Add(this.panelAkilliEslesme);
             this.Controls.Add(this.panelSol);
             this.Name = "AkıllıEşleşme";
