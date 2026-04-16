@@ -50,54 +50,72 @@
             this.guna2TextBox2 = new Guna.UI2.WinForms.Guna2TextBox();
             this.flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
             this.guna2Panel2 = new Guna.UI2.WinForms.Guna2Panel();
+            this.guna2RatingStar1 = new Guna.UI2.WinForms.Guna2RatingStar();
+            this.label42 = new System.Windows.Forms.Label();
             this.guna2Button8 = new Guna.UI2.WinForms.Guna2Button();
             this.label7 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.guna2Panel4 = new Guna.UI2.WinForms.Guna2Panel();
+            this.label53 = new System.Windows.Forms.Label();
+            this.guna2RatingStar2 = new Guna.UI2.WinForms.Guna2RatingStar();
             this.guna2Button9 = new Guna.UI2.WinForms.Guna2Button();
             this.label11 = new System.Windows.Forms.Label();
             this.label10 = new System.Windows.Forms.Label();
             this.label9 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
             this.guna2Panel5 = new Guna.UI2.WinForms.Guna2Panel();
+            this.label54 = new System.Windows.Forms.Label();
+            this.guna2RatingStar3 = new Guna.UI2.WinForms.Guna2RatingStar();
             this.guna2Button10 = new Guna.UI2.WinForms.Guna2Button();
             this.label15 = new System.Windows.Forms.Label();
             this.label14 = new System.Windows.Forms.Label();
             this.label13 = new System.Windows.Forms.Label();
             this.label12 = new System.Windows.Forms.Label();
             this.guna2Panel6 = new Guna.UI2.WinForms.Guna2Panel();
+            this.label55 = new System.Windows.Forms.Label();
+            this.guna2RatingStar4 = new Guna.UI2.WinForms.Guna2RatingStar();
             this.guna2Button11 = new Guna.UI2.WinForms.Guna2Button();
             this.label20 = new System.Windows.Forms.Label();
             this.label19 = new System.Windows.Forms.Label();
             this.label18 = new System.Windows.Forms.Label();
             this.label17 = new System.Windows.Forms.Label();
             this.guna2Panel7 = new Guna.UI2.WinForms.Guna2Panel();
+            this.label56 = new System.Windows.Forms.Label();
+            this.guna2RatingStar5 = new Guna.UI2.WinForms.Guna2RatingStar();
             this.guna2Button12 = new Guna.UI2.WinForms.Guna2Button();
             this.label24 = new System.Windows.Forms.Label();
             this.label23 = new System.Windows.Forms.Label();
             this.label22 = new System.Windows.Forms.Label();
             this.label21 = new System.Windows.Forms.Label();
             this.guna2Panel8 = new Guna.UI2.WinForms.Guna2Panel();
+            this.label57 = new System.Windows.Forms.Label();
+            this.guna2RatingStar6 = new Guna.UI2.WinForms.Guna2RatingStar();
             this.guna2Button13 = new Guna.UI2.WinForms.Guna2Button();
             this.label28 = new System.Windows.Forms.Label();
             this.label27 = new System.Windows.Forms.Label();
             this.label26 = new System.Windows.Forms.Label();
             this.label25 = new System.Windows.Forms.Label();
             this.guna2Panel9 = new Guna.UI2.WinForms.Guna2Panel();
+            this.label58 = new System.Windows.Forms.Label();
+            this.guna2RatingStar7 = new Guna.UI2.WinForms.Guna2RatingStar();
             this.guna2Button14 = new Guna.UI2.WinForms.Guna2Button();
             this.label32 = new System.Windows.Forms.Label();
             this.label31 = new System.Windows.Forms.Label();
             this.label30 = new System.Windows.Forms.Label();
             this.label29 = new System.Windows.Forms.Label();
             this.guna2Panel10 = new Guna.UI2.WinForms.Guna2Panel();
+            this.label59 = new System.Windows.Forms.Label();
+            this.guna2RatingStar8 = new Guna.UI2.WinForms.Guna2RatingStar();
             this.guna2Button15 = new Guna.UI2.WinForms.Guna2Button();
             this.label36 = new System.Windows.Forms.Label();
             this.label35 = new System.Windows.Forms.Label();
             this.label34 = new System.Windows.Forms.Label();
             this.label33 = new System.Windows.Forms.Label();
             this.guna2Panel11 = new Guna.UI2.WinForms.Guna2Panel();
+            this.label60 = new System.Windows.Forms.Label();
+            this.guna2RatingStar9 = new Guna.UI2.WinForms.Guna2RatingStar();
             this.label41 = new System.Windows.Forms.Label();
             this.guna2Button16 = new Guna.UI2.WinForms.Guna2Button();
             this.label40 = new System.Windows.Forms.Label();
@@ -129,24 +147,6 @@
             this.label44 = new System.Windows.Forms.Label();
             this.label16 = new System.Windows.Forms.Label();
             this.guna2ComboBox1 = new Guna.UI2.WinForms.Guna2ComboBox();
-            this.label42 = new System.Windows.Forms.Label();
-            this.guna2RatingStar1 = new Guna.UI2.WinForms.Guna2RatingStar();
-            this.guna2RatingStar2 = new Guna.UI2.WinForms.Guna2RatingStar();
-            this.label53 = new System.Windows.Forms.Label();
-            this.guna2RatingStar3 = new Guna.UI2.WinForms.Guna2RatingStar();
-            this.label54 = new System.Windows.Forms.Label();
-            this.guna2RatingStar4 = new Guna.UI2.WinForms.Guna2RatingStar();
-            this.label55 = new System.Windows.Forms.Label();
-            this.guna2RatingStar5 = new Guna.UI2.WinForms.Guna2RatingStar();
-            this.label56 = new System.Windows.Forms.Label();
-            this.guna2RatingStar6 = new Guna.UI2.WinForms.Guna2RatingStar();
-            this.label57 = new System.Windows.Forms.Label();
-            this.guna2RatingStar7 = new Guna.UI2.WinForms.Guna2RatingStar();
-            this.label58 = new System.Windows.Forms.Label();
-            this.guna2RatingStar8 = new Guna.UI2.WinForms.Guna2RatingStar();
-            this.label59 = new System.Windows.Forms.Label();
-            this.guna2RatingStar9 = new Guna.UI2.WinForms.Guna2RatingStar();
-            this.label60 = new System.Windows.Forms.Label();
             this.panelSol.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox2)).BeginInit();
@@ -189,7 +189,7 @@
             this.panelSol.Dock = System.Windows.Forms.DockStyle.Left;
             this.panelSol.Location = new System.Drawing.Point(0, 0);
             this.panelSol.Name = "panelSol";
-            this.panelSol.Size = new System.Drawing.Size(260, 697);
+            this.panelSol.Size = new System.Drawing.Size(260, 673);
             this.panelSol.TabIndex = 1;
             // 
             // guna2CirclePictureBox1
@@ -379,7 +379,7 @@
             this.guna2Panel3.Dock = System.Windows.Forms.DockStyle.Top;
             this.guna2Panel3.Location = new System.Drawing.Point(260, 0);
             this.guna2Panel3.Name = "guna2Panel3";
-            this.guna2Panel3.Size = new System.Drawing.Size(1129, 143);
+            this.guna2Panel3.Size = new System.Drawing.Size(1002, 143);
             this.guna2Panel3.TabIndex = 9;
             // 
             // label6
@@ -398,7 +398,7 @@
             this.flowLayoutPanel2.Controls.Add(this.guna2Button1);
             this.flowLayoutPanel2.Controls.Add(this.guna2Button7);
             this.flowLayoutPanel2.FlowDirection = System.Windows.Forms.FlowDirection.RightToLeft;
-            this.flowLayoutPanel2.Location = new System.Drawing.Point(982, 12);
+            this.flowLayoutPanel2.Location = new System.Drawing.Point(855, 12);
             this.flowLayoutPanel2.Name = "flowLayoutPanel2";
             this.flowLayoutPanel2.Size = new System.Drawing.Size(137, 65);
             this.flowLayoutPanel2.TabIndex = 4;
@@ -526,6 +526,23 @@
             this.guna2Panel2.Size = new System.Drawing.Size(226, 204);
             this.guna2Panel2.TabIndex = 0;
             // 
+            // guna2RatingStar1
+            // 
+            this.guna2RatingStar1.Location = new System.Drawing.Point(19, 88);
+            this.guna2RatingStar1.Name = "guna2RatingStar1";
+            this.guna2RatingStar1.Size = new System.Drawing.Size(120, 28);
+            this.guna2RatingStar1.TabIndex = 6;
+            // 
+            // label42
+            // 
+            this.label42.AutoSize = true;
+            this.label42.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.label42.Location = new System.Drawing.Point(17, 119);
+            this.label42.Name = "label42";
+            this.label42.Size = new System.Drawing.Size(137, 40);
+            this.label42.TabIndex = 5;
+            this.label42.Text = "İlan Bitiş Süresi :\r\n3 Gün Kaldı";
+            // 
             // guna2Button8
             // 
             this.guna2Button8.BorderRadius = 6;
@@ -598,6 +615,23 @@
             this.guna2Panel4.Size = new System.Drawing.Size(226, 204);
             this.guna2Panel4.TabIndex = 1;
             // 
+            // label53
+            // 
+            this.label53.AutoSize = true;
+            this.label53.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.label53.Location = new System.Drawing.Point(17, 119);
+            this.label53.Name = "label53";
+            this.label53.Size = new System.Drawing.Size(137, 40);
+            this.label53.TabIndex = 8;
+            this.label53.Text = "İlan Bitiş Süresi :\r\n3 Gün Kaldı";
+            // 
+            // guna2RatingStar2
+            // 
+            this.guna2RatingStar2.Location = new System.Drawing.Point(21, 88);
+            this.guna2RatingStar2.Name = "guna2RatingStar2";
+            this.guna2RatingStar2.Size = new System.Drawing.Size(120, 28);
+            this.guna2RatingStar2.TabIndex = 7;
+            // 
             // guna2Button9
             // 
             this.guna2Button9.BorderRadius = 6;
@@ -668,6 +702,23 @@
             this.guna2Panel5.Name = "guna2Panel5";
             this.guna2Panel5.Size = new System.Drawing.Size(226, 204);
             this.guna2Panel5.TabIndex = 1;
+            // 
+            // label54
+            // 
+            this.label54.AutoSize = true;
+            this.label54.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.label54.Location = new System.Drawing.Point(13, 121);
+            this.label54.Name = "label54";
+            this.label54.Size = new System.Drawing.Size(137, 40);
+            this.label54.TabIndex = 9;
+            this.label54.Text = "İlan Bitiş Süresi :\r\n3 Gün Kaldı";
+            // 
+            // guna2RatingStar3
+            // 
+            this.guna2RatingStar3.Location = new System.Drawing.Point(12, 88);
+            this.guna2RatingStar3.Name = "guna2RatingStar3";
+            this.guna2RatingStar3.Size = new System.Drawing.Size(120, 28);
+            this.guna2RatingStar3.TabIndex = 8;
             // 
             // guna2Button10
             // 
@@ -740,6 +791,23 @@
             this.guna2Panel6.Size = new System.Drawing.Size(226, 204);
             this.guna2Panel6.TabIndex = 1;
             // 
+            // label55
+            // 
+            this.label55.AutoSize = true;
+            this.label55.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.label55.Location = new System.Drawing.Point(17, 125);
+            this.label55.Name = "label55";
+            this.label55.Size = new System.Drawing.Size(137, 40);
+            this.label55.TabIndex = 8;
+            this.label55.Text = "İlan Bitiş Süresi :\r\n3 Gün Kaldı";
+            // 
+            // guna2RatingStar4
+            // 
+            this.guna2RatingStar4.Location = new System.Drawing.Point(19, 92);
+            this.guna2RatingStar4.Name = "guna2RatingStar4";
+            this.guna2RatingStar4.Size = new System.Drawing.Size(120, 28);
+            this.guna2RatingStar4.TabIndex = 7;
+            // 
             // guna2Button11
             // 
             this.guna2Button11.BorderRadius = 6;
@@ -810,6 +878,23 @@
             this.guna2Panel7.Name = "guna2Panel7";
             this.guna2Panel7.Size = new System.Drawing.Size(226, 204);
             this.guna2Panel7.TabIndex = 2;
+            // 
+            // label56
+            // 
+            this.label56.AutoSize = true;
+            this.label56.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.label56.Location = new System.Drawing.Point(17, 124);
+            this.label56.Name = "label56";
+            this.label56.Size = new System.Drawing.Size(137, 40);
+            this.label56.TabIndex = 9;
+            this.label56.Text = "İlan Bitiş Süresi :\r\n3 Gün Kaldı";
+            // 
+            // guna2RatingStar5
+            // 
+            this.guna2RatingStar5.Location = new System.Drawing.Point(20, 92);
+            this.guna2RatingStar5.Name = "guna2RatingStar5";
+            this.guna2RatingStar5.Size = new System.Drawing.Size(120, 28);
+            this.guna2RatingStar5.TabIndex = 8;
             // 
             // guna2Button12
             // 
@@ -882,6 +967,23 @@
             this.guna2Panel8.Size = new System.Drawing.Size(226, 204);
             this.guna2Panel8.TabIndex = 3;
             // 
+            // label57
+            // 
+            this.label57.AutoSize = true;
+            this.label57.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.label57.Location = new System.Drawing.Point(17, 124);
+            this.label57.Name = "label57";
+            this.label57.Size = new System.Drawing.Size(137, 40);
+            this.label57.TabIndex = 10;
+            this.label57.Text = "İlan Bitiş Süresi :\r\n3 Gün Kaldı";
+            // 
+            // guna2RatingStar6
+            // 
+            this.guna2RatingStar6.Location = new System.Drawing.Point(19, 92);
+            this.guna2RatingStar6.Name = "guna2RatingStar6";
+            this.guna2RatingStar6.Size = new System.Drawing.Size(120, 28);
+            this.guna2RatingStar6.TabIndex = 9;
+            // 
             // guna2Button13
             // 
             this.guna2Button13.BorderRadius = 6;
@@ -952,6 +1054,23 @@
             this.guna2Panel9.Name = "guna2Panel9";
             this.guna2Panel9.Size = new System.Drawing.Size(226, 204);
             this.guna2Panel9.TabIndex = 4;
+            // 
+            // label58
+            // 
+            this.label58.AutoSize = true;
+            this.label58.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.label58.Location = new System.Drawing.Point(17, 116);
+            this.label58.Name = "label58";
+            this.label58.Size = new System.Drawing.Size(137, 40);
+            this.label58.TabIndex = 9;
+            this.label58.Text = "İlan Bitiş Süresi :\r\n3 Gün Kaldı";
+            // 
+            // guna2RatingStar7
+            // 
+            this.guna2RatingStar7.Location = new System.Drawing.Point(19, 84);
+            this.guna2RatingStar7.Name = "guna2RatingStar7";
+            this.guna2RatingStar7.Size = new System.Drawing.Size(120, 28);
+            this.guna2RatingStar7.TabIndex = 8;
             // 
             // guna2Button14
             // 
@@ -1024,6 +1143,23 @@
             this.guna2Panel10.Size = new System.Drawing.Size(226, 204);
             this.guna2Panel10.TabIndex = 4;
             // 
+            // label59
+            // 
+            this.label59.AutoSize = true;
+            this.label59.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.label59.Location = new System.Drawing.Point(17, 118);
+            this.label59.Name = "label59";
+            this.label59.Size = new System.Drawing.Size(137, 40);
+            this.label59.TabIndex = 10;
+            this.label59.Text = "İlan Bitiş Süresi :\r\n3 Gün Kaldı";
+            // 
+            // guna2RatingStar8
+            // 
+            this.guna2RatingStar8.Location = new System.Drawing.Point(21, 84);
+            this.guna2RatingStar8.Name = "guna2RatingStar8";
+            this.guna2RatingStar8.Size = new System.Drawing.Size(120, 28);
+            this.guna2RatingStar8.TabIndex = 9;
+            // 
             // guna2Button15
             // 
             this.guna2Button15.BorderRadius = 6;
@@ -1095,6 +1231,23 @@
             this.guna2Panel11.Name = "guna2Panel11";
             this.guna2Panel11.Size = new System.Drawing.Size(226, 204);
             this.guna2Panel11.TabIndex = 5;
+            // 
+            // label60
+            // 
+            this.label60.AutoSize = true;
+            this.label60.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.label60.Location = new System.Drawing.Point(25, 118);
+            this.label60.Name = "label60";
+            this.label60.Size = new System.Drawing.Size(137, 40);
+            this.label60.TabIndex = 11;
+            this.label60.Text = "İlan Bitiş Süresi :\r\n3 Gün Kaldı";
+            // 
+            // guna2RatingStar9
+            // 
+            this.guna2RatingStar9.Location = new System.Drawing.Point(21, 84);
+            this.guna2RatingStar9.Name = "guna2RatingStar9";
+            this.guna2RatingStar9.Size = new System.Drawing.Size(120, 28);
+            this.guna2RatingStar9.TabIndex = 10;
             // 
             // label41
             // 
@@ -1471,164 +1624,11 @@
             this.guna2ComboBox1.Size = new System.Drawing.Size(226, 36);
             this.guna2ComboBox1.TabIndex = 22;
             // 
-            // label42
-            // 
-            this.label42.AutoSize = true;
-            this.label42.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label42.Location = new System.Drawing.Point(17, 119);
-            this.label42.Name = "label42";
-            this.label42.Size = new System.Drawing.Size(137, 40);
-            this.label42.TabIndex = 5;
-            this.label42.Text = "İlan Bitiş Süresi :\r\n3 Gün Kaldı";
-            // 
-            // guna2RatingStar1
-            // 
-            this.guna2RatingStar1.Location = new System.Drawing.Point(19, 88);
-            this.guna2RatingStar1.Name = "guna2RatingStar1";
-            this.guna2RatingStar1.Size = new System.Drawing.Size(120, 28);
-            this.guna2RatingStar1.TabIndex = 6;
-            // 
-            // guna2RatingStar2
-            // 
-            this.guna2RatingStar2.Location = new System.Drawing.Point(21, 88);
-            this.guna2RatingStar2.Name = "guna2RatingStar2";
-            this.guna2RatingStar2.Size = new System.Drawing.Size(120, 28);
-            this.guna2RatingStar2.TabIndex = 7;
-            // 
-            // label53
-            // 
-            this.label53.AutoSize = true;
-            this.label53.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label53.Location = new System.Drawing.Point(17, 119);
-            this.label53.Name = "label53";
-            this.label53.Size = new System.Drawing.Size(137, 40);
-            this.label53.TabIndex = 8;
-            this.label53.Text = "İlan Bitiş Süresi :\r\n3 Gün Kaldı";
-            // 
-            // guna2RatingStar3
-            // 
-            this.guna2RatingStar3.Location = new System.Drawing.Point(12, 88);
-            this.guna2RatingStar3.Name = "guna2RatingStar3";
-            this.guna2RatingStar3.Size = new System.Drawing.Size(120, 28);
-            this.guna2RatingStar3.TabIndex = 8;
-            // 
-            // label54
-            // 
-            this.label54.AutoSize = true;
-            this.label54.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label54.Location = new System.Drawing.Point(13, 121);
-            this.label54.Name = "label54";
-            this.label54.Size = new System.Drawing.Size(137, 40);
-            this.label54.TabIndex = 9;
-            this.label54.Text = "İlan Bitiş Süresi :\r\n3 Gün Kaldı";
-            // 
-            // guna2RatingStar4
-            // 
-            this.guna2RatingStar4.Location = new System.Drawing.Point(19, 92);
-            this.guna2RatingStar4.Name = "guna2RatingStar4";
-            this.guna2RatingStar4.Size = new System.Drawing.Size(120, 28);
-            this.guna2RatingStar4.TabIndex = 7;
-            // 
-            // label55
-            // 
-            this.label55.AutoSize = true;
-            this.label55.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label55.Location = new System.Drawing.Point(17, 125);
-            this.label55.Name = "label55";
-            this.label55.Size = new System.Drawing.Size(137, 40);
-            this.label55.TabIndex = 8;
-            this.label55.Text = "İlan Bitiş Süresi :\r\n3 Gün Kaldı";
-            // 
-            // guna2RatingStar5
-            // 
-            this.guna2RatingStar5.Location = new System.Drawing.Point(20, 92);
-            this.guna2RatingStar5.Name = "guna2RatingStar5";
-            this.guna2RatingStar5.Size = new System.Drawing.Size(120, 28);
-            this.guna2RatingStar5.TabIndex = 8;
-            // 
-            // label56
-            // 
-            this.label56.AutoSize = true;
-            this.label56.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label56.Location = new System.Drawing.Point(17, 124);
-            this.label56.Name = "label56";
-            this.label56.Size = new System.Drawing.Size(137, 40);
-            this.label56.TabIndex = 9;
-            this.label56.Text = "İlan Bitiş Süresi :\r\n3 Gün Kaldı";
-            // 
-            // guna2RatingStar6
-            // 
-            this.guna2RatingStar6.Location = new System.Drawing.Point(19, 92);
-            this.guna2RatingStar6.Name = "guna2RatingStar6";
-            this.guna2RatingStar6.Size = new System.Drawing.Size(120, 28);
-            this.guna2RatingStar6.TabIndex = 9;
-            // 
-            // label57
-            // 
-            this.label57.AutoSize = true;
-            this.label57.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label57.Location = new System.Drawing.Point(17, 124);
-            this.label57.Name = "label57";
-            this.label57.Size = new System.Drawing.Size(137, 40);
-            this.label57.TabIndex = 10;
-            this.label57.Text = "İlan Bitiş Süresi :\r\n3 Gün Kaldı";
-            // 
-            // guna2RatingStar7
-            // 
-            this.guna2RatingStar7.Location = new System.Drawing.Point(19, 84);
-            this.guna2RatingStar7.Name = "guna2RatingStar7";
-            this.guna2RatingStar7.Size = new System.Drawing.Size(120, 28);
-            this.guna2RatingStar7.TabIndex = 8;
-            // 
-            // label58
-            // 
-            this.label58.AutoSize = true;
-            this.label58.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label58.Location = new System.Drawing.Point(17, 116);
-            this.label58.Name = "label58";
-            this.label58.Size = new System.Drawing.Size(137, 40);
-            this.label58.TabIndex = 9;
-            this.label58.Text = "İlan Bitiş Süresi :\r\n3 Gün Kaldı";
-            // 
-            // guna2RatingStar8
-            // 
-            this.guna2RatingStar8.Location = new System.Drawing.Point(21, 84);
-            this.guna2RatingStar8.Name = "guna2RatingStar8";
-            this.guna2RatingStar8.Size = new System.Drawing.Size(120, 28);
-            this.guna2RatingStar8.TabIndex = 9;
-            // 
-            // label59
-            // 
-            this.label59.AutoSize = true;
-            this.label59.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label59.Location = new System.Drawing.Point(17, 118);
-            this.label59.Name = "label59";
-            this.label59.Size = new System.Drawing.Size(137, 40);
-            this.label59.TabIndex = 10;
-            this.label59.Text = "İlan Bitiş Süresi :\r\n3 Gün Kaldı";
-            // 
-            // guna2RatingStar9
-            // 
-            this.guna2RatingStar9.Location = new System.Drawing.Point(21, 84);
-            this.guna2RatingStar9.Name = "guna2RatingStar9";
-            this.guna2RatingStar9.Size = new System.Drawing.Size(120, 28);
-            this.guna2RatingStar9.TabIndex = 10;
-            // 
-            // label60
-            // 
-            this.label60.AutoSize = true;
-            this.label60.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label60.Location = new System.Drawing.Point(25, 118);
-            this.label60.Name = "label60";
-            this.label60.Size = new System.Drawing.Size(137, 40);
-            this.label60.TabIndex = 11;
-            this.label60.Text = "İlan Bitiş Süresi :\r\n3 Gün Kaldı";
-            // 
             // AnaSayfa
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1382, 710);
+            this.ClientSize = new System.Drawing.Size(1262, 673);
             this.Controls.Add(this.label44);
             this.Controls.Add(this.label43);
             this.Controls.Add(this.flowLayoutPanel1);
