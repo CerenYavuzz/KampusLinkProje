@@ -137,7 +137,7 @@
             this.panelSol.Dock = System.Windows.Forms.DockStyle.Left;
             this.panelSol.Location = new System.Drawing.Point(0, 0);
             this.panelSol.Name = "panelSol";
-            this.panelSol.Size = new System.Drawing.Size(260, 720);
+            this.panelSol.Size = new System.Drawing.Size(260, 673);
             this.panelSol.TabIndex = 2;
             // 
             // guna2CirclePictureBox1
@@ -319,6 +319,7 @@
             // 
             // panelAkilliEslesme
             // 
+            this.panelAkilliEslesme.AutoScroll = true;
             this.panelAkilliEslesme.BackColor = System.Drawing.Color.White;
             this.panelAkilliEslesme.BorderRadius = 12;
             this.panelAkilliEslesme.Controls.Add(this.panel1);
@@ -341,9 +342,9 @@
             this.panelAkilliEslesme.Controls.Add(this.txtAra);
             this.panelAkilliEslesme.Controls.Add(this.lblAciklama);
             this.panelAkilliEslesme.Controls.Add(this.lblBaslık);
-            this.panelAkilliEslesme.Location = new System.Drawing.Point(260, 48);
+            this.panelAkilliEslesme.Location = new System.Drawing.Point(266, 0);
             this.panelAkilliEslesme.Name = "panelAkilliEslesme";
-            this.panelAkilliEslesme.Size = new System.Drawing.Size(876, 668);
+            this.panelAkilliEslesme.Size = new System.Drawing.Size(993, 668);
             this.panelAkilliEslesme.TabIndex = 3;
             // 
             // panel1
@@ -354,7 +355,7 @@
             this.panel1.Controls.Add(this.label29);
             this.panel1.Controls.Add(this.label30);
             this.panel1.Controls.Add(this.guna2CirclePictureBox5);
-            this.panel1.Location = new System.Drawing.Point(600, 545);
+            this.panel1.Location = new System.Drawing.Point(645, 541);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(250, 111);
             this.panel1.TabIndex = 17;
@@ -405,7 +406,7 @@
             this.label29.BackColor = System.Drawing.Color.White;
             this.label29.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.label29.ForeColor = System.Drawing.Color.Black;
-            this.label29.Location = new System.Drawing.Point(80, 38);
+            this.label29.Location = new System.Drawing.Point(81, 38);
             this.label29.Name = "label29";
             this.label29.Size = new System.Drawing.Size(97, 20);
             this.label29.TabIndex = 8;
@@ -416,7 +417,7 @@
             this.label30.AutoSize = true;
             this.label30.BackColor = System.Drawing.Color.White;
             this.label30.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label30.Location = new System.Drawing.Point(80, 15);
+            this.label30.Location = new System.Drawing.Point(81, 15);
             this.label30.Name = "label30";
             this.label30.Size = new System.Drawing.Size(157, 23);
             this.label30.TabIndex = 8;
@@ -441,7 +442,7 @@
             this.panel2.Controls.Add(this.label33);
             this.panel2.Controls.Add(this.label34);
             this.panel2.Controls.Add(this.guna2CirclePictureBox6);
-            this.panel2.Location = new System.Drawing.Point(310, 545);
+            this.panel2.Location = new System.Drawing.Point(355, 541);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(250, 111);
             this.panel2.TabIndex = 17;
@@ -528,7 +529,7 @@
             this.kucukKart1.Controls.Add(this.label24);
             this.kucukKart1.Controls.Add(this.label23);
             this.kucukKart1.Controls.Add(this.guna2CirclePictureBox4);
-            this.kucukKart1.Location = new System.Drawing.Point(20, 545);
+            this.kucukKart1.Location = new System.Drawing.Point(65, 541);
             this.kucukKart1.Name = "kucukKart1";
             this.kucukKart1.Size = new System.Drawing.Size(250, 111);
             this.kucukKart1.TabIndex = 16;
@@ -612,7 +613,7 @@
             this.label22.AutoSize = true;
             this.label22.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.label22.ForeColor = System.Drawing.Color.RoyalBlue;
-            this.label22.Location = new System.Drawing.Point(754, 515);
+            this.label22.Location = new System.Drawing.Point(835, 512);
             this.label22.Name = "label22";
             this.label22.Size = new System.Drawing.Size(96, 18);
             this.label22.TabIndex = 15;
@@ -622,7 +623,7 @@
             // 
             this.label21.AutoSize = true;
             this.label21.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label21.Location = new System.Drawing.Point(20, 515);
+            this.label21.Location = new System.Drawing.Point(30, 512);
             this.label21.Name = "label21";
             this.label21.Size = new System.Drawing.Size(216, 23);
             this.label21.TabIndex = 14;
@@ -639,9 +640,9 @@
             this.guna2Panel2.Controls.Add(this.label15);
             this.guna2Panel2.Controls.Add(this.guna2CirclePictureBox2);
             this.guna2Panel2.FillColor = System.Drawing.Color.White;
-            this.guna2Panel2.Location = new System.Drawing.Point(20, 400);
+            this.guna2Panel2.Location = new System.Drawing.Point(30, 397);
             this.guna2Panel2.Name = "guna2Panel2";
-            this.guna2Panel2.Size = new System.Drawing.Size(830, 100);
+            this.guna2Panel2.Size = new System.Drawing.Size(901, 100);
             this.guna2Panel2.TabIndex = 13;
             // 
             // guna2Button7
@@ -654,7 +655,7 @@
             this.guna2Button7.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(99)))), ((int)(((byte)(235)))));
             this.guna2Button7.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.guna2Button7.ForeColor = System.Drawing.Color.White;
-            this.guna2Button7.Location = new System.Drawing.Point(700, 38);
+            this.guna2Button7.Location = new System.Drawing.Point(766, 37);
             this.guna2Button7.Name = "guna2Button7";
             this.guna2Button7.Size = new System.Drawing.Size(90, 35);
             this.guna2Button7.TabIndex = 7;
@@ -666,7 +667,7 @@
             this.label11.BackColor = System.Drawing.Color.White;
             this.label11.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.label11.ForeColor = System.Drawing.Color.RoyalBlue;
-            this.label11.Location = new System.Drawing.Point(580, 50);
+            this.label11.Location = new System.Drawing.Point(646, 49);
             this.label11.Name = "label11";
             this.label11.Size = new System.Drawing.Size(54, 23);
             this.label11.TabIndex = 6;
@@ -677,7 +678,7 @@
             this.label12.AutoSize = true;
             this.label12.BackColor = System.Drawing.Color.White;
             this.label12.ForeColor = System.Drawing.Color.Black;
-            this.label12.Location = new System.Drawing.Point(580, 20);
+            this.label12.Location = new System.Drawing.Point(646, 19);
             this.label12.Name = "label12";
             this.label12.Size = new System.Drawing.Size(111, 16);
             this.label12.TabIndex = 5;
@@ -756,9 +757,9 @@
             this.guna2Panel3.Controls.Add(this.label20);
             this.guna2Panel3.Controls.Add(this.guna2CirclePictureBox3);
             this.guna2Panel3.FillColor = System.Drawing.Color.White;
-            this.guna2Panel3.Location = new System.Drawing.Point(20, 290);
+            this.guna2Panel3.Location = new System.Drawing.Point(30, 287);
             this.guna2Panel3.Name = "guna2Panel3";
-            this.guna2Panel3.Size = new System.Drawing.Size(830, 100);
+            this.guna2Panel3.Size = new System.Drawing.Size(901, 100);
             this.guna2Panel3.TabIndex = 13;
             // 
             // guna2Button9
@@ -771,7 +772,7 @@
             this.guna2Button9.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(99)))), ((int)(((byte)(235)))));
             this.guna2Button9.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.guna2Button9.ForeColor = System.Drawing.Color.White;
-            this.guna2Button9.Location = new System.Drawing.Point(701, 40);
+            this.guna2Button9.Location = new System.Drawing.Point(767, 49);
             this.guna2Button9.Name = "guna2Button9";
             this.guna2Button9.Size = new System.Drawing.Size(90, 35);
             this.guna2Button9.TabIndex = 7;
@@ -783,7 +784,7 @@
             this.label16.BackColor = System.Drawing.Color.White;
             this.label16.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.label16.ForeColor = System.Drawing.Color.RoyalBlue;
-            this.label16.Location = new System.Drawing.Point(580, 50);
+            this.label16.Location = new System.Drawing.Point(647, 49);
             this.label16.Name = "label16";
             this.label16.Size = new System.Drawing.Size(54, 23);
             this.label16.TabIndex = 6;
@@ -794,7 +795,7 @@
             this.label17.AutoSize = true;
             this.label17.BackColor = System.Drawing.Color.White;
             this.label17.ForeColor = System.Drawing.Color.Black;
-            this.label17.Location = new System.Drawing.Point(580, 20);
+            this.label17.Location = new System.Drawing.Point(647, 19);
             this.label17.Name = "label17";
             this.label17.Size = new System.Drawing.Size(153, 16);
             this.label17.TabIndex = 5;
@@ -873,9 +874,9 @@
             this.kart1.Controls.Add(this.label6);
             this.kart1.Controls.Add(this.picKart1);
             this.kart1.FillColor = System.Drawing.Color.White;
-            this.kart1.Location = new System.Drawing.Point(20, 180);
+            this.kart1.Location = new System.Drawing.Point(30, 177);
             this.kart1.Name = "kart1";
-            this.kart1.Size = new System.Drawing.Size(830, 100);
+            this.kart1.Size = new System.Drawing.Size(901, 100);
             this.kart1.TabIndex = 12;
             // 
             // guna2Button14
@@ -888,7 +889,7 @@
             this.guna2Button14.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(99)))), ((int)(((byte)(235)))));
             this.guna2Button14.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.guna2Button14.ForeColor = System.Drawing.Color.White;
-            this.guna2Button14.Location = new System.Drawing.Point(701, 50);
+            this.guna2Button14.Location = new System.Drawing.Point(767, 49);
             this.guna2Button14.Name = "guna2Button14";
             this.guna2Button14.Size = new System.Drawing.Size(90, 35);
             this.guna2Button14.TabIndex = 8;
@@ -900,7 +901,7 @@
             this.label10.BackColor = System.Drawing.Color.White;
             this.label10.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.label10.ForeColor = System.Drawing.Color.RoyalBlue;
-            this.label10.Location = new System.Drawing.Point(580, 50);
+            this.label10.Location = new System.Drawing.Point(646, 49);
             this.label10.Name = "label10";
             this.label10.Size = new System.Drawing.Size(54, 23);
             this.label10.TabIndex = 6;
@@ -911,7 +912,7 @@
             this.label9.AutoSize = true;
             this.label9.BackColor = System.Drawing.Color.White;
             this.label9.ForeColor = System.Drawing.Color.Black;
-            this.label9.Location = new System.Drawing.Point(580, 20);
+            this.label9.Location = new System.Drawing.Point(646, 19);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(111, 16);
             this.label9.TabIndex = 5;
@@ -981,7 +982,7 @@
             // 
             // trackPuan
             // 
-            this.trackPuan.Location = new System.Drawing.Point(630, 136);
+            this.trackPuan.Location = new System.Drawing.Point(711, 139);
             this.trackPuan.Maximum = 50;
             this.trackPuan.Name = "trackPuan";
             this.trackPuan.Size = new System.Drawing.Size(220, 30);
@@ -994,7 +995,7 @@
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label4.Location = new System.Drawing.Point(470, 143);
+            this.label4.Location = new System.Drawing.Point(555, 142);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(139, 20);
             this.label4.TabIndex = 10;
@@ -1003,7 +1004,7 @@
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(135, 143);
+            this.label5.Location = new System.Drawing.Point(145, 140);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(56, 16);
             this.label5.TabIndex = 9;
@@ -1012,7 +1013,7 @@
             // Eğitim
             // 
             this.Eğitim.AutoSize = true;
-            this.Eğitim.Location = new System.Drawing.Point(235, 143);
+            this.Eğitim.Location = new System.Drawing.Point(245, 140);
             this.Eğitim.Name = "Eğitim";
             this.Eğitim.Size = new System.Drawing.Size(54, 16);
             this.Eğitim.TabIndex = 8;
@@ -1025,7 +1026,7 @@
             this.chkEgitmen.CheckedState.BorderRadius = 0;
             this.chkEgitmen.CheckedState.BorderThickness = 0;
             this.chkEgitmen.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.chkEgitmen.Location = new System.Drawing.Point(110, 145);
+            this.chkEgitmen.Location = new System.Drawing.Point(120, 142);
             this.chkEgitmen.Name = "chkEgitmen";
             this.chkEgitmen.Size = new System.Drawing.Size(18, 17);
             this.chkEgitmen.TabIndex = 7;
@@ -1041,7 +1042,7 @@
             this.chkEgitim.CheckedState.BorderRadius = 0;
             this.chkEgitim.CheckedState.BorderThickness = 0;
             this.chkEgitim.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.chkEgitim.Location = new System.Drawing.Point(210, 145);
+            this.chkEgitim.Location = new System.Drawing.Point(220, 142);
             this.chkEgitim.Name = "chkEgitim";
             this.chkEgitim.Size = new System.Drawing.Size(18, 17);
             this.chkEgitim.TabIndex = 6;
@@ -1053,7 +1054,7 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(45, 143);
+            this.label3.Location = new System.Drawing.Point(55, 140);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(54, 16);
             this.label3.TabIndex = 5;
@@ -1066,7 +1067,7 @@
             this.chkOgrenci.CheckedState.BorderRadius = 0;
             this.chkOgrenci.CheckedState.BorderThickness = 0;
             this.chkOgrenci.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.chkOgrenci.Location = new System.Drawing.Point(21, 142);
+            this.chkOgrenci.Location = new System.Drawing.Point(31, 139);
             this.chkOgrenci.Name = "chkOgrenci";
             this.chkOgrenci.Size = new System.Drawing.Size(18, 17);
             this.chkOgrenci.TabIndex = 4;
@@ -1086,7 +1087,7 @@
             this.btnFiltre.FillColor = System.Drawing.Color.White;
             this.btnFiltre.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.btnFiltre.ForeColor = System.Drawing.Color.DimGray;
-            this.btnFiltre.Location = new System.Drawing.Point(600, 90);
+            this.btnFiltre.Location = new System.Drawing.Point(781, 87);
             this.btnFiltre.Name = "btnFiltre";
             this.btnFiltre.Size = new System.Drawing.Size(150, 40);
             this.btnFiltre.TabIndex = 3;
@@ -1104,12 +1105,12 @@
             this.txtAra.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txtAra.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.txtAra.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txtAra.Location = new System.Drawing.Point(20, 90);
+            this.txtAra.Location = new System.Drawing.Point(30, 87);
             this.txtAra.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.txtAra.Name = "txtAra";
             this.txtAra.PlaceholderText = "Derslerde eşleşmeleri bul...";
             this.txtAra.SelectedText = "";
-            this.txtAra.Size = new System.Drawing.Size(560, 40);
+            this.txtAra.Size = new System.Drawing.Size(706, 40);
             this.txtAra.TabIndex = 2;
             // 
             // lblAciklama
@@ -1117,7 +1118,7 @@
             this.lblAciklama.AutoSize = true;
             this.lblAciklama.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.lblAciklama.ForeColor = System.Drawing.Color.DimGray;
-            this.lblAciklama.Location = new System.Drawing.Point(23, 61);
+            this.lblAciklama.Location = new System.Drawing.Point(33, 58);
             this.lblAciklama.Name = "lblAciklama";
             this.lblAciklama.Size = new System.Drawing.Size(492, 20);
             this.lblAciklama.TabIndex = 1;
@@ -1127,7 +1128,7 @@
             // 
             this.lblBaslık.AutoSize = true;
             this.lblBaslık.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.lblBaslık.Location = new System.Drawing.Point(20, 20);
+            this.lblBaslık.Location = new System.Drawing.Point(30, 17);
             this.lblBaslık.Name = "lblBaslık";
             this.lblBaslık.Size = new System.Drawing.Size(210, 41);
             this.lblBaslık.TabIndex = 0;
@@ -1138,7 +1139,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.Control;
-            this.ClientSize = new System.Drawing.Size(1146, 720);
+            this.ClientSize = new System.Drawing.Size(1262, 673);
             this.Controls.Add(this.panelAkilliEslesme);
             this.Controls.Add(this.panelSol);
             this.Name = "AkıllıEşleşme";
