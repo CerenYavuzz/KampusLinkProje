@@ -205,6 +205,272 @@
             this.guna2Button4.TabIndex = 13;
             this.guna2Button4.Text = "Akıllı Eşleşme";
             // 
+            // rdoıstenenYardim
+            // 
+            this.rdoıstenenYardim.AutoSize = true;
+            this.rdoıstenenYardim.CheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.rdoıstenenYardim.CheckedState.BorderThickness = 0;
+            this.rdoıstenenYardim.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.rdoıstenenYardim.CheckedState.InnerColor = System.Drawing.Color.White;
+            this.rdoıstenenYardim.CheckedState.InnerOffset = -4;
+            this.rdoıstenenYardim.Location = new System.Drawing.Point(20, 505);
+            this.rdoıstenenYardim.Name = "rdoıstenenYardim";
+            this.rdoıstenenYardim.Size = new System.Drawing.Size(146, 20);
+            this.rdoıstenenYardim.TabIndex = 13;
+            this.rdoıstenenYardim.Text = "guna2RadioButton2";
+            this.rdoıstenenYardim.UncheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
+            this.rdoıstenenYardim.UncheckedState.BorderThickness = 2;
+            this.rdoıstenenYardim.UncheckedState.FillColor = System.Drawing.Color.Transparent;
+            this.rdoıstenenYardim.UncheckedState.InnerColor = System.Drawing.Color.Transparent;
+            // 
+            // rdrVerilecekDers
+            // 
+            this.rdrVerilecekDers.AutoSize = true;
+            this.rdrVerilecekDers.CheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.rdrVerilecekDers.CheckedState.BorderThickness = 0;
+            this.rdrVerilecekDers.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.rdrVerilecekDers.CheckedState.InnerColor = System.Drawing.Color.White;
+            this.rdrVerilecekDers.CheckedState.InnerOffset = -4;
+            this.rdrVerilecekDers.Location = new System.Drawing.Point(20, 475);
+            this.rdrVerilecekDers.Name = "rdrVerilecekDers";
+            this.rdrVerilecekDers.Size = new System.Drawing.Size(146, 20);
+            this.rdrVerilecekDers.TabIndex = 12;
+            this.rdrVerilecekDers.Text = "guna2RadioButton1";
+            this.rdrVerilecekDers.UncheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
+            this.rdrVerilecekDers.UncheckedState.BorderThickness = 2;
+            this.rdrVerilecekDers.UncheckedState.FillColor = System.Drawing.Color.Transparent;
+            this.rdrVerilecekDers.UncheckedState.InnerColor = System.Drawing.Color.Transparent;
+            // 
+            // lblIlanTipi
+            // 
+            this.lblIlanTipi.BackColor = System.Drawing.Color.Transparent;
+            this.lblIlanTipi.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.lblIlanTipi.Location = new System.Drawing.Point(20, 445);
+            this.lblIlanTipi.Name = "lblIlanTipi";
+            this.lblIlanTipi.Size = new System.Drawing.Size(68, 25);
+            this.lblIlanTipi.TabIndex = 11;
+            this.lblIlanTipi.Text = "İlan Tipi";
+            // 
+            // txtPuanAraligi
+            // 
+            this.txtPuanAraligi.BorderRadius = 8;
+            this.txtPuanAraligi.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.txtPuanAraligi.DefaultText = "";
+            this.txtPuanAraligi.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
+            this.txtPuanAraligi.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
+            this.txtPuanAraligi.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.txtPuanAraligi.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.txtPuanAraligi.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.txtPuanAraligi.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.txtPuanAraligi.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.txtPuanAraligi.Location = new System.Drawing.Point(230, 390);
+            this.txtPuanAraligi.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.txtPuanAraligi.Name = "txtPuanAraligi";
+            this.txtPuanAraligi.PlaceholderText = "";
+            this.txtPuanAraligi.SelectedText = "";
+            this.txtPuanAraligi.Size = new System.Drawing.Size(170, 40);
+            this.txtPuanAraligi.TabIndex = 10;
+            // 
+            // lblPuanAralığı
+            // 
+            this.lblPuanAralığı.BackColor = System.Drawing.Color.Transparent;
+            this.lblPuanAralığı.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.lblPuanAralığı.Location = new System.Drawing.Point(230, 365);
+            this.lblPuanAralığı.Name = "lblPuanAralığı";
+            this.lblPuanAralığı.Size = new System.Drawing.Size(101, 25);
+            this.lblPuanAralığı.TabIndex = 9;
+            this.lblPuanAralığı.Text = "Puan Aralığı";
+            // 
+            // cmbLinkPuan
+            // 
+            this.cmbLinkPuan.BackColor = System.Drawing.Color.Transparent;
+            this.cmbLinkPuan.BorderRadius = 8;
+            this.cmbLinkPuan.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
+            this.cmbLinkPuan.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cmbLinkPuan.FocusedColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.cmbLinkPuan.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.cmbLinkPuan.Font = new System.Drawing.Font("Segoe UI", 10F);
+            this.cmbLinkPuan.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(68)))), ((int)(((byte)(88)))), ((int)(((byte)(112)))));
+            this.cmbLinkPuan.ItemHeight = 30;
+            this.cmbLinkPuan.Location = new System.Drawing.Point(20, 390);
+            this.cmbLinkPuan.Name = "cmbLinkPuan";
+            this.cmbLinkPuan.Size = new System.Drawing.Size(170, 36);
+            this.cmbLinkPuan.TabIndex = 8;
+            // 
+            // lnlLinkPuan
+            // 
+            this.lnlLinkPuan.BackColor = System.Drawing.Color.Transparent;
+            this.lnlLinkPuan.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.lnlLinkPuan.Location = new System.Drawing.Point(20, 365);
+            this.lnlLinkPuan.Name = "lnlLinkPuan";
+            this.lnlLinkPuan.Size = new System.Drawing.Size(76, 25);
+            this.lnlLinkPuan.TabIndex = 7;
+            this.lnlLinkPuan.Text = "LinkPuan";
+            // 
+            // txtAciklama
+            // 
+            this.txtAciklama.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.txtAciklama.DefaultText = "";
+            this.txtAciklama.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
+            this.txtAciklama.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
+            this.txtAciklama.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.txtAciklama.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.txtAciklama.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.txtAciklama.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.txtAciklama.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.txtAciklama.Location = new System.Drawing.Point(20, 255);
+            this.txtAciklama.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.txtAciklama.Name = "txtAciklama";
+            this.txtAciklama.PlaceholderText = "İlan detaylarını yazınız";
+            this.txtAciklama.SelectedText = "";
+            this.txtAciklama.Size = new System.Drawing.Size(380, 95);
+            this.txtAciklama.TabIndex = 6;
+            // 
+            // guna2HtmlLabel1
+            // 
+            this.guna2HtmlLabel1.BackColor = System.Drawing.Color.Transparent;
+            this.guna2HtmlLabel1.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.guna2HtmlLabel1.Location = new System.Drawing.Point(20, 230);
+            this.guna2HtmlLabel1.Name = "guna2HtmlLabel1";
+            this.guna2HtmlLabel1.Size = new System.Drawing.Size(123, 25);
+            this.guna2HtmlLabel1.TabIndex = 5;
+            this.guna2HtmlLabel1.Text = "İlan Açıklaması";
+            // 
+            // cmbKategori
+            // 
+            this.cmbKategori.BackColor = System.Drawing.Color.Transparent;
+            this.cmbKategori.BorderRadius = 8;
+            this.cmbKategori.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
+            this.cmbKategori.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cmbKategori.FocusedColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.cmbKategori.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.cmbKategori.Font = new System.Drawing.Font("Segoe UI", 10F);
+            this.cmbKategori.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(68)))), ((int)(((byte)(88)))), ((int)(((byte)(112)))));
+            this.cmbKategori.ItemHeight = 30;
+            this.cmbKategori.Location = new System.Drawing.Point(20, 175);
+            this.cmbKategori.Name = "cmbKategori";
+            this.cmbKategori.Size = new System.Drawing.Size(300, 36);
+            this.cmbKategori.TabIndex = 4;
+            // 
+            // lblKategori
+            // 
+            this.lblKategori.BackColor = System.Drawing.Color.Transparent;
+            this.lblKategori.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.lblKategori.Location = new System.Drawing.Point(20, 150);
+            this.lblKategori.Name = "lblKategori";
+            this.lblKategori.Size = new System.Drawing.Size(118, 25);
+            this.lblKategori.TabIndex = 3;
+            this.lblKategori.Text = "İlan Kategorisi";
+            // 
+            // txtIlanBasligi
+            // 
+            this.txtIlanBasligi.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.txtIlanBasligi.DefaultText = "";
+            this.txtIlanBasligi.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
+            this.txtIlanBasligi.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
+            this.txtIlanBasligi.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.txtIlanBasligi.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.txtIlanBasligi.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.txtIlanBasligi.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.txtIlanBasligi.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.txtIlanBasligi.Location = new System.Drawing.Point(20, 95);
+            this.txtIlanBasligi.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.txtIlanBasligi.Name = "txtIlanBasligi";
+            this.txtIlanBasligi.PlaceholderText = "Phthon Dersi Verilir";
+            this.txtIlanBasligi.SelectedText = "";
+            this.txtIlanBasligi.Size = new System.Drawing.Size(300, 40);
+            this.txtIlanBasligi.TabIndex = 2;
+            // 
+            // lblIlanBaslık
+            // 
+            this.lblIlanBaslık.BackColor = System.Drawing.Color.Transparent;
+            this.lblIlanBaslık.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.lblIlanBaslık.Location = new System.Drawing.Point(20, 70);
+            this.lblIlanBaslık.Name = "lblIlanBaslık";
+            this.lblIlanBaslık.Size = new System.Drawing.Size(90, 25);
+            this.lblIlanBaslık.TabIndex = 1;
+            this.lblIlanBaslık.Text = "İlan Başlığı";
+            // 
+            // lblBaslık
+            // 
+            this.lblBaslık.AutoSize = false;
+            this.lblBaslık.BackColor = System.Drawing.Color.Transparent;
+            this.lblBaslık.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.lblBaslık.Location = new System.Drawing.Point(27, 22);
+            this.lblBaslık.Name = "lblBaslık";
+            this.lblBaslık.Size = new System.Drawing.Size(122, 43);
+            this.lblBaslık.TabIndex = 0;
+            this.lblBaslık.Text = "İlan Ekle";
+            // 
+            // guna2CirclePictureBox1
+            // 
+            this.guna2CirclePictureBox1.BackColor = System.Drawing.Color.Transparent;
+            this.guna2CirclePictureBox1.FillColor = System.Drawing.Color.Transparent;
+            this.guna2CirclePictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("guna2CirclePictureBox1.Image")));
+            this.guna2CirclePictureBox1.ImageRotate = 0F;
+            this.guna2CirclePictureBox1.Location = new System.Drawing.Point(63, 70);
+            this.guna2CirclePictureBox1.Name = "guna2CirclePictureBox1";
+            this.guna2CirclePictureBox1.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
+            this.guna2CirclePictureBox1.Size = new System.Drawing.Size(135, 109);
+            this.guna2CirclePictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.guna2CirclePictureBox1.TabIndex = 7;
+            this.guna2CirclePictureBox1.TabStop = false;
+            this.guna2CirclePictureBox1.UseTransparentBackground = true;
+            // 
+            // guna2PictureBox2
+            // 
+            this.guna2PictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("guna2PictureBox2.Image")));
+            this.guna2PictureBox2.ImageRotate = 0F;
+            this.guna2PictureBox2.InitialImage = ((System.Drawing.Image)(resources.GetObject("guna2PictureBox2.InitialImage")));
+            this.guna2PictureBox2.Location = new System.Drawing.Point(0, 0);
+            this.guna2PictureBox2.Name = "guna2PictureBox2";
+            this.guna2PictureBox2.Size = new System.Drawing.Size(260, 57);
+            this.guna2PictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.guna2PictureBox2.TabIndex = 16;
+            this.guna2PictureBox2.TabStop = false;
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.BackColor = System.Drawing.Color.Transparent;
+            this.label2.ForeColor = System.Drawing.Color.White;
+            this.label2.Location = new System.Drawing.Point(88, 221);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(108, 16);
+            this.label2.TabIndex = 8;
+            this.label2.Text = "LinkPuan: 120 LP";
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.BackColor = System.Drawing.Color.Transparent;
+            this.label1.ForeColor = System.Drawing.Color.White;
+            this.label1.Location = new System.Drawing.Point(98, 205);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(83, 16);
+            this.label1.TabIndex = 9;
+            this.label1.Text = "Ceren Yavuz";
+            // 
+            // guna2Button6
+            // 
+            this.guna2Button6.BackColor = System.Drawing.Color.Transparent;
+            this.guna2Button6.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.guna2Button6.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.guna2Button6.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.guna2Button6.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.guna2Button6.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.guna2Button6.FillColor = System.Drawing.Color.Transparent;
+            this.guna2Button6.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.guna2Button6.ForeColor = System.Drawing.Color.White;
+            this.guna2Button6.HoverState.FillColor = System.Drawing.Color.Aqua;
+            this.guna2Button6.HoverState.ForeColor = System.Drawing.Color.Black;
+            this.guna2Button6.Image = ((System.Drawing.Image)(resources.GetObject("guna2Button6.Image")));
+            this.guna2Button6.Location = new System.Drawing.Point(48, 530);
+            this.guna2Button6.Name = "guna2Button6";
+            this.guna2Button6.Size = new System.Drawing.Size(133, 36);
+            this.guna2Button6.TabIndex = 15;
+            this.guna2Button6.Text = "Ayarlar";
+            // 
             // guna2Button5
             // 
             this.guna2Button5.BackColor = System.Drawing.Color.Transparent;
@@ -217,6 +483,8 @@
             this.guna2Button5.FillColor = System.Drawing.Color.Transparent;
             this.guna2Button5.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.guna2Button5.ForeColor = System.Drawing.Color.White;
+            this.guna2Button5.HoverState.FillColor = System.Drawing.Color.Aqua;
+            this.guna2Button5.HoverState.ForeColor = System.Drawing.Color.Black;
             this.guna2Button5.Image = ((System.Drawing.Image)(resources.GetObject("guna2Button5.Image")));
             this.guna2Button5.ImageSize = new System.Drawing.Size(30, 30);
             this.guna2Button5.Location = new System.Drawing.Point(48, 477);
@@ -242,6 +510,25 @@
             this.guna2Button6.Size = new System.Drawing.Size(133, 36);
             this.guna2Button6.TabIndex = 15;
             this.guna2Button6.Text = "Ayarlar";
+            this.guna2Button4.BackColor = System.Drawing.Color.Transparent;
+            this.guna2Button4.ButtonMode = Guna.UI2.WinForms.Enums.ButtonMode.RadioButton;
+            this.guna2Button4.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.guna2Button4.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.guna2Button4.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.guna2Button4.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.guna2Button4.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.guna2Button4.FillColor = System.Drawing.Color.Transparent;
+            this.guna2Button4.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.guna2Button4.ForeColor = System.Drawing.Color.White;
+            this.guna2Button4.HoverState.FillColor = System.Drawing.Color.Aqua;
+            this.guna2Button4.HoverState.ForeColor = System.Drawing.Color.Black;
+            this.guna2Button4.Image = ((System.Drawing.Image)(resources.GetObject("guna2Button4.Image")));
+            this.guna2Button4.ImageSize = new System.Drawing.Size(30, 30);
+            this.guna2Button4.Location = new System.Drawing.Point(65, 423);
+            this.guna2Button4.Name = "guna2Button4";
+            this.guna2Button4.Size = new System.Drawing.Size(133, 36);
+            this.guna2Button4.TabIndex = 13;
+            this.guna2Button4.Text = "Akıllı Eşleşme";
             // 
             // label1
             // 
@@ -253,6 +540,26 @@
             this.label1.Size = new System.Drawing.Size(83, 16);
             this.label1.TabIndex = 9;
             this.label1.Text = "Ceren Yavuz";
+            this.guna2Button3.BackColor = System.Drawing.Color.Transparent;
+            this.guna2Button3.ButtonMode = Guna.UI2.WinForms.Enums.ButtonMode.RadioButton;
+            this.guna2Button3.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.guna2Button3.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.guna2Button3.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.guna2Button3.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.guna2Button3.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.guna2Button3.FillColor = System.Drawing.Color.Transparent;
+            this.guna2Button3.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.guna2Button3.ForeColor = System.Drawing.Color.White;
+            this.guna2Button3.HoverState.FillColor = System.Drawing.Color.Aqua;
+            this.guna2Button3.HoverState.ForeColor = System.Drawing.Color.Black;
+            this.guna2Button3.Image = ((System.Drawing.Image)(resources.GetObject("guna2Button3.Image")));
+            this.guna2Button3.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.guna2Button3.Location = new System.Drawing.Point(63, 368);
+            this.guna2Button3.Name = "guna2Button3";
+            this.guna2Button3.Size = new System.Drawing.Size(133, 36);
+            this.guna2Button3.TabIndex = 12;
+            this.guna2Button3.Text = "Mesajlar";
+            this.guna2Button3.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
             // 
             // label2
             // 
@@ -306,8 +613,10 @@
             this.guna2Panel2.Controls.Add(this.guna2HtmlLabel8);
             this.guna2Panel2.FillColor = System.Drawing.Color.WhiteSmoke;
             this.guna2Panel2.Location = new System.Drawing.Point(253, 0);
+            this.guna2Panel2.Location = new System.Drawing.Point(260, 3);
             this.guna2Panel2.Name = "guna2Panel2";
             this.guna2Panel2.Size = new System.Drawing.Size(1009, 670);
+            this.guna2Panel2.Size = new System.Drawing.Size(913, 717);
             this.guna2Panel2.TabIndex = 2;
             // 
             // guna2TextBox3

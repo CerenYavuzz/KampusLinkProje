@@ -190,6 +190,7 @@
             this.panelSol.Location = new System.Drawing.Point(0, 0);
             this.panelSol.Name = "panelSol";
             this.panelSol.Size = new System.Drawing.Size(260, 673);
+            this.panelSol.Size = new System.Drawing.Size(260, 710);
             this.panelSol.TabIndex = 1;
             // 
             // guna2CirclePictureBox1
@@ -252,6 +253,8 @@
             this.guna2Button6.FillColor = System.Drawing.Color.Transparent;
             this.guna2Button6.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.guna2Button6.ForeColor = System.Drawing.Color.White;
+            this.guna2Button6.HoverState.FillColor = System.Drawing.Color.Aqua;
+            this.guna2Button6.HoverState.ForeColor = System.Drawing.Color.Black;
             this.guna2Button6.Image = ((System.Drawing.Image)(resources.GetObject("guna2Button6.Image")));
             this.guna2Button6.Location = new System.Drawing.Point(48, 530);
             this.guna2Button6.Name = "guna2Button6";
@@ -271,6 +274,8 @@
             this.guna2Button5.FillColor = System.Drawing.Color.Transparent;
             this.guna2Button5.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.guna2Button5.ForeColor = System.Drawing.Color.White;
+            this.guna2Button5.HoverState.FillColor = System.Drawing.Color.Aqua;
+            this.guna2Button5.HoverState.ForeColor = System.Drawing.Color.Black;
             this.guna2Button5.Image = ((System.Drawing.Image)(resources.GetObject("guna2Button5.Image")));
             this.guna2Button5.ImageSize = new System.Drawing.Size(30, 30);
             this.guna2Button5.Location = new System.Drawing.Point(48, 477);
@@ -291,6 +296,8 @@
             this.guna2Button4.FillColor = System.Drawing.Color.Transparent;
             this.guna2Button4.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.guna2Button4.ForeColor = System.Drawing.Color.White;
+            this.guna2Button4.HoverState.FillColor = System.Drawing.Color.Aqua;
+            this.guna2Button4.HoverState.ForeColor = System.Drawing.Color.Black;
             this.guna2Button4.Image = ((System.Drawing.Image)(resources.GetObject("guna2Button4.Image")));
             this.guna2Button4.ImageSize = new System.Drawing.Size(30, 30);
             this.guna2Button4.Location = new System.Drawing.Point(65, 423);
@@ -311,6 +318,8 @@
             this.guna2Button3.FillColor = System.Drawing.Color.Transparent;
             this.guna2Button3.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.guna2Button3.ForeColor = System.Drawing.Color.White;
+            this.guna2Button3.HoverState.FillColor = System.Drawing.Color.Aqua;
+            this.guna2Button3.HoverState.ForeColor = System.Drawing.Color.Black;
             this.guna2Button3.Image = ((System.Drawing.Image)(resources.GetObject("guna2Button3.Image")));
             this.guna2Button3.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
             this.guna2Button3.Location = new System.Drawing.Point(63, 368);
@@ -380,6 +389,7 @@
             this.guna2Panel3.Location = new System.Drawing.Point(260, 0);
             this.guna2Panel3.Name = "guna2Panel3";
             this.guna2Panel3.Size = new System.Drawing.Size(1081, 110);
+            this.guna2Panel3.Size = new System.Drawing.Size(1122, 143);
             this.guna2Panel3.TabIndex = 9;
             // 
             // label6
@@ -399,6 +409,7 @@
             this.flowLayoutPanel2.Controls.Add(this.guna2Button7);
             this.flowLayoutPanel2.FlowDirection = System.Windows.Forms.FlowDirection.RightToLeft;
             this.flowLayoutPanel2.Location = new System.Drawing.Point(954, 12);
+            this.flowLayoutPanel2.Location = new System.Drawing.Point(975, 12);
             this.flowLayoutPanel2.Name = "flowLayoutPanel2";
             this.flowLayoutPanel2.Size = new System.Drawing.Size(117, 65);
             this.flowLayoutPanel2.TabIndex = 4;
@@ -1603,7 +1614,7 @@
             // 
             this.label16.AutoSize = true;
             this.label16.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label16.Location = new System.Drawing.Point(611, 161);
+            this.label16.Location = new System.Drawing.Point(629, 161);
             this.label16.Name = "label16";
             this.label16.Size = new System.Drawing.Size(97, 25);
             this.label16.TabIndex = 21;
