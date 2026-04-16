@@ -44,10 +44,13 @@
             this.label4 = new System.Windows.Forms.Label();
             this.guna2Panel1 = new Guna.UI2.WinForms.Guna2Panel();
             this.panel3 = new System.Windows.Forms.Panel();
+            this.button10 = new System.Windows.Forms.Button();
             this.button7 = new System.Windows.Forms.Button();
             this.button8 = new System.Windows.Forms.Button();
             this.label14 = new System.Windows.Forms.Label();
             this.panel2 = new System.Windows.Forms.Panel();
+            this.button11 = new System.Windows.Forms.Button();
+            this.button9 = new System.Windows.Forms.Button();
             this.button6 = new System.Windows.Forms.Button();
             this.button5 = new System.Windows.Forms.Button();
             this.button4 = new System.Windows.Forms.Button();
@@ -55,6 +58,8 @@
             this.label13 = new System.Windows.Forms.Label();
             this.guna2TrackBar1 = new Guna.UI2.WinForms.Guna2TrackBar();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.textBox3 = new System.Windows.Forms.TextBox();
+            this.label11 = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
             this.textBox2 = new System.Windows.Forms.TextBox();
             this.label10 = new System.Windows.Forms.Label();
@@ -68,11 +73,6 @@
             this.label6 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.guna2CirclePictureBox2 = new Guna.UI2.WinForms.Guna2CirclePictureBox();
-            this.button9 = new System.Windows.Forms.Button();
-            this.button10 = new System.Windows.Forms.Button();
-            this.label11 = new System.Windows.Forms.Label();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.button11 = new System.Windows.Forms.Button();
             this.panelSol.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox2)).BeginInit();
@@ -162,6 +162,8 @@
             this.guna2Button6.FillColor = System.Drawing.Color.Transparent;
             this.guna2Button6.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.guna2Button6.ForeColor = System.Drawing.Color.White;
+            this.guna2Button6.HoverState.FillColor = System.Drawing.Color.Aqua;
+            this.guna2Button6.HoverState.ForeColor = System.Drawing.Color.Black;
             this.guna2Button6.Image = ((System.Drawing.Image)(resources.GetObject("guna2Button6.Image")));
             this.guna2Button6.Location = new System.Drawing.Point(48, 530);
             this.guna2Button6.Name = "guna2Button6";
@@ -181,6 +183,8 @@
             this.guna2Button5.FillColor = System.Drawing.Color.Transparent;
             this.guna2Button5.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.guna2Button5.ForeColor = System.Drawing.Color.White;
+            this.guna2Button5.HoverState.FillColor = System.Drawing.Color.Aqua;
+            this.guna2Button5.HoverState.ForeColor = System.Drawing.Color.Black;
             this.guna2Button5.Image = ((System.Drawing.Image)(resources.GetObject("guna2Button5.Image")));
             this.guna2Button5.ImageSize = new System.Drawing.Size(30, 30);
             this.guna2Button5.Location = new System.Drawing.Point(48, 477);
@@ -201,6 +205,8 @@
             this.guna2Button4.FillColor = System.Drawing.Color.Transparent;
             this.guna2Button4.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.guna2Button4.ForeColor = System.Drawing.Color.White;
+            this.guna2Button4.HoverState.FillColor = System.Drawing.Color.Aqua;
+            this.guna2Button4.HoverState.ForeColor = System.Drawing.Color.Black;
             this.guna2Button4.Image = ((System.Drawing.Image)(resources.GetObject("guna2Button4.Image")));
             this.guna2Button4.ImageSize = new System.Drawing.Size(30, 30);
             this.guna2Button4.Location = new System.Drawing.Point(65, 423);
@@ -221,6 +227,8 @@
             this.guna2Button3.FillColor = System.Drawing.Color.Transparent;
             this.guna2Button3.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.guna2Button3.ForeColor = System.Drawing.Color.White;
+            this.guna2Button3.HoverState.FillColor = System.Drawing.Color.Aqua;
+            this.guna2Button3.HoverState.ForeColor = System.Drawing.Color.Black;
             this.guna2Button3.Image = ((System.Drawing.Image)(resources.GetObject("guna2Button3.Image")));
             this.guna2Button3.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
             this.guna2Button3.Location = new System.Drawing.Point(63, 368);
@@ -253,6 +261,7 @@
             this.guna2Button2.TabIndex = 11;
             this.guna2Button2.Text = "İlan Ekle";
             this.guna2Button2.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.guna2Button2.Click += new System.EventHandler(this.guna2Button2_Click);
             // 
             // AnasayfaButton
             // 
@@ -333,6 +342,15 @@
             this.panel3.Size = new System.Drawing.Size(476, 202);
             this.panel3.TabIndex = 19;
             // 
+            // button10
+            // 
+            this.button10.Location = new System.Drawing.Point(4, 190);
+            this.button10.Name = "button10";
+            this.button10.Size = new System.Drawing.Size(443, 43);
+            this.button10.TabIndex = 6;
+            this.button10.Text = " İleri Matematik-Tamamlandı-(20lp)";
+            this.button10.UseVisualStyleBackColor = true;
+            // 
             // button7
             // 
             this.button7.Location = new System.Drawing.Point(7, 117);
@@ -377,6 +395,27 @@
             this.panel2.Size = new System.Drawing.Size(494, 218);
             this.panel2.TabIndex = 18;
             this.panel2.Paint += new System.Windows.Forms.PaintEventHandler(this.panel2_Paint);
+            // 
+            // button11
+            // 
+            this.button11.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
+            this.button11.ForeColor = System.Drawing.Color.DodgerBlue;
+            this.button11.Location = new System.Drawing.Point(7, 37);
+            this.button11.Name = "button11";
+            this.button11.Size = new System.Drawing.Size(70, 30);
+            this.button11.TabIndex = 7;
+            this.button11.Text = "+Ekle";
+            this.button11.UseVisualStyleBackColor = false;
+            this.button11.Click += new System.EventHandler(this.button11_Click);
+            // 
+            // button9
+            // 
+            this.button9.Location = new System.Drawing.Point(7, 188);
+            this.button9.Name = "button9";
+            this.button9.Size = new System.Drawing.Size(443, 43);
+            this.button9.TabIndex = 6;
+            this.button9.Text = "Gitar-Tamamlandı (20lp)";
+            this.button9.UseVisualStyleBackColor = true;
             // 
             // button6
             // 
@@ -452,6 +491,25 @@
             this.panel1.Size = new System.Drawing.Size(426, 458);
             this.panel1.TabIndex = 16;
             this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
+            // 
+            // textBox3
+            // 
+            this.textBox3.Location = new System.Drawing.Point(17, 222);
+            this.textBox3.Multiline = true;
+            this.textBox3.Name = "textBox3";
+            this.textBox3.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
+            this.textBox3.Size = new System.Drawing.Size(376, 131);
+            this.textBox3.TabIndex = 15;
+            // 
+            // label11
+            // 
+            this.label11.AutoSize = true;
+            this.label11.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.label11.Location = new System.Drawing.Point(20, 199);
+            this.label11.Name = "label11";
+            this.label11.Size = new System.Drawing.Size(77, 16);
+            this.label11.TabIndex = 14;
+            this.label11.Text = "Hakkımda";
             // 
             // button1
             // 
@@ -591,55 +649,6 @@
             this.guna2CirclePictureBox2.TabIndex = 8;
             this.guna2CirclePictureBox2.TabStop = false;
             this.guna2CirclePictureBox2.UseTransparentBackground = true;
-            // 
-            // button9
-            // 
-            this.button9.Location = new System.Drawing.Point(7, 188);
-            this.button9.Name = "button9";
-            this.button9.Size = new System.Drawing.Size(443, 43);
-            this.button9.TabIndex = 6;
-            this.button9.Text = "Gitar-Tamamlandı (20lp)";
-            this.button9.UseVisualStyleBackColor = true;
-            // 
-            // button10
-            // 
-            this.button10.Location = new System.Drawing.Point(4, 190);
-            this.button10.Name = "button10";
-            this.button10.Size = new System.Drawing.Size(443, 43);
-            this.button10.TabIndex = 6;
-            this.button10.Text = " İleri Matematik-Tamamlandı-(20lp)";
-            this.button10.UseVisualStyleBackColor = true;
-            // 
-            // label11
-            // 
-            this.label11.AutoSize = true;
-            this.label11.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label11.Location = new System.Drawing.Point(20, 199);
-            this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(77, 16);
-            this.label11.TabIndex = 14;
-            this.label11.Text = "Hakkımda";
-            // 
-            // textBox3
-            // 
-            this.textBox3.Location = new System.Drawing.Point(17, 222);
-            this.textBox3.Multiline = true;
-            this.textBox3.Name = "textBox3";
-            this.textBox3.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
-            this.textBox3.Size = new System.Drawing.Size(376, 131);
-            this.textBox3.TabIndex = 15;
-            // 
-            // button11
-            // 
-            this.button11.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
-            this.button11.ForeColor = System.Drawing.Color.DodgerBlue;
-            this.button11.Location = new System.Drawing.Point(7, 37);
-            this.button11.Name = "button11";
-            this.button11.Size = new System.Drawing.Size(70, 30);
-            this.button11.TabIndex = 7;
-            this.button11.Text = "+Ekle";
-            this.button11.UseVisualStyleBackColor = false;
-            this.button11.Click += new System.EventHandler(this.button11_Click);
             // 
             // Profilim
             // 
