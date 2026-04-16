@@ -26,5 +26,10 @@ namespace KampusLinkProje
         {
 
         }
+
+        private void label43_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

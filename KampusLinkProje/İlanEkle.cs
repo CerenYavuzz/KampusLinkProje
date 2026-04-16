@@ -21,5 +21,10 @@ namespace KampusLinkProje
         {
 
         }
+
+        private void guna2PictureBox2_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

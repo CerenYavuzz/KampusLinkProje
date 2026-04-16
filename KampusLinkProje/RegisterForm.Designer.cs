@@ -70,6 +70,26 @@
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
             this.tableLayoutPanel1.Size = new System.Drawing.Size(1262, 673);
             this.tableLayoutPanel1.TabIndex = 0;
+            this.guna2ShadowPanel1.BackColor = System.Drawing.Color.Transparent;
+            this.guna2ShadowPanel1.Controls.Add(this.label1);
+            this.guna2ShadowPanel1.Controls.Add(this.btnKayitOl);
+            this.guna2ShadowPanel1.Controls.Add(this.guna2CheckBox1);
+            this.guna2ShadowPanel1.Controls.Add(this.guna2HtmlLabel4);
+            this.guna2ShadowPanel1.Controls.Add(this.guna2Panel1);
+            this.guna2ShadowPanel1.Controls.Add(this.comboFakulte);
+            this.guna2ShadowPanel1.Controls.Add(this.txtSifre);
+            this.guna2ShadowPanel1.Controls.Add(this.txtEmail);
+            this.guna2ShadowPanel1.Controls.Add(this.txtAdSoyad);
+            this.guna2ShadowPanel1.Controls.Add(this.guna2HtmlLabel1);
+            this.guna2ShadowPanel1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.guna2ShadowPanel1.FillColor = System.Drawing.Color.White;
+            this.guna2ShadowPanel1.Location = new System.Drawing.Point(0, 0);
+            this.guna2ShadowPanel1.Name = "guna2ShadowPanel1";
+            this.guna2ShadowPanel1.Radius = 15;
+            this.guna2ShadowPanel1.ShadowColor = System.Drawing.Color.Black;
+            this.guna2ShadowPanel1.Size = new System.Drawing.Size(476, 653);
+            this.guna2ShadowPanel1.TabIndex = 0;
+            this.guna2ShadowPanel1.Paint += new System.Windows.Forms.PaintEventHandler(this.guna2ShadowPanel1_Paint);
             // 
             // guna2PictureBox1
             // 
@@ -372,6 +392,8 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1262, 673);
             this.Controls.Add(this.tableLayoutPanel1);
+            this.ClientSize = new System.Drawing.Size(476, 653);
+            this.Controls.Add(this.guna2ShadowPanel1);
             this.Name = "RegisterForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "RegisterForm";
